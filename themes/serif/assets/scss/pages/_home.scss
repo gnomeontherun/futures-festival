@@ -1,2 +1,15 @@
-.page-home {
+.bg-primary {
+  color: $white;
+  background-color: $primary;
+}
+
+.bg-secondary {
+  color: $white;
+  background-color: $secondary;
+}
+
+.pre-header {
+  font-size: 0.8rem;
+  color: $steel;
+  font-weight: bolder;
 }

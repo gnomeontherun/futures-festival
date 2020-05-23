@@ -1,5 +1,5 @@
 .sub-footer {
-  background: darken($black, 10%);
+  background: $primary;
   padding-top: 20px;
   padding-bottom: 20px;
   @include media-breakpoint-up(md) {

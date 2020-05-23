@@ -2,20 +2,22 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="footer-inner">
-          <h3 class="footer-title">{{.Site.Title}}</h3>
-          <ul>
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.footer }}
-            <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
-              <a href="{{.URL}}">
-                {{ .Name }}
-              </a>
-            </li>
-            {{end}}
-          </ul>
-        </div>
+        <h3 class="footer-title">FuturesFestival 2020</h3>
       </div>
+      <div class="col-12">
+        <ul class="social-links">
+          <li><a href="https://www.facebook.com/groups/168118196684185/" aria-label="FuturesFestival Facebook"><img src="/images/social/facebook.svg" /></a></li>
+          <li><a href="https://twitter.com/profuturists" aria-label="FuturesFestival Twitter"><img src="/images/social/twitter.svg" /></a></li>
+          <li><a href="https://www.instagram.com/futuresfestival.online/" aria-label="FuturesFestival Instagram"><img src="/images/social/instagram.svg" /></a></li>
+          <li><a href="https://www.linkedin.com/company/association-of-professional-futurists/" aria-label="FuturesFestival LinkedIn"><img src="/images/social/linkedin.svg" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row sub-footer">
+      <div class="col-6">
+        Organized by the <a href="https://apf.org">Association of Professional Futurists</a>.
+      </div>
+      <div class="col-6 text-right">Copyright &copy; 2020 APF.</div>
     </div>
   </div>
 </div>
