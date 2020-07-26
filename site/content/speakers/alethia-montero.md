@@ -1,0 +1,4 @@
+title: Alethia Montero
+---
+
+Psychofuturartist. Pioneer of Teatro del Devenir as a Futures technique www.teatrodeldevenir.com Generator of the Psychoprospective theory along with Psychofuturartist Martha Jaramillo (Colombia). Teach the future México Director and Teach the Future Executive Board member Personal Futures Adviser. Former Director of the World Future Society Mexican Chapter, A.C. ® WFSF, APF member and of Futurists Board in Advisory Board of The Lifeboat Foundation. Co-founder of the Permanent seminary of Prospective Studies FCPyS, UNAM, Mexico City Counselor of the “Design of the tomorrow” Specialty at Centro de diseño, cine y televisión (CDMX). WFSF President’s Outstanding Young Woman Futurist 2016 winner. National and International Professor, lecturer and workshop cordinator. Has written several articles in English and Spanish. Co-translator of It’s Your Future…Make It a Good One and A Personal Futures Workshop(Verne Wheelwright).
