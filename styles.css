@@ -17,11 +17,11 @@
   max-width: var(--ff-media-xl);
   margin: 0 auto;
 }
-main {
-  margin-top: 120px;
-}
 .center {
   text-align: center;
+}
+#root, body > div > main {
+  padding: 0 20px;
 }
 
 .offscreen-text {
@@ -53,40 +53,57 @@ main {
 }
 
 /* Header */
-.navbar {
-  position: fixed;
-  height: 80px;
-  padding-top: 14px;
-  width: var(--ff-media-xl);
-  top: 0;
-  background: white;
-}
-.navbar nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
 .navbar nav a {
-  border-right: 2px solid var(--ff-black);
   text-transform: uppercase;
   color: var(--ff-black);
   text-decoration: none;
-  line-height: 20px;
-  font-size: 16px;
-  height: 20px;
-  margin-right: 8px;
-  padding-right: 8px;
-  margin-top: 16px;
 }
-.navbar nav a:hover {
-  text-decoration: underline;
+@media (min-width: 700px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    padding-top: 14px;
+    background: white; 
+    z-index: 100;
+  }
+  .navbar nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .navbar nav a {
+    border-right: 1px solid var(--ff-black);
+    line-height: 20px;
+    font-size: 16px;
+    height: 20px;
+    margin-right: 8px;
+    padding-right: 8px;
+    margin-top: 16px;
+  }
+  .navbar nav a:hover {
+    text-decoration: underline;
+  }
+  .navbar nav a:first-child {
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .navbar nav a:last-child, .navbar nav a:first-child {
+    border-right: none;
+  }
 }
-.navbar nav a:first-child {
-  margin-right: auto;
-  margin-top: 0;
-}
-.navbar nav a:last-child, .navbar nav a:first-child {
-  border-right: none;
+@media (max-width: 700px) {
+  .navbar {
+    position: static;
+  }
+  .navbar nav {
+    flex-direction: column;
+  }
+  .navbar nav a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
 }
 
 /* Home Blocks */
@@ -98,17 +115,20 @@ main {
   letter-spacing: 3px;
   font-weight: bolder;
 }
+.showcase-img {
+  max-width: 100%;
+}
 .register-link {
   color: white;
   background: var(--ff-blue);
-  padding: 6px 200px;
+  padding: 6px 100px;
   text-decoration: none;
   text-transform: uppercase;
 }
 .register-link-alt {
   color: white;
   background: var(--ff-teal);
-  padding: 6px 50px;
+  padding: 6px 100px;
   text-decoration: none;
   text-transform: uppercase;
 }
