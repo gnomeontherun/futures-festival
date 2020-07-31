@@ -1,4 +1,4 @@
-<svg id="Futures" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1185" height="198" viewBox="0 0 1185 198">
+<svg id="Futures" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1185" height="294" viewBox="0 0 1185 294">
   <defs>
     <style>
       .cls-1, .cls-12 {
@@ -119,6 +119,14 @@
 
       .cls-22 {
         filter: url(#filter-22);
+      }
+
+      .cls-23 {
+        font-size: 98.426px;
+        fill: #202020;
+        text-anchor: middle;
+        font-family: HelveticaNeueLTStd-HvEx, HelveticaNeueLTStd-HvEx, "Helvetica Neue LT Std";
+        font-weight: 800;
       }
     </style>
     <filter id="filter" x="368" y="441" width="152" height="170" filterUnits="userSpaceOnUse">
@@ -276,26 +284,29 @@
       <feBlend result="blend" in="SourceGraphic"/>
     </filter>
   </defs>
-  <path id="Forma_25" data-name="Forma 25" class="cls-1" d="M471.457,444.37h41.9L425.2,602.277H373.239Z" transform="translate(-368 -416)"/>
-  <path id="Forma_26" data-name="Forma 26" class="cls-2" d="M630.1,466.146H458.182l13.976-22.5H637.143Z" transform="translate(-368 -416)"/>
-  <path id="Forma_27" data-name="Forma 27" class="cls-3" d="M419.7,528.183H567.462l12.326-26.5H435.824Z" transform="translate(-368 -416)"/>
-  <path id="Forma_28" data-name="Forma 28" class="cls-4" d="M695.584,436.747l-42.823,152.1H600.115l51.135-152.1h44.334" transform="translate(-368 -416)"/>
-  <path id="Forma_29" data-name="Forma 29" class="cls-5" d="M596.849,566.229l5.79,33.141,154.295-25.358V542.377Z" transform="translate(-368 -416)"/>
-  <path id="Forma_30" data-name="Forma 30" class="cls-6" d="M742.562,459.253L717.724,603.728h51.181l13.8-142.965Z" transform="translate(-368 -416)"/>
-  <path id="Forma_31" data-name="Forma 31" class="cls-7" d="M726.252,430.5l-7.8,19.971h231.6l-3.52-19.971H726.252Z" transform="translate(-368 -416)"/>
-  <path id="Forma_32" data-name="Forma 32" class="cls-8" d="M817.894,430.575L803.035,603.729H852.4l3.274-171.646Z" transform="translate(-368 -416)"/>
-  <path id="Forma_33" data-name="Forma 33" class="cls-9" d="M875.633,457.5l1,133.164h50.182l-11.04-134.675Z" transform="translate(-368 -416)"/>
-  <path id="Forma_34" data-name="Forma 34" class="cls-10" d="M996.116,543.833l20.364,24.891L881.706,605.181l-16.6-28.914Z" transform="translate(-368 -416)"/>
-  <path id="Forma_35" data-name="Forma 35" class="cls-11" d="M948.6,464.533L971.99,601.914h53.57L993.619,462.52Z" transform="translate(-368 -416)"/>
-  <path id="Forma_36" data-name="Forma 36" class="cls-12" d="M1044.17,431.558l44.19,150.026H1040.4l-35.9-153.55Z" transform="translate(-368 -416)"/>
-  <path id="Forma_37" data-name="Forma 37" class="cls-13" d="M1023.02,497.841l17.61,20.934,138.48-29.762-14.59-23.961Z" transform="translate(-368 -416)"/>
-  <path id="Forma_38" data-name="Forma 38" class="cls-14" d="M1025.56,515.556l31.17-17.1,185.54,76.44-18.1,26.653Z" transform="translate(-368 -416)"/>
-  <path id="Forma_39" data-name="Forma 39" class="cls-15" d="M1001.81,419.323L1190,467.381l-10.32,21.638L986.717,439.2Z" transform="translate(-368 -416)"/>
-  <path id="Forma_40" data-name="Forma 40" class="cls-16" d="M1193.26,428.4l70.91,167.708,43.44-1.51L1230.68,429.4Z" transform="translate(-368 -416)"/>
-  <path id="Forma_41" data-name="Forma 41" class="cls-17" d="M1311.99,432.315l-119.45-4.282,9.56,22.523,125.48,2.16Z" transform="translate(-368 -416)"/>
-  <path id="Forma_42" data-name="Forma 42" class="cls-18" d="M1326.9,490.81H1219.4l10.86,25.413h114.01Z" transform="translate(-368 -416)"/>
-  <path id="Forma_43" data-name="Forma 43" class="cls-19" d="M1395.3,566.684H1251.71L1264,595.721l154.69-1.01Z" transform="translate(-368 -416)"/>
-  <path id="Forma_44" data-name="Forma 44" class="cls-20" d="M1406.01,428.4l39.18,17.1-66.56,43.517-39.44-19.369Z" transform="translate(-368 -416)"/>
-  <path id="Forma_45" data-name="Forma 45" class="cls-21" d="M1362.31,454.169l178.71,81.986-25.45,22.558L1335.2,470.919Z" transform="translate(-368 -416)"/>
-  <path id="Forma_46" data-name="Forma 46" class="cls-22" d="M1546.83,538.049l-67.33,59.506L1431.76,572.7,1500.1,516.6Z" transform="translate(-368 -416)"/>
+  <path id="Forma_25" data-name="Forma 25" class="cls-1" d="M471.457,444.37h41.9L425.2,602.277H373.239Z" transform="translate(-368 -320)"/>
+  <path id="Forma_26" data-name="Forma 26" class="cls-2" d="M630.1,466.146H458.182l13.976-22.5H637.143Z" transform="translate(-368 -320)"/>
+  <path id="Forma_27" data-name="Forma 27" class="cls-3" d="M419.7,528.183H567.462l12.326-26.5H435.824Z" transform="translate(-368 -320)"/>
+  <path id="Forma_28" data-name="Forma 28" class="cls-4" d="M695.584,436.747l-42.823,152.1H600.115l51.135-152.1h44.334" transform="translate(-368 -320)"/>
+  <path id="Forma_29" data-name="Forma 29" class="cls-5" d="M596.849,566.229l5.79,33.141,154.295-25.358V542.377Z" transform="translate(-368 -320)"/>
+  <path id="Forma_30" data-name="Forma 30" class="cls-6" d="M742.562,459.253L717.724,603.728h51.181l13.8-142.965Z" transform="translate(-368 -320)"/>
+  <path id="Forma_31" data-name="Forma 31" class="cls-7" d="M726.252,430.5l-7.8,19.971h231.6l-3.52-19.971H726.252Z" transform="translate(-368 -320)"/>
+  <path id="Forma_32" data-name="Forma 32" class="cls-8" d="M817.894,430.575L803.035,603.729H852.4l3.274-171.646Z" transform="translate(-368 -320)"/>
+  <path id="Forma_33" data-name="Forma 33" class="cls-9" d="M875.633,457.5l1,133.164h50.182l-11.04-134.675Z" transform="translate(-368 -320)"/>
+  <path id="Forma_34" data-name="Forma 34" class="cls-10" d="M996.116,543.833l20.364,24.891L881.706,605.181l-16.6-28.914Z" transform="translate(-368 -320)"/>
+  <path id="Forma_35" data-name="Forma 35" class="cls-11" d="M948.6,464.533L971.99,601.914h53.57L993.619,462.52Z" transform="translate(-368 -320)"/>
+  <path id="Forma_36" data-name="Forma 36" class="cls-12" d="M1044.17,431.558l44.19,150.026H1040.4l-35.9-153.55Z" transform="translate(-368 -320)"/>
+  <path id="Forma_37" data-name="Forma 37" class="cls-13" d="M1023.02,497.841l17.61,20.934,138.48-29.762-14.59-23.961Z" transform="translate(-368 -320)"/>
+  <path id="Forma_38" data-name="Forma 38" class="cls-14" d="M1025.56,515.556l31.17-17.1,185.54,76.44-18.1,26.653Z" transform="translate(-368 -320)"/>
+  <path id="Forma_39" data-name="Forma 39" class="cls-15" d="M1001.81,419.323L1190,467.381l-10.32,21.638L986.717,439.2Z" transform="translate(-368 -320)"/>
+  <path id="Forma_40" data-name="Forma 40" class="cls-16" d="M1193.26,428.4l70.91,167.708,43.44-1.51L1230.68,429.4Z" transform="translate(-368 -320)"/>
+  <path id="Forma_41" data-name="Forma 41" class="cls-17" d="M1311.99,432.315l-119.45-4.282,9.56,22.523,125.48,2.16Z" transform="translate(-368 -320)"/>
+  <path id="Forma_42" data-name="Forma 42" class="cls-18" d="M1326.9,490.81H1219.4l10.86,25.413h114.01Z" transform="translate(-368 -320)"/>
+  <path id="Forma_43" data-name="Forma 43" class="cls-19" d="M1395.3,566.684H1251.71L1264,595.721l154.69-1.01Z" transform="translate(-368 -320)"/>
+  <path id="Forma_44" data-name="Forma 44" class="cls-20" d="M1406.01,428.4l39.18,17.1-66.56,43.517-39.44-19.369Z" transform="translate(-368 -320)"/>
+  <path id="Forma_45" data-name="Forma 45" class="cls-21" d="M1362.31,454.169l178.71,81.986-25.45,22.558L1335.2,470.919Z" transform="translate(-368 -320)"/>
+  <path id="Forma_46" data-name="Forma 46" class="cls-22" d="M1546.83,538.049l-67.33,59.506L1431.76,572.7,1500.1,516.6Z" transform="translate(-368 -320)"/>
+  <g id="Logo">
+    <text id="FULL_SPECTRUM" data-name="FULL SPECTRUM" class="cls-23" transform="matrix(0.847, 0, 0, 0.847, 592.319, 61.469)">FULL SPECTRUM</text>
+  </g>
 </svg>

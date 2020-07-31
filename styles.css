@@ -165,19 +165,13 @@ main {
 }
 .left-block img {
   max-width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .right-block {
   width: 75%;
 }
 
 /* About */
-.team-links {
-  padding: 0;
-}
-.team-links li {
-  list-style: none;
-}
 .team-links a {
   color: var(--ff-red);
 }
@@ -211,27 +205,6 @@ main {
 }
 .share li img {
   width: 20px;
-}
-.left-border {
-  background: url(./images/left-bar.svg) no-repeat bottom left;
-  width: 102px;
-  height: 970px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-.right-border {
-  background: url(./images/right-bar.svg) no-repeat bottom right;
-  width: 99px;
-  height: 1016px;
-  position: fixed;
-  bottom: 0;
-  right: -2px;
-}
-@media (max-width: 991px) {
-  .left-border, .right-border {
-    display: none;
-  }
 }
 
 /* Margins */
