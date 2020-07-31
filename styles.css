@@ -29,8 +29,11 @@ h1 {
 .right {
   text-align: right;
 }
-#root, body > div > main {
-  padding: 0 20px;
+.uppercase {
+  text-transform: uppercase;
+}
+main {
+  padding: 0 100px;
 }
 
 .offscreen-text {
@@ -43,6 +46,11 @@ h1 {
 }
 
 /* H elements */
+.header-0s {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 900;
+}
 .header-1 {
   font-size: 3rem;
   font-weight: 800;
@@ -60,8 +68,19 @@ h1 {
   font-weight: 400;
   font-size: 2rem;
 }
+.header-4 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--ff-blue);
+}
+.header-5 {
+  font-weight: 600; 
+}
 
 /* Header */
+.navbar {
+  padding: 0 10px;
+}
 .navbar nav a {
   text-transform: uppercase;
   color: var(--ff-black);
@@ -142,47 +161,25 @@ h1 {
   text-transform: uppercase;
 }
 .left-block {
-  max-width: 300px;
+  width: 25%;
 }
 .left-block img {
   max-width: 100%;
   margin-bottom: 30px;
 }
-/* .block-row {
-  display: flex;
-  flex-direction: row;
+.right-block {
+  width: 75%;
 }
-.block-row .block-left {
-  width: 300px;
-  margin-right: 80px;
-} */
-.block-grid {
-  margin: 0 10px;
+
+/* About */
+.team-links {
+  padding: 0;
 }
-.block-grid img {
-  width: 290px;
+.team-links li {
+  list-style: none;
 }
-.block-row .block-grid:first-child {
-  margin-left: 0;
-}
-.block-row .block-grid:last-child {
-  margin-right: 0;
-}
-.block-team-name {
-  background: var(--ff-blue);
-  margin: 0;
-  line-height: 40px;
-  text-align: center;
-  color: white;
-}
-.block-team-name.alt-1 {
-  background: var(--ff-teal);
-}
-.block-team-name.alt-2 {
-  background: var(--ff-red);
-}
-.block-team-name.alt-3 {
-  background: var(--ff-purple);
+.team-links a {
+  color: var(--ff-red);
 }
 
 /* Footer */
@@ -216,20 +213,25 @@ h1 {
   width: 20px;
 }
 .left-border {
-  background: url(./images/left-border.png) no-repeat;
-  width: 99px;
-  height: 968px;
+  background: url(./images/left-bar.svg) no-repeat bottom left;
+  width: 102px;
+  height: 970px;
   position: fixed;
   bottom: 0;
   left: 0;
 }
 .right-border {
-  background: url(./images/right-border.png) no-repeat;
+  background: url(./images/right-bar.svg) no-repeat bottom right;
   width: 99px;
-  height: 1014px;
+  height: 1016px;
   position: fixed;
   bottom: 0;
   right: -2px;
+}
+@media (max-width: 991px) {
+  .left-border, .right-border {
+    display: none;
+  }
 }
 
 /* Margins */
@@ -244,4 +246,7 @@ h1 {
 }
 .clear-margin-top {
   margin-top: 0;
+}
+.clear-margin-bottom {
+  margin-bottom: 0;
 }
