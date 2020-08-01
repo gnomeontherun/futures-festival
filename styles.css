@@ -32,8 +32,8 @@ h1 {
 .uppercase {
   text-transform: uppercase;
 }
-main {
-  padding: 0 100px;
+main, footer {
+  padding: 0 20px;
 }
 
 .offscreen-text {
@@ -160,6 +160,11 @@ main {
   text-decoration: none;
   text-transform: uppercase;
 }
+@media (max-width: 768px) {
+  .register-link, .register-link-alt {
+    padding: 6px 20px;
+  }
+}
 .left-block {
   width: 25%;
 }
@@ -169,6 +174,14 @@ main {
 }
 .right-block {
   width: 75%;
+}
+@media (max-width: 768px) {
+  .left-block {
+    width: 100%;
+  }
+  .right-block {
+    width: 100%;
+  }
 }
 
 /* About */
@@ -205,6 +218,18 @@ main {
 }
 .share li img {
   width: 20px;
+}
+@media (max-width: 768px) {
+  .share {
+    margin: 0;
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+  .share li a {
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 
 /* Margins */
