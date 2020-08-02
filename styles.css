@@ -21,6 +21,9 @@ h1 {
 a {
   color: var(--ff-red);
 }
+.logo {
+  width: 200px;
+}
 .container {
   margin-top: 120px;
   max-width: var(--ff-media-xl);
@@ -48,6 +51,9 @@ main, footer {
 }
 .text-justify {
   text-align: justify;
+}
+.add-spacing > div {
+  margin-bottom: 7rem;
 }
 
 .offscreen-text {
@@ -149,9 +155,6 @@ main, footer {
 }
 
 /* Home Blocks */
-/* .block {
-  margin: 0 auto;
-} */
 .showcase {
   color: var(--ff-blue);
   letter-spacing: 3px;
