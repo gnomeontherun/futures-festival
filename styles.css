@@ -18,6 +18,9 @@ h1, h2 ,h3, h4 {
 h1 {
   font-weight: 900;
 }
+a {
+  color: var(--ff-red);
+}
 .container {
   margin-top: 120px;
   max-width: var(--ff-media-xl);
@@ -33,7 +36,12 @@ h1 {
   text-transform: uppercase;
 }
 main, footer {
-  padding: 0 20px;
+  padding: 0 48px;
+}
+@media (max-width: 768px) {
+  main, footer {
+    padding: 0 20px;
+  }
 }
 
 .offscreen-text {
@@ -143,7 +151,7 @@ main, footer {
   letter-spacing: 3px;
   font-weight: bolder;
 }
-.showcase-img {
+.max-img {
   max-width: 100%;
 }
 .register-link {
@@ -164,29 +172,6 @@ main, footer {
   .register-link, .register-link-alt {
     padding: 6px 20px;
   }
-}
-.left-block {
-  width: 25%;
-}
-.left-block img {
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-.right-block {
-  width: 75%;
-}
-@media (max-width: 768px) {
-  .left-block {
-    width: 100%;
-  }
-  .right-block {
-    width: 100%;
-  }
-}
-
-/* About */
-.team-links a {
-  color: var(--ff-red);
 }
 
 /* Footer */
@@ -210,7 +195,7 @@ main, footer {
   right: 0;
   top: 50%;
   z-index: 100;
-  padding: 6px;
+  padding: 2px;
 }
 .share li {
   list-style: none;
