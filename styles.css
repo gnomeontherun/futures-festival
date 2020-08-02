@@ -196,6 +196,9 @@ main, footer {
 .footer-text {
   line-height: 24px;
 }
+.footer nav a {
+  display: block;
+}
 
 /* Share */
 .share {
