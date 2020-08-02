@@ -26,10 +26,18 @@
       <div cds-layout="vertical gap:md align:horizontal-stretch">
         <p class="showcase center">Showcasing our collective stories</p>
         <img class="showcase-img" src="/images/futures.svg" alt="Full Spectrum Futures">
-        <div cds-layout="align:center" class="center"><h2 class="header-3">Saturday <time datetime="2020-10-24 07:00UTC"><b>October 24, 2020</b><br /> 07:00</time> to <time datetime="12h">19:00 UTC</time></h2></div>
+        <div cds-layout="align:center" class="center"><h2 class="header-3">Saturday <b>October 24, 2020</b><br /> <time id="start" datetime="2020-10-24 14:00UTC">07:00</time> to <time id="end">19:00</time></h2></div>
         <p class="center">Online Event - Free to all!</p>
         <p class="center"><a href="https://www.apf.org/events/register.aspx?id=1397920" class="register-link">Register Now!</a></p>
-        <p class="center"> #futuresfest20  #fullspectrumfutures </p>
+        <p class="center">Join the conversation using #futuresfest20  #fullspectrumfutures </p>
+        <p class="center"><a href="/invite.ics">Save it on your calendar!</a></p>
+        <script>
+          const start = document.getElementById('start');
+          const end = document.getElementById('end');
+          // Setup the local time when possible
+          start.textContent = new Date('2020-10-24T14:00:00').toLocaleTimeString(undefined, { timeStyle: 'short'} );
+          end.textContent = new Date('2020-10-25T02:00:00').toLocaleTimeString(undefined, { timeStyle: 'short' });
+        </script>
       </div>
 
       <!-- Intro -->
