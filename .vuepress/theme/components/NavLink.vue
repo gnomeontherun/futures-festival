@@ -54,7 +54,8 @@ export default {
     },
 
     isInternal () {
-      return !isExternal(this.link) && !this.isBlankTarget
+      return true;
+      // return !isExternal(this.link) && !this.isBlankTarget
     },
 
     target () {

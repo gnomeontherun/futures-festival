@@ -30,22 +30,25 @@
         </template>
       </Sidebar>
 
-      <Home v-if="$page.frontmatter.home" />
+      <router-link to="/sessions/">&laquo; Back to sessions</router-link>
 
-      <About v-else-if="$page.frontmatter.about" />
+      <h1>Session: {{$page.title}}</h1>
 
-      <Page
-        v-else
-        :sidebar-items="sidebarItems"
-      >
-        <template #top>
-          <slot name="page-top" />
-        </template>
-        <template #bottom>
-          <slot name="page-bottom" />
-        </template>
-      </Page>
-      
+      <div cds-layout="grid gap:lg">
+        <div cds-layout="col@sm:3">
+          <img :src="$page.frontmatter.image" class="max-img" />
+        </div>
+        <div cds-layout="col@sm:9">
+          <p class="header-5 clear-margin-top" v-if="$page.frontmatter.type">Type: {{$page.frontmatter.type}}</p>
+          <p class="header-4" v-if="$page.frontmatter.speakers">Speakers: <template v-for="(speaker, index) in $page.frontmatter.speakers">
+            <router-link :to="$page.frontmatter.speakerLinks[index]">{{speaker}}</router-link><template v-if="index < $page.frontmatter.speakers.length - 1">, </template>
+            </template>
+          </p>
+          <p class="header-4" v-else>Speaker: <router-link :to="$page.frontmatter.speakerLink">{{$page.frontmatter.speaker}}</router-link></p>
+          <Content />
+        </div>
+      </div>
+
     </div>
   </div>
   <Footer />
@@ -54,7 +57,6 @@
 
 <script>
 import Home from '@theme/components/Home.vue'
-import About from '@theme/components/About.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
@@ -62,15 +64,14 @@ import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  name: 'Layout',
+  name: 'Session',
 
   components: {
     Home,
     Page,
     Sidebar,
     Navbar,
-    Footer,
-    About,
+    Footer
   },
 
   data () {

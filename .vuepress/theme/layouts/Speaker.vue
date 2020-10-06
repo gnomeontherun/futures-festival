@@ -30,21 +30,20 @@
         </template>
       </Sidebar>
 
-      <Home v-if="$page.frontmatter.home" />
+      <router-link to="/speakers/">&laquo; Back to speakers list</router-link>
 
-      <About v-else-if="$page.frontmatter.about" />
+      <h1>Speaker: {{$page.title}}</h1>
 
-      <Page
-        v-else
-        :sidebar-items="sidebarItems"
-      >
-        <template #top>
-          <slot name="page-top" />
-        </template>
-        <template #bottom>
-          <slot name="page-bottom" />
-        </template>
-      </Page>
+      <div cds-layout="grid gap:lg">
+        <div cds-layout="col@sm:3">
+          <img :src="$page.frontmatter.image" class="max-img" />
+        </div>
+        <div cds-layout="col@sm:9">
+          <p class="header-5 clear-margin-top" v-if="$page.frontmatter.speakerTitle">{{$page.frontmatter.speakerTitle}}</p>
+          <p class="header-4">Session: <router-link :to="$page.frontmatter.sessionLink">{{$page.frontmatter.session}}</router-link></p>
+          <Content />
+        </div>
+      </div>
       
     </div>
   </div>
@@ -54,7 +53,6 @@
 
 <script>
 import Home from '@theme/components/Home.vue'
-import About from '@theme/components/About.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
@@ -62,15 +60,14 @@ import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  name: 'Layout',
+  name: 'Speaker',
 
   components: {
     Home,
     Page,
     Sidebar,
     Navbar,
-    Footer,
-    About,
+    Footer
   },
 
   data () {
@@ -132,6 +129,7 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
+    console.log(this)
   },
 
   methods: {

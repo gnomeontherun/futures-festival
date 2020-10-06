@@ -1,50 +1,56 @@
 <template>
-<div style="margin: 0 auto;" cds-layout="container:lg">
-  <div
-    cds-layout="vertical gap:xl align:horizontal-stretch"
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
-    />
-
+<div>
+  <div style="margin: 0 auto;" cds-layout="container:lg">
     <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
-    />
-
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
+      cds-layout="vertical gap:xl align:horizontal-stretch"
+      class="theme-container"
+      :class="pageClasses"
+      @touchstart="onTouchStart"
+      @touchend="onTouchEnd"
     >
-      <template #top>
-        <slot name="sidebar-top" />
-      </template>
-      <template #bottom>
-        <slot name="sidebar-bottom" />
-      </template>
-    </Sidebar>
+      <Navbar
+        v-if="shouldShowNavbar"
+        @toggle-sidebar="toggleSidebar"
+      />
 
-    <Home v-if="$page.frontmatter.home" />
+      <div
+        class="sidebar-mask"
+        @click="toggleSidebar(false)"
+      />
 
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
-      <template #top>
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <slot name="page-bottom" />
-      </template>
-    </Page>
-    
-    <Footer />
+      <Sidebar
+        :items="sidebarItems"
+        @toggle-sidebar="toggleSidebar"
+      >
+        <template #top>
+          <slot name="sidebar-top" />
+        </template>
+        <template #bottom>
+          <slot name="sidebar-bottom" />
+        </template>
+      </Sidebar>
+
+      <div>
+
+        <h1>{{$page.frontmatter.title}}</h1>
+
+        <div cds-layout="grid gap:lg">
+          <div v-for="page in $pagination.pages" cds-layout="col:12 col@sm:6 col@md:3">
+            <router-link :to="page.path">
+              <img :src="page.frontmatter.image" v-bind:alt="'Speaker ' + page.frontmatter.speaker" class="max-img" />
+            </router-link>
+          </div>
+        </div>
+        
+        <div id="pagination">
+          <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
+          <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
+        </div>
+      </div>
+      
+    </div>
   </div>
+  <Footer />
 </div>
 </template>
 
@@ -57,7 +63,7 @@ import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  name: 'Grid',
+  name: 'ImageGrid',
 
   components: {
     Home,
@@ -126,7 +132,6 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
-    console.log(this)
   },
 
   methods: {

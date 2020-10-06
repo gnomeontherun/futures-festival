@@ -22,6 +22,9 @@ export default {
 
 <style lang="css">
 .footer {
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
