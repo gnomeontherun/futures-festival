@@ -1,0 +1,38 @@
+---
+label: Speaker
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: Date
+  description: Date of the event
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+  config:
+    maxSize: 0.5
+- type: text
+  name: title
+  label: Speaker Name
+  config:
+    required: true
+- type: text
+  name: session
+  label: Session Name
+  config:
+    required: true
+- type: text
+  name: sessionLink
+  label: Session URL
+  description: URL to the session (without futuresfestival.online)
+  config:
+    required: true
+- name: speakerTitle
+  type: text
+  config:
+    required: false
+  label: Speaker Title
+pages:
+- _speakers/vincent-ocen.md

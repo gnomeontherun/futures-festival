@@ -1,0 +1,28 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: directory
+  path: _sessions
+  label: Sessions
+  create: all
+  match: "**/*"
+- type: directory
+  path: _speakers
+  label: Speakers
+  create: all
+  match: "**/*"
+upload_dir: ".vuepress/public/images"
+public_path: ''
+front_matter_path: ''
+use_front_matter_path: false
+file_template: "/images/:year:/:filename:"
+build:
+  preview_output_directory: ".vuepress/dist"
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm run build

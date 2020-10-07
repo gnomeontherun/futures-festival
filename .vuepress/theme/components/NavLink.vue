@@ -54,8 +54,7 @@ export default {
     },
 
     isInternal () {
-      return true;
-      // return !isExternal(this.link) && !this.isBlankTarget
+      return !isExternal(this.link) && !this.isBlankTarget
     },
 
     target () {
@@ -86,3 +85,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.nav-link.external svg {
+  display: none;
+}
+</style>

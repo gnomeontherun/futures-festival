@@ -1,0 +1,45 @@
+---
+label: Session
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Session Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Keynote
+    - Session
+    - Workshop
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: speaker
+  label: Speaker Name
+  config:
+    required: true
+- type: text
+  name: speakerLink
+  label: Speaker URL
+  description: URL to speaker page (without futuresfestival.online)
+  config:
+    required: true
+pages:
+- _sessions/the-step-up-youth-voices-for-a-just-and-sustainable-future-project.md
