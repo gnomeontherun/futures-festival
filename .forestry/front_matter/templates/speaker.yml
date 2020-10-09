@@ -35,4 +35,5 @@ fields:
     required: false
   label: Speaker Title
 pages:
+- _speakers/colin-r-turner.md
 - _speakers/vincent-ocen.md
