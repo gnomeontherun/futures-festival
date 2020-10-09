@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "vuepress build",
+    "start": "vuepress dev"
+  },
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.2",
     "vuepress": "^1.6.0"
