@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/speakers/2020/shermon-cruz.jpg
+image: /images/2020/shermon-cruz.jpg
 title: Prof. Shermon Cruz
 session: Hiraya Foresight - The Case of Democratizing Futures Literacy in the Philippines
 sessionLink: /sessions/2020/hiraya-foresight-case-decomratizing-futures-literacy-in-philippines/

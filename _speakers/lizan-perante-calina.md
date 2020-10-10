@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/speakers/2020/lizan-perante-calina.jpg
+image: /images/2020/lizan-perante-calina.jpg
 title: Dr. Lizan Perante-Calina
 session: Hiraya Foresight - The Case of Democratizing Futures Literacy in the Philippines
 sessionLink: /sessions/2020/hiraya-foresight-case-decomratizing-futures-literacy-in-philippines/

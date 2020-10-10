@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/sessions/2020/case-democratizing-futures-literacy-in-philippines.jpg
+image: /images/2020/case-democratizing-futures-literacy-in-philippines.jpg
 speakers:
   - Dr. Lizan Perante-Calina
   - Prof. Shermon Cruz

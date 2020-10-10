@@ -8,7 +8,7 @@
     <div cds-layout="align:center" class="center"><h2 class="header-3">Saturday <b>October 24, 2020</b><br /> <time id="start" datetime="2020-10-24 14:00UTC">07:00</time> to <time id="end">19:00 UTC-5</time></h2></div>
     <p class="center">Online Event - Free to all!</p>
     <p class="center"><a href="https://www.apf.org/events/register.aspx?id=1397920" class="register-link">Register Now!</a></p>
-    <p class="center">Join the conversation using #futuresfest20  #fullspectrumfutures </p>
+    <p class="center">Join the conversation using #FuturesFest20  #FullSpectrumFutures </p>
     <p class="center"><a href="/invite.ics">Save it on your calendar!</a></p>
   </div>
 
@@ -51,6 +51,32 @@
     </div>
   </div>
 
+  <!-- Sessions -->
+  <h2 class="header-1 center" cds-layout="align:center">Sessions</h2>
+  <div cds-layout="grid gap:lg" class="clear-margin-bottom">
+    <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
+      <router-link :to="session.path">
+        <img :src="session.frontmatter.image" alt="session.title" class="max-img" />
+      </router-link>
+    </div>
+  </div>
+  <div>
+    <p class="right"><a href="/sessions/" class="register-link">See All Sessions &raquo;</a></p>
+  </div>
+
+  <!-- Speakers -->
+  <h2 class="header-1 center" cds-layout="align:center">Speakers</h2>
+  <div cds-layout="grid gap:lg" class="clear-margin-bottom">
+    <div cds-layout="col@sm:12 col@md:3" v-for="speaker in speakers">
+      <router-link :to="speaker.path">
+        <img :src="speaker.frontmatter.image" alt="speaker.title" class="max-img" />
+      </router-link>
+    </div>
+  </div>
+  <div>
+    <p class="right"><a href="/speakers/" class="register-link">See All Speakers &raquo;</a></p>
+  </div>
+
   <!-- Archives -->
   <div cds-layout="vertical gap:md align:horizontal-stretch" id="archives">
     <h2 class="header-1 center">Archives</h2>
@@ -62,23 +88,14 @@
 </template>
 
 <script>
-import NavLink from '@theme/components/NavLink.vue'
-
 export default {
   name: 'Home',
-
-  components: { NavLink },
-
   computed: {
-    data () {
-      return this.$page.frontmatter
+    sessions() {
+      return this.$site.pages.filter(page => page.regularPath.substring(0, 11) === '/_sessions/').slice(0, 4);
     },
-
-    actionLink () {
-      return {
-        link: this.data.actionLink,
-        text: this.data.actionText
-      }
+    speakers() {
+      return this.$site.pages.filter(page => page.regularPath.substring(0, 11) === '/_speakers/').slice(0, 4);
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/sessions/2020/unpacking-anti-racism-and-allyship.jpg
+image: /images/2020/unpacking-anti-racism-and-allyship.jpg
 speaker: Karen Craggs-Milne
 speakerLink: /speakers/2020/karen-craggs-milne/
 title: Unpacking anti-racism and allyship

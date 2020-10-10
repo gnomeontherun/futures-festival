@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/sessions/2020/full-spectrum-blackness.jpg
+image: /images/2020/full-spectrum-blackness.jpg
 speaker: Sophia Bazile
 speakerLink: /speakers/2020/sophia-bazile/
 title: Full Spectrum Blackness - Not a Monolith, Black Futures in a Post COVID Global Context

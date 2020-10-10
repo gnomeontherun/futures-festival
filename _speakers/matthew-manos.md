@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/speakers/2020/matthew-manos.jpg
+image: /images/2020/matthew-manos.jpg
 title: Matthew Manos
 speakerTitle: Founder, verynice; Editor-in-Chief, Reginald; Assistant Dean, USC Iovine and Young Academy
 session: The Futures of Pro-Bono

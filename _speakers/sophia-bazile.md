@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/speakers/2020/sophia-bazile.jpg
+image: /images/2020/sophia-bazile.jpg
 title: Sophia Bazile
 speakerTitle: Indpendent Researcher; Coach and Consultant
 session: Full Spectrum Blackness - Not a Monolith, Black Futures in a Post COVID Global Context

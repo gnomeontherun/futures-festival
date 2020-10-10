@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/sessions/2020/the-futures-of-pro-bono.jpg
+image: /images/2020/the-futures-of-pro-bono.jpg
 speaker: Matthew Manos
 speakerLink: /speakers/2020/matthew-manos/
 title: The Futures of Pro-Bono

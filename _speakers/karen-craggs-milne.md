@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/speakers/2020/karen-craggs-milne.jpg
+image: /images/2020/karen-craggs-milne.jpg
 title: Karen Craggs-Milne
 speakerTitle: Founder & CEO of Conscious Equality Inc.
 session: Unpacking Anti-racism and Allyship
