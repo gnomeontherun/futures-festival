@@ -50,5 +50,6 @@ fields:
     labelField: speakers
   label: Speakers
 pages:
+- _sessions/livethefuturenow-leveraging-social-media-to-democratize-futures-thinking.md
 - _sessions/the-step-up-youth-voices-for-a-just-and-sustainable-future-project.md
 - _sessions/the-surprising-truth-about-sharing.md
