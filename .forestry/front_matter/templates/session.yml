@@ -49,6 +49,11 @@ fields:
     config:
       required: false
     label: Speaker Name
+  - name: speakerLink
+    type: text
+    config:
+      required: false
+    label: Speaker URL
   config:
     min: 1
     max: 
