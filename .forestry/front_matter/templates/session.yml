@@ -33,7 +33,7 @@ fields:
 - name: speakers
   type: field_group_list
   fields:
-  - name: speakers
+  - name: speaker
     type: text
     config:
       required: false
