@@ -30,17 +30,6 @@ fields:
 - type: file
   name: image
   label: Image
-- type: text
-  name: speaker
-  label: Speaker Name
-  config:
-    required: true
-- type: text
-  name: speakerLink
-  label: Speaker URL
-  description: URL to speaker page (without futuresfestival.online)
-  config:
-    required: true
 - name: speakers
   type: field_group_list
   fields:
