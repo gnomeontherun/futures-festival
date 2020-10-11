@@ -41,6 +41,19 @@ fields:
   description: URL to speaker page (without futuresfestival.online)
   config:
     required: true
+- name: speakers
+  type: field_group_list
+  fields:
+  - name: speakers
+    type: text
+    config:
+      required: false
+    label: Speaker Name
+  config:
+    min: 1
+    max: 
+    labelField: speakers
+  label: Speakers
 pages:
 - _sessions/the-step-up-youth-voices-for-a-just-and-sustainable-future-project.md
 - _sessions/the-surprising-truth-about-sharing.md
