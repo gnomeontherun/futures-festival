@@ -129,7 +129,6 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
-    console.log(this)
   },
 
   methods: {

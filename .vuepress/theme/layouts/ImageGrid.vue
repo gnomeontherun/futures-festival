@@ -37,15 +37,15 @@
         <div cds-layout="grid gap:lg">
           <div v-for="page in $pagination.pages" cds-layout="col:12 col@sm:6 col@md:3">
             <router-link :to="page.path">
-              <img :src="page.frontmatter.image" v-bind:alt="'Speaker ' + page.frontmatter.speaker" class="max-img" />
+              <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
             </router-link>
           </div>
         </div>
         
-        <div id="pagination">
+        <!-- <div id="pagination">
           <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
           <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
-        </div>
+        </div> -->
       </div>
       
     </div>
