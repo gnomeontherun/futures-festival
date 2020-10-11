@@ -2,11 +2,10 @@
 date: 2020-10-24
 image: /images/2020/case-democratizing-futures-literacy-in-philippines.jpg
 speakers:
-  - Dr. Lizan Perante-Calina
-  - Prof. Shermon Cruz
-speakerLinks: 
-  - /speakers/2020/lizan-perante-calina/
-  - /speakers/2020/shermon-cruz/
+  - speaker: Dr. Lizan Perante-Calina
+    speakerLink: /speakers/2020/lizan-perante-calina/
+  - speaker: Prof. Shermon Cruz
+    speakerLink: /speakers/2020/shermon-cruz/
 title: Hiraya Foresight - The Case of Democratizing Futures Literacy in the Philippines
 type: Keynote
 ---

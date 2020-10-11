@@ -40,11 +40,10 @@
         </div>
         <div cds-layout="col@sm:9">
           <p class="header-5 clear-margin-top" v-if="$page.frontmatter.type">Type: {{$page.frontmatter.type}}</p>
-          <p class="header-4" v-if="$page.frontmatter.speakers">Speakers: <template v-for="(speaker, index) in $page.frontmatter.speakers">
-            <router-link :to="$page.frontmatter.speakerLinks[index]">{{speaker}}</router-link><template v-if="index < $page.frontmatter.speakers.length - 1">, </template>
+          <p class="header-4">{{speakerText}}: <template v-for="(speaker, index) in $page.frontmatter.speakers">
+            <router-link :to="speaker.speakerLink">{{speaker.speaker}}</router-link><template v-if="index < $page.frontmatter.speakers.length - 1">, </template>
             </template>
           </p>
-          <p class="header-4" v-else>Speaker: <router-link :to="$page.frontmatter.speakerLink">{{$page.frontmatter.speaker}}</router-link></p>
           <Content />
         </div>
       </div>
@@ -81,6 +80,12 @@ export default {
   },
 
   computed: {
+    speakerText() {
+      if (this.$page.frontmatter.speakers.length > 1) {
+        return 'Speakers';
+      }
+      return 'Speaker';
+    },
     shouldShowNavbar () {
       const { themeConfig } = this.$site
       const { frontmatter } = this.$page

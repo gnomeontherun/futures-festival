@@ -50,6 +50,10 @@ fields:
     labelField: speakers
   label: Speakers
 pages:
+- _sessions/full-spectrum-blackness.md
+- _sessions/hiraya-foresight-case-decomratizing-futures-literacy-in-philippines.md
 - _sessions/livethefuturenow-leveraging-social-media-to-democratize-futures-thinking.md
+- _sessions/the-futures-of-pro-bono.md
 - _sessions/the-step-up-youth-voices-for-a-just-and-sustainable-future-project.md
 - _sessions/the-surprising-truth-about-sharing.md
+- _sessions/unpacking-anti-racism-and-allyship.md
