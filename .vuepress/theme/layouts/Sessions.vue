@@ -32,10 +32,22 @@
 
       <div>
 
-        <h1>{{$page.frontmatter.title}}</h1>
+        <h1>2020 Futures Festival Sessions</h1>
+
+        <h2>Keynotes</h2>
 
         <div cds-layout="grid gap:lg">
-          <div v-for="page in $pagination.pages" cds-layout="col:12 col@sm:6 col@md:3">
+          <div v-for="page in keynotes" cds-layout="col:12 col@sm:6 col@md:3">
+            <router-link :to="page.path">
+              <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+            </router-link>
+          </div>
+        </div>
+
+        <h2>Workshops</h2>
+
+        <div cds-layout="grid gap:lg">
+          <div v-for="page in workshops" cds-layout="col:12 col@sm:6 col@md:3">
             <router-link :to="page.path">
               <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
             </router-link>
@@ -63,7 +75,7 @@ import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  name: 'ImageGrid',
+  name: 'Sessions',
 
   components: {
     Home,
@@ -80,6 +92,12 @@ export default {
   },
 
   computed: {
+    keynotes() {
+      return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote');
+    },
+    workshops() {
+      return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop');
+    },
     shouldShowNavbar () {
       const { themeConfig } = this.$site
       const { frontmatter } = this.$page

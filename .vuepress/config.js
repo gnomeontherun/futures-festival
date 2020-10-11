@@ -26,7 +26,7 @@ module.exports = {
           {
             id: 'sessions',
             dirname: '_sessions',
-            layout: 'ImageGrid',
+            layout: 'Sessions',
             itemLayout: 'Session',
             path: '/sessions/',
             itemPermalink: '/sessions/:year/:slug'
@@ -34,7 +34,7 @@ module.exports = {
           {
             id: 'speakers',
             dirname: '_speakers',
-            layout: 'ImageGrid',
+            layout: 'Speakers',
             itemLayout: 'Speaker',
             path: '/speakers/',
             itemPermalink: '/speakers/:year/:slug'

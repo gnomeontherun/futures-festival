@@ -7,4 +7,4 @@ session: "Co-designing futures through fashion: speculative ideas when science a
 sessionLink: "/sessions/2020/co-designing-futures-through-fashion-speculative-ideas-when-science-and-second-hand-clothing-collide/"
 
 ---
-Finn is a NGFP fellow with the School of International Futures, and is a winner of their 2020 Walkabout Prize where he is working to enable young people to influence scientific research by imagining alternative futures. Finn has a background in design innovation and, before that, in biochemistry.
+Finn Strivens has a love for technology, democracy and social innovation. He is an award-winning designer, researcher, and foresight practitioner with a drive to enable diverse groups of people to imagine and influence their collective futures. Finn is a NGFP fellow with the School of International Futures, and is a winner of their 2020 Walkabout Prize where he is working to enable young people to influence scientific research by imagining alternative futures. Finn has a background in design innovation and, before that, in biochemistry.
