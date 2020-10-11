@@ -50,6 +50,7 @@ fields:
     labelField: speakers
   label: Speakers
 pages:
+- _sessions/co-designing-futures-through-fashion-speculative-ideas-when-science-and-second-hand-clothing-collide.md
 - _sessions/full-spectrum-blackness.md
 - _sessions/hiraya-foresight-case-decomratizing-futures-literacy-in-philippines.md
 - _sessions/livethefuturenow-leveraging-social-media-to-democratize-futures-thinking.md
