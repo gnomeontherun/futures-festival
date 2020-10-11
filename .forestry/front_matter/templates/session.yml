@@ -43,6 +43,7 @@ fields:
     config:
       required: false
     label: Speaker URL
+    default: "/speakers/2020/"
   config:
     min: 1
     max: 
