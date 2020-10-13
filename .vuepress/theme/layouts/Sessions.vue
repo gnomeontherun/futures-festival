@@ -34,25 +34,53 @@
 
         <h1>2020 Futures Festival Sessions</h1>
 
-        <h2>Keynotes</h2>
+        <template v-if="keynotes.length">
+          <h2>Keynotes</h2>
 
-        <div cds-layout="grid gap:lg">
-          <div v-for="page in keynotes" cds-layout="col:12 col@sm:6 col@md:3">
-            <router-link :to="page.path">
-              <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-            </router-link>
+          <div cds-layout="grid gap:lg">
+            <div v-for="page in keynotes" cds-layout="col:12 col@sm:6 col@md:3">
+              <router-link :to="page.path">
+                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+              </router-link>
+            </div>
           </div>
-        </div>
+        </template>
 
-        <h2>Workshops</h2>
+        <template v-if="workshops.length">
+          <h2>Workshops</h2>
 
-        <div cds-layout="grid gap:lg">
-          <div v-for="page in workshops" cds-layout="col:12 col@sm:6 col@md:3">
-            <router-link :to="page.path">
-              <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-            </router-link>
+          <div cds-layout="grid gap:lg">
+            <div v-for="page in workshops" cds-layout="col:12 col@sm:6 col@md:3">
+              <router-link :to="page.path">
+                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+              </router-link>
+            </div>
           </div>
-        </div>
+        </template>
+
+        <template v-if="worldCafe.length">
+          <h2>World Cafe</h2>
+
+          <div cds-layout="grid gap:lg">
+            <div v-for="page in worldCafe" cds-layout="col:12 col@sm:6 col@md:3">
+              <router-link :to="page.path">
+                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+              </router-link>
+            </div>
+          </div>
+        </template>
+
+        <template v-if="sessions.length">
+          <h2>Sessions</h2>
+
+          <div cds-layout="grid gap:lg">
+            <div v-for="page in sessions" cds-layout="col:12 col@sm:6 col@md:3">
+              <router-link :to="page.path">
+                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+              </router-link>
+            </div>
+          </div>
+        </template>
         
         <!-- <div id="pagination">
           <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
@@ -97,6 +125,12 @@ export default {
     },
     workshops() {
       return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop');
+    },
+    worldCafe() {
+      return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'World Cafe');
+    },
+    sessions() {
+      return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'Sessions');
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site
