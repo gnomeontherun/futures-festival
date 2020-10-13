@@ -31,14 +31,14 @@ module.exports = {
             path: '/sessions/',
             itemPermalink: '/sessions/:year/:slug'
           },
-          {
-            id: 'speakers',
-            dirname: '_sessions',
-            layout: 'Speakers',
-            itemLayout: 'Speaker',
-            path: '/speakers/',
-            itemPermalink: '/speakers/:year/:slug'
-          }
+          // {
+          //   id: 'speakers',
+          //   dirname: '_sessions',
+          //   layout: 'Speakers',
+          //   itemLayout: 'Session',
+          //   path: '/sessions/',
+          //   itemPermalink: '/sessions/:year/:slug'
+          // }
         ]
       },
     ],

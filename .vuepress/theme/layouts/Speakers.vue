@@ -35,7 +35,7 @@
         <h1>2020 Futures Festival Speakers</h1>
 
         <div cds-layout="grid gap:lg">
-          <template v-for="page in $pagination.pages">
+          <template v-for="page in $site.pages">
           <div cds-layout="col:12 col@sm:6 col@md:3" v-for="speaker in page.frontmatter.speakers">
             <router-link :to="page.path">
               <img :src="speaker.image" v-bind:alt="speaker.speaker" class="max-img" />
@@ -76,12 +76,16 @@ export default {
   },
 
   data () {
+    console.log(this);
     return {
       isSidebarOpen: false
     }
   },
 
   computed: {
+    getPages() {
+      return this.$site.pages.filter(({regularPath}) => regularPath.substring(0, 9) === '/_sessions');
+    },
     shouldShowNavbar () {
       const { themeConfig } = this.$site
       const { frontmatter } = this.$page
