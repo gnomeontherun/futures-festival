@@ -5,7 +5,7 @@ title: 'The Electorate Experience: partisan politics and media influence on Brit
 date: 2020-10-24 05:00:00 +0000
 image: "/images/2020/the-electorate-experience-partisian-politics-and-media-influence-on-british-democracy-in-2019.jpg"
 speakers:
-- title: Siobhán Curtis
+- speaker: Siobhán Curtis
   speakerTitle: Design Research Practice Lead
   image: "/images/2020/siobhan-curtis.jpg"
   bio: "Siobhán is the Design Research Practice Lead at Modern Human with extensive

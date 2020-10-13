@@ -50,6 +50,7 @@
         </div>
         <div cds-layout="col@sm:9">
           <p class="header-4">{{speaker.speaker}}</p>
+          <p class="header-5 clear-margin-top" v-if="speaker.speakerTitle">{{speaker.speakerTitle}}</p>
           <p>{{speaker.bio}}</p>
         </div>
       </div>
