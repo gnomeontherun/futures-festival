@@ -40,11 +40,17 @@
         </div>
         <div cds-layout="col@sm:9">
           <p class="header-5 clear-margin-top" v-if="$page.frontmatter.type">Type: {{$page.frontmatter.type}}</p>
-          <p class="header-4">{{speakerText}}: <template v-for="(speaker, index) in $page.frontmatter.speakers">
-            <router-link :to="speaker.speakerLink">{{speaker.speaker}}</router-link><template v-if="index < $page.frontmatter.speakers.length - 1">, </template>
-            </template>
-          </p>
           <Content />
+        </div>
+      </div>
+
+      <div cds-layout="grid gap:lg" v-for="speaker in $page.frontmatter.speakers">
+        <div cds-layout="col@sm:3">
+          <img :src="speaker.image" class="max-img" />
+        </div>
+        <div cds-layout="col@sm:9">
+          <p class="header-4">{{speaker.speaker}}</p>
+          <p>{{speaker.bio}}</p>
         </div>
       </div>
 

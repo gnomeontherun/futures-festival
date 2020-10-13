@@ -6,9 +6,13 @@ date: 2020-10-24 05:00:00 +0000
 image: "/images/2020/codesigning-futures-through-fashion.jpg"
 speakers:
 - speaker: Finn Strivens
-  speakerLink: "/speakers/2020/finn-strivens"
+  speakerTitle: Multidisciplinary Designer
+  image: "/images/2020/finn-strivens.jpg"
+  bio: Finn Strivens has a love for technology, democracy and social innovation. He is an award-winning designer, researcher, and foresight practitioner with a drive to enable diverse groups of people to imagine and influence their collective futures. Finn is a NGFP fellow with the School of International Futures, and is a winner of their 2020 Walkabout Prize where he is working to enable young people to influence scientific research by imagining alternative futures. Finn has a background in design innovation and, before that, in biochemistry.
 - speaker: Clarice Garcia
-  speakerLink: "/speakers/2020/clarice-garcia"
+  speakerTitle: Director
+  image: "/images/2020/clarice-garcia.jpg"
+  bio: Clarice Garcia has been working as a trend forecaster since 2014, working to multinational companies such as Nestlé, Unilever, and Ford. She is also a Ph.D. candidate in the school of Fashion & Textiles, where she is investigating the intersections between design practices and futures studies to facilitate futures thinking in transitional times and to unfold democratic futures for and through fashion towards a more sustainable world.
 
 ---
 This proposal attends to the possibility of reuniting design practices and foresight to facilitate futures imagination through co-designing and prototyping. This workshop intends to approach speculative design and co-design as methods that democratise and facilitate futures thinking. 

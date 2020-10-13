@@ -9,11 +9,6 @@ sections:
   label: Sessions
   create: all
   match: "**/*"
-- type: directory
-  path: _speakers
-  label: Speakers
-  create: all
-  match: "**/*"
 upload_dir: ".vuepress/public/images"
 public_path: "/images"
 front_matter_path: ''

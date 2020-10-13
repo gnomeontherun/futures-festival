@@ -35,11 +35,13 @@
         <h1>2020 Futures Festival Speakers</h1>
 
         <div cds-layout="grid gap:lg">
-          <div v-for="page in $pagination.pages" cds-layout="col:12 col@sm:6 col@md:3">
+          <template v-for="page in $pagination.pages">
+          <div cds-layout="col:12 col@sm:6 col@md:3" v-for="speaker in page.frontmatter.speakers">
             <router-link :to="page.path">
-              <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+              <img :src="speaker.image" v-bind:alt="speaker.speaker" class="max-img" />
             </router-link>
           </div>
+          </template>
         </div>
         
         <!-- <div id="pagination">

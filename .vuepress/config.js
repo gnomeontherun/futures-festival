@@ -33,7 +33,7 @@ module.exports = {
           },
           {
             id: 'speakers',
-            dirname: '_speakers',
+            dirname: '_sessions',
             layout: 'Speakers',
             itemLayout: 'Speaker',
             path: '/speakers/',
