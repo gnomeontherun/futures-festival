@@ -21,6 +21,7 @@ fields:
     - Keynote
     - Session
     - Workshop
+    - World Cafe
     source:
       type: simple
       section: 
