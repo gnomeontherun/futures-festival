@@ -60,7 +60,7 @@ fields:
   config:
     min: 1
     max: 
-    labelField: speakers
+    labelField: speaker
   label: Speakers
 pages:
 - _sessions/co-designing-futures-through-fashion-speculative-ideas-when-science-and-second-hand-clothing-collide.md
