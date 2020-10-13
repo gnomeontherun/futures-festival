@@ -63,6 +63,7 @@ fields:
     labelField: speaker
   label: Speakers
 pages:
+- _sessions/children-today-s-ambassadors-for-social-change.md
 - _sessions/co-designing-futures-through-fashion-speculative-ideas-when-science-and-second-hand-clothing-collide.md
 - _sessions/full-spectrum-blackness.md
 - _sessions/hiraya-foresight-case-decomratizing-futures-literacy-in-philippines.md
