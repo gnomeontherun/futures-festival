@@ -44,6 +44,21 @@ fields:
     config:
       required: false
     label: Speaker Title
+  - name: pronouns
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - he/him
+      - she/her
+      - they/them
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Pronouns
   - name: image
     type: file
     config:
