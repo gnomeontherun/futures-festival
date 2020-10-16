@@ -73,6 +73,29 @@ fields:
       schema:
         format: markdown
     label: Bio
+  - name: socialMedia
+    type: field_group_list
+    fields:
+    - name: facebook
+      type: text
+      config:
+        required: false
+      label: Facebook
+    - name: twitter
+      type: text
+      config:
+        required: false
+      label: Twitter
+    - name: instagram
+      type: text
+      config:
+        required: false
+      label: Instagram
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Social Media
   config:
     min: 1
     max: 
