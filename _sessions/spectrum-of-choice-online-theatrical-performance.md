@@ -16,6 +16,9 @@ speakers:
     of Choice. She is a staunch advocate for the LGBTQI community, gender equality
     and equality for all.
   pronouns: she/her
+  twitter: ''
+  instagram: https://www.instagram.com/coconuttynoa/
+  facebook: https://www.facebook.com/chenoa.chowdhury
 - speaker: Tanveer Anoy
   speakerTitle: Founder, Mondro
   image: "/images/2020/tanveer-anoy.jpg"
@@ -28,6 +31,9 @@ speakers:
     gender and sexual diversity social movement by testifying to Queer existence and
     struggle in the region.
   pronouns: they/them
+  twitter: https://twitter.com/tanveerhanoy
+  instagram: https://www.instagram.com/tanveeranoy/
+  facebook: ''
 - speaker: Shakil Ahmed
   speakerTitle: Performer, Spectrum of Choice
   image: "/images/2020/shakil-ahmed.jpg"
@@ -36,6 +42,9 @@ speakers:
     Global Changer at the Global Solutions Summit in Berlin and as a Joseph Jaworksi
     Next Generation Foresight Practitioner by the School of the International Futures.
   pronouns: he/him
+  twitter: ''
+  instagram: ''
+  facebook: https://www.facebook.com/shakattack84/
 - speaker: Tasaffy Hossain
   speakerTitle: Founder/Coordinator of Bonhishikha - unlearn gender
   image: "/images/2020/tasaffy-hossain.jpg"
@@ -49,9 +58,12 @@ speakers:
     sex organ that you are born with. Every individual should be just another human
     being, not one specific identity that you are boxed into. '
   pronouns: she/her
+  twitter: ''
+  instagram: ''
+  facebook: https://www.facebook.com/tasaffy
 
 ---
-‘Spectrum of Choice’ - a theater production focused on gender and sexuality, the constraints around these issues in Bangladeshi society, and how we all navigate and bypass these barriers to discover our own selves. The production is based on a collection of real stories and experiences faced by women, men, and other identities of Bangladeshis. The online show seeks to acknowledge all the lives lived around us, to learn to give and claim space for the diversity of choices, and to love and accept without prejudice. 
+‘Spectrum of Choice’ - a theater production focused on gender and sexuality, the constraints around these issues in Bangladeshi society, and how we all navigate and bypass these barriers to discover our own selves. The production is based on a collection of real stories and experiences faced by women, men, and other identities of Bangladeshis. The online show seeks to acknowledge all the lives lived around us, to learn to give and claim space for the diversity of choices, and to love and accept without prejudice.
 
 SOC was a collaborative production of Bonhishikha with Mondro, an online queer archive in Bangladesh documenting stories and creative products from the queer community in the country.  
 The session will have excerpts from the original version of the show, highlighting some of the more poignant pieces/stories. Followed by an interactive session with the audience to talk about the issues we are trying to highlight - the ability to understand and negotiate one's own sexuality in the socioeconomic spaces that Bangladeshis grow up in; being able to challenge gendered norms and the different forms of violence you face in the current heteronormative and patriarchal societies that we live in.
