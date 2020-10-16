@@ -44,14 +44,19 @@
         </div>
       </div>
 
+      <h2>Presenters</h2>
+
       <div cds-layout="grid gap:lg" v-for="speaker in $page.frontmatter.speakers">
         <div cds-layout="col@sm:3">
           <img :src="speaker.image" class="max-img" />
         </div>
         <div cds-layout="col@sm:9">
-          <p class="header-4">{{speaker.speaker}}</p>
+          <p class="header-4">{{speaker.speaker}}  <template v-if="speaker.pronouns">({{speaker.pronouns}})</template></p>
           <p class="header-5 clear-margin-top" v-if="speaker.speakerTitle">{{speaker.speakerTitle}}</p>
           <p>{{speaker.bio}}</p>
+          <p v-if="speaker.twitter">Twitter: <a :href="speaker.twitter">{{speaker.twitter}}</a></p>
+          <p v-if="speaker.Instagram">Instagram: <a :href="speaker.twitter">{{speaker.instagram}}</a></p>
+          <p v-if="speaker.facebook">Facbook: <a :href="speaker.twitter">{{speaker.facebook}}</a></p>
         </div>
       </div>
 

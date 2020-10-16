@@ -124,7 +124,6 @@ export default {
       return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote');
     },
     workshops() {
-      console.log(this.$pagination.pages)
       return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop');
     },
     worldCafe() {

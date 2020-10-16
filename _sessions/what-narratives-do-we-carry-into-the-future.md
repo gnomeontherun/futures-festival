@@ -18,9 +18,7 @@ speakers:
 - speaker: Liin Nur
   speakerTitle: Researcher and Futurist
   image: "/images/2020/liin-nur.jpg"
-  bio: |2-
-
-    Liin Nur is a human-centered researcher, strategist, and futurist. Her work is focused on decolonizing the tools and methods she has learned to create equitable futures for all.
+  bio: Liin Nur is a human-centered researcher, strategist, and futurist. Her work is focused on decolonizing the tools and methods she has learned to create equitable futures for all.
   pronouns: she/her
   twitter: https://twitter.com/luniirn
   instagram: ''
