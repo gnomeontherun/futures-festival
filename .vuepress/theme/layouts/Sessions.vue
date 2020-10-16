@@ -121,16 +121,17 @@ export default {
 
   computed: {
     keynotes() {
-      return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote');
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote');
     },
     workshops() {
-      return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop');
+      console.log(this.$pagination.pages)
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop');
     },
     worldCafe() {
-      return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'World Cafe');
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'World Cafe');
     },
     sessions() {
-      return this.$pagination.pages.filter(({ frontmatter }) => frontmatter.type === 'Sessions');
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Session');
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site

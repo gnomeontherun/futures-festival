@@ -1,6 +1,6 @@
 ---
 date: 2020-10-24
-image: /images/2020/case-democratizing-futures-literacy-in-philippines.jpg
+image: /images/2020/hiraya-foresight-the-case-of-democratizing-futures-literacy-in-the-phillipines.jpg
 speakers:
   - speaker: Dr. Lizan Perante-Calina
     speakerTitle: Doctor

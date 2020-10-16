@@ -17,9 +17,9 @@ speakers:
   bio: |2-
 
     Liin Nur is a human-centered researcher, strategist, and futurist. Her work is focused on decolonizing the tools and methods she has learned to create equitable futures for all.
-- speaker: Jackie Shaw
+- speaker: Jacquie Shaw
   speakerTitle: Researcher and Futurist
-  image: "/images/2020/jackie-shaw.jpg"
+  image: "/images/2020/jacquie-shaw.jpg"
   bio: Jacquie Shaw is a design anthropologist and strategic futurist whose practice
     combines design, research, education, and consulting. Their work is grounded in
     and supports critical explorations of design’s role and use in creating equitable
