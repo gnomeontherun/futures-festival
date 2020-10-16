@@ -94,6 +94,7 @@ fields:
     labelField: speaker
   label: Speakers
 pages:
+- _sessions/a-plate-full-of-hope.md
 - _sessions/an-afrofuturism-journey-playing-afro-rithms-from-the-future-arftf-in-democratizing-the-future..md
 - _sessions/children-today-s-ambassadors-for-social-change.md
 - _sessions/co-designing-futures-through-fashion-speculative-ideas-when-science-and-second-hand-clothing-collide.md
