@@ -36,11 +36,13 @@
 
         <div cds-layout="grid gap:lg">
           <template v-for="page in $site.pages">
-          <div cds-layout="col:12 col@sm:6 col@md:3" v-for="speaker in page.frontmatter.speakers">
+          <template v-for="speaker in page.frontmatter.speakers">
+          <div cds-layout="col:12 col@sm:6 col@md:3" v-if="speaker.image">
             <router-link :to="page.path">
               <img :src="speaker.image" v-bind:alt="speaker.speaker" class="max-img" />
             </router-link>
           </div>
+          </template>
           </template>
         </div>
         
