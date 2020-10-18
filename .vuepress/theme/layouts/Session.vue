@@ -56,7 +56,7 @@
           <p>{{speaker.bio}}</p>
           <p v-if="speaker.twitter">Twitter: <a :href="speaker.twitter">{{speaker.twitter}}</a></p>
           <p v-if="speaker.Instagram">Instagram: <a :href="speaker.twitter">{{speaker.instagram}}</a></p>
-          <p v-if="speaker.facebook">Facbook: <a :href="speaker.twitter">{{speaker.facebook}}</a></p>
+          <p v-if="speaker.facebook">Facebook: <a :href="speaker.twitter">{{speaker.facebook}}</a></p>
         </div>
       </div>
 
