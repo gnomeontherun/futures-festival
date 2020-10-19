@@ -31,6 +31,10 @@ fields:
 - type: file
   name: image
   label: Image
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - name: speakers
   type: field_group_list
   fields:
