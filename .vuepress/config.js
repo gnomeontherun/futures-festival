@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Futures Festival',
-  description: 'Just playing around',
+  description: 'Futures Festival is an annual online event that promotes speakers with insights around Futures Thinking, hosted by the Association of Professional Futurists.',
   head: [
     [ 'link', { rel: 'icon', sizes: '32x32', href: '/favicon-32x32.png'} ],
     [ 'link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap' } ],
