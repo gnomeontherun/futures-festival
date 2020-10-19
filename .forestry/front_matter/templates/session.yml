@@ -19,10 +19,9 @@ fields:
     required: false
     options:
     - Keynote
-    - Session
     - Workshop
-    - World Cafe
     - Panel
+    - Other Formats
     source:
       type: simple
       section: 
