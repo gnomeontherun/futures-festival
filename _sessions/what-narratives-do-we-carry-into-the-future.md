@@ -1,7 +1,7 @@
 ---
 type: Workshop
 title: What narratives do we carry into the future?
-date: 2020-10-24T05:00:00.000+00:00
+date: 2020-10-24 18:15:00 -0400
 image: "/images/2020/what-narratives-do-we-carry-into-the-future.jpg"
 speakers:
 - speaker: Karli Ferriolo
@@ -18,7 +18,9 @@ speakers:
 - speaker: Liin Nur
   speakerTitle: Researcher and Futurist
   image: "/images/2020/liin-nur.jpg"
-  bio: Liin Nur is a human-centered researcher, strategist, and futurist. Her work is focused on decolonizing the tools and methods she has learned to create equitable futures for all.
+  bio: Liin Nur is a human-centered researcher, strategist, and futurist. Her work
+    is focused on decolonizing the tools and methods she has learned to create equitable
+    futures for all.
   pronouns: she/her
   twitter: https://twitter.com/luniirn
   instagram: ''
@@ -34,6 +36,9 @@ speakers:
   twitter: https://twitter.com/JacquieShawMDES
   instagram: ''
   facebook: ''
+length: 60
+tags: []
+room: 1
 
 ---
 Calling all people who dream of better futures.
