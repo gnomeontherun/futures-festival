@@ -1,7 +1,7 @@
 ---
 type: Session
 title: Deconstructing Development - Critical Gaze on African Futures
-date: 2020-10-24 05:00:00 +0000
+date: 2020-10-24 18:30:00 -0500
 image: "/images/2020/deconstructing-development-critical-gaze-on-african-futures.jpg"
 speakers:
 - speaker: Christina Muia

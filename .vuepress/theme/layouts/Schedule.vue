@@ -32,60 +32,25 @@
 
       <div>
 
-        <h1>2020 Futures Festival Sessions</h1>
+        <h1>2020 Futures Festival Schedule</h1>
 
-        <template v-if="keynotes.length">
-          <h2>Keynotes</h2>
-
-          <div cds-layout="grid gap:lg">
-            <div v-for="page in keynotes" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
-          </div>
+        <table>
+          <tr>
+            <th>Session</th>
+            <th>Speakers</th>
+            <th>Time</th>
+            <th>Room</th>
+          </tr>
+        <template v-for="session in sessions">
+          <tr>
+            <td><router-link :to="session.path">{{session.title}}</router-link></td>
+            <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">, </template></template></td>
+            <td>{{session.frontmatter.date}}</td>
+            <td>Room {{session.frontmatter.room}}</td>
+          </tr>
         </template>
-
-        <template v-if="workshops.length">
-          <h2>Workshops</h2>
-
-          <div cds-layout="grid gap:lg">
-            <div v-for="page in workshops" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
-          </div>
-        </template>
-
-        <template v-if="otherFormats.length">
-          <h2>Other Formats</h2>
-
-          <div cds-layout="grid gap:lg">
-            <div v-for="page in otherFormats" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
-          </div>
-        </template>
-
-        <template v-if="sessions.length">
-          <h2>Sessions</h2>
-
-          <div cds-layout="grid gap:lg">
-            <div v-for="page in sessions" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
-          </div>
-        </template>
+        </table>
         
-        <!-- <div id="pagination">
-          <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
-          <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
-        </div> -->
       </div>
       
     </div>
@@ -120,17 +85,20 @@ export default {
   },
 
   computed: {
-    keynotes() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote');
-    },
-    workshops() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop');
-    },
-    otherFormats() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Other Formats');
-    },
     sessions() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Session');
+      return this.$site.pages
+        .filter(page => page.regularPath.substring(0, 11) === '/_sessions/')
+        .sort((a, b) => {
+          const aDate = Date.parse(a.frontmatter.date);
+          const bDate = Date.parse(b.frontmatter.date);
+          let value = 0;
+          if (aDate > bDate) {
+            value = 1;
+          } else if (bDate > aDate) {
+            value = -1
+          }
+          return value;
+        })
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site

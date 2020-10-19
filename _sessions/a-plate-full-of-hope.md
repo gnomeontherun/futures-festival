@@ -1,7 +1,8 @@
 ---
 type: World Cafe
 title: A Plate Full of Hope
-date: 2020-10-24 05:00:00 +0000
+date: 2020-10-24 10:30:00 -0500
+room: 1
 image: "/images/2020/a-plate-full-of-hope.jpg"
 speakers:
 - speaker: Chitresh Sinha

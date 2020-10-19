@@ -1,5 +1,5 @@
 ---
-date: 2020-10-24T05:00:00.000+00:00
+date: 2020-10-24 18:30:00 -0500
 image: "/images/2020/the-step-up-youth-voices-for-a-just-and-sustainable-future-project.jpg"
 speakers:
 - speaker: Vincent Ocen

@@ -2,7 +2,7 @@
 type: Workshop
 title: 'An Afrofuturism Journey playing Afro-Rithms From The Future (ARFTF) in Democratizing
   the Future. '
-date: 2020-10-24 05:00:00 +0000
+date: 2020-10-24 16:15:00 -0500
 image: "/images/2020/an-afrofuturism-journey-playing-afro-rithms-from-the-future-in-democratizing-the-future.jpg"
 speakers:
 - speaker: Lonny Avi J Brooks

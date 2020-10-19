@@ -1,7 +1,7 @@
 ---
 type: Keynote
 title: The Surprising Truth About Sharing
-date: 2020-10-24T05:00:00.000+00:00
+date: 2020-10-24 18:30:00 -0500
 image: "/images/2020/the-surprising-truth-about-sharing.jpg"
 speakers:
 - speaker: Colin R Turner

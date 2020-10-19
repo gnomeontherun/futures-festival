@@ -1,5 +1,5 @@
 ---
-date: 2020-10-24
+date: 2020-10-24 18:30:00 -0500
 image: /images/2020/unpacking-anti-racism-and-allyship.jpg
 speakers:
 - speaker: Karen Craggs-Milne

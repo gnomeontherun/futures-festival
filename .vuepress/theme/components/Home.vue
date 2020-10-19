@@ -9,7 +9,6 @@
     <p class="center">Online Event - Free to all!</p>
     <p class="center"><a href="https://www.apf.org/events/register.aspx?id=1397920" class="register-link">Register Now!</a></p>
     <p class="center">Join the conversation using #FuturesFest20  #FullSpectrumFutures </p>
-    <p class="center"><a href="/invite.ics">Save it on your calendar!</a></p>
   </div>
 
   <!-- Intro -->
@@ -67,9 +66,9 @@
   <!-- Speakers -->
   <h2 class="header-1 center" cds-layout="align:center">Speakers</h2>
   <div cds-layout="grid gap:lg" class="clear-margin-bottom">
-    <div cds-layout="col@sm:12 col@md:3" v-for="speaker in speakers">
-      <router-link :to="speaker.path">
-        <img :src="speaker.frontmatter.image" alt="speaker.title" class="max-img" />
+    <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
+      <router-link :to="session.path">
+        <img :src="session.frontmatter.speakers[0].image" alt="session.frontmatter.speakers[0].title" class="max-img" />
       </router-link>
     </div>
   </div>
@@ -93,9 +92,6 @@ export default {
   computed: {
     sessions() {
       return this.$site.pages.filter(page => page.regularPath.substring(0, 11) === '/_sessions/').slice(0, 4);
-    },
-    speakers() {
-      return this.$site.pages.filter(page => page.regularPath.substring(0, 11) === '/_speakers/').slice(0, 4);
     }
   }
 }

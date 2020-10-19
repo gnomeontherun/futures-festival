@@ -1,7 +1,7 @@
 ---
 type: World Cafe
 title: Children - Today's ambassadors for social change.
-date: 2020-10-24T05:00:00.000+00:00
+date: 2020-10-24 18:30:00 -0500
 image: "/images/2020/children-todays-ambassoards-for-social-change.jpg"
 speakers:
 - speaker: Anna Maria Geogy
