@@ -12,6 +12,16 @@ fields:
   label: Date
   config:
     required: true
+- name: length
+  type: number
+  label: Length
+  description: Length in minutes
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: type
   type: select
   default: []
@@ -35,6 +45,16 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: room
+  type: number
+  label: Room
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: speakers
   type: field_group_list
   fields:
@@ -106,6 +126,7 @@ pages:
 - _sessions/full-spectrum-blackness.md
 - _sessions/hiraya-foresight-case-decomratizing-futures-literacy-in-philippines.md
 - _sessions/livethefuturenow-leveraging-social-media-to-democratize-futures-thinking.md
+- _sessions/nofilter-digital-identities-curated-realities-and-the-impact-of-life-performed-online.md
 - _sessions/shifting-the-mindsets-in-xr-cybersecurity.md
 - _sessions/spectrum-of-choice-online-theatrical-performance.md
 - _sessions/the-electorate-experience-partisan-politics-and-media-influence-on-british-democracy-in-2019.md

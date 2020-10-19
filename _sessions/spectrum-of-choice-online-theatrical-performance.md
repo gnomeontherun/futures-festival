@@ -1,5 +1,5 @@
 ---
-type: Session
+type: Other Formats
 title: 'Spectrum of Choice : online theatrical performance'
 date: 2020-10-24 09:30:00 -0500
 image: "/images/2020/spectrum-of-choice.jpg"
@@ -61,6 +61,9 @@ speakers:
   twitter: ''
   instagram: ''
   facebook: https://www.facebook.com/tasaffy
+length: 
+tags: []
+room: 
 
 ---
 ‘Spectrum of Choice’ - a theater production focused on gender and sexuality, the constraints around these issues in Bangladeshi society, and how we all navigate and bypass these barriers to discover our own selves. The production is based on a collection of real stories and experiences faced by women, men, and other identities of Bangladeshis. The online show seeks to acknowledge all the lives lived around us, to learn to give and claim space for the diversity of choices, and to love and accept without prejudice.

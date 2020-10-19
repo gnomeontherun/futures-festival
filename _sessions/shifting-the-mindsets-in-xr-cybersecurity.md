@@ -1,5 +1,5 @@
 ---
-type: Session
+type: Panel
 title: Shifting the Mindsets in XR & Cybersecurity
 date: 2020-10-24 18:30:00 -0500
 image: "/images/2020/shifting-the-mindsets-in-xr-and-cybersecurity.jpg"
@@ -16,6 +16,9 @@ speakers:
     and advisor on emerging trends and the future of work on equity, diversity, and
     inclusion. April also is a Professor of HIM and Cybersecurity.
   pronouns: she/her
+  twitter: ''
+  instagram: ''
+  facebook: ''
 - speaker: Sanchari Das
   speakerTitle: Global Privacy Advisor, XRSI
   pronouns: ''
@@ -23,6 +26,9 @@ speakers:
   bio: |-
     I am an Assistant Professor at the department of Computer Science in the Ritchie School of Engineering and Computer Science at University of Denver. I received Ph.D. from Indiana University Bloomington. My research focuses on social media privacy, privacy policies, the economics of
     security, IoT device security, electronic waste security, the security of AR/VR/MR devices, and others. I am also working as a User Experience Consultant for the secure technologies at Parity Technology . I am also a Global Privacy Adviser at XRSI.org where we work towards building safer and privacy preserving XR tools.
+  twitter: ''
+  instagram: ''
+  facebook: ''
 - speaker: Rodrigo Tamellini
   speakerTitle: Co-founder and CEO of GamerSafer
   pronouns: he/him
@@ -34,6 +40,9 @@ speakers:
     launched globally) who climbed the corporate ladder and land an executive position
     at Intel, LG Electronics and Asus. A lifelong gamer and a proud father of 3, he
     holds an engineering degree, an MBA in strategic business management.
+  twitter: ''
+  instagram: ''
+  facebook: ''
 - speaker: Joel Scharlat
   speakerTitle: Funding and Cybersecurity Advisor, XRSI
   pronouns: he/him
@@ -47,6 +56,9 @@ speakers:
     a Masters degree from the Naval Postgraduate School where he wrote his thesis
     on using immersive virtual environments to influence people’s behaviors. Joel
     is a retired Marine Corps Officer and XRSI Cybersecurity Advisor. '
+  twitter: ''
+  instagram: ''
+  facebook: ''
 - speaker: Alina Kadlubsky
   speakerTitle: Chair, Cyber XR Public Working Group
   pronouns: she/her
@@ -55,6 +67,12 @@ speakers:
     Accessibility and Safety Working Group of Open AR Cloud as well as chair of the
     Cyber XR Coalition public WG, With a passion for immersive Tech, Spatial Computing,
     Spatial Web and creating a human-centred future of Computing.
+  twitter: ''
+  instagram: ''
+  facebook: ''
+length: 
+tags: []
+room: 
 
 ---
 As the world grapples with the unprecedented circumstances surrounding the COVID-19 global pandemic, it also presents an opportune time to actively address the human-side of what’s been brewing beneath the surface of our very existence - the impact and dire consequences of the lack of inclusion, equity, and accessibility in all facets of our lives.  

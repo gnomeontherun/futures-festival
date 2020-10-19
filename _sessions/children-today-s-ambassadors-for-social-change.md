@@ -1,5 +1,5 @@
 ---
-type: World Cafe
+type: Other Formats
 title: Children - Today's ambassadors for social change.
 date: 2020-10-24 18:30:00 -0500
 image: "/images/2020/children-todays-ambassoards-for-social-change.jpg"
@@ -27,6 +27,9 @@ speakers:
   twitter: https://twitter.com/leadbydesign3
   instagram: https://www.instagram.com/lead_by_design/
   facebook: https://www.facebook.com/Leadbydesign2020
+length: 
+tags: []
+room: 
 
 ---
 The presentation will focus on what happens when children lead us with courage and compassion towards a just and equitable world. What can we as adults learn from children (and we believe there are many, curiosity and kindness for example).

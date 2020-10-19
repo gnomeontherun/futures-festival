@@ -1,5 +1,5 @@
 ---
-type: World Cafe
+type: Other Formats
 title: A Plate Full of Hope
 date: 2020-10-24 10:30:00 -0500
 room: 1
@@ -16,6 +16,9 @@ speakers:
   instagram: https://www.instagram.com/theplatedproject/
   facebook: ''
   pronouns: he/him
+length: 
+tags: []
+room: 
 
 ---
 The presentation will be about how I used the covid-19 crisis to create a movement called ‘A Plate Full of Hope’ that used art to provide meals and hope to millions across India. It brought together artists, charities, good samaritans and art-loves from all over the world. In total 150,000 meals were provided to the needy in just the span of one month [https://www.theplatedproject.com/](https://www.theplatedproject.com/ "https://www.theplatedproject.com/"). When covid-19 struck India, 140 million people lost their jobs, out of these over 100 million were migrant workers and daily wage earners. 
