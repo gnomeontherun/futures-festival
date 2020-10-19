@@ -58,6 +58,18 @@
           </div>
         </template>
 
+        <template v-if="panels.length">
+          <h2>Panels</h2>
+
+          <div cds-layout="grid gap:lg">
+            <div v-for="page in panels" cds-layout="col:12 col@sm:6 col@md:3">
+              <router-link :to="page.path">
+                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+              </router-link>
+            </div>
+          </div>
+        </template>
+
         <template v-if="otherFormats.length">
           <h2>Other Formats</h2>
 
@@ -70,22 +82,6 @@
           </div>
         </template>
 
-        <template v-if="sessions.length">
-          <h2>Sessions</h2>
-
-          <div cds-layout="grid gap:lg">
-            <div v-for="page in sessions" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
-          </div>
-        </template>
-        
-        <!-- <div id="pagination">
-          <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
-          <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
-        </div> -->
       </div>
       
     </div>
@@ -129,8 +125,8 @@ export default {
     otherFormats() {
       return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Other Formats');
     },
-    sessions() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Session');
+    panels() {
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Panel');
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site
