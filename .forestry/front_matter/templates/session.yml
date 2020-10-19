@@ -12,6 +12,16 @@ fields:
   label: Date
   config:
     required: true
+- name: length
+  type: number
+  label: Length
+  description: Length in minutes
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: type
   type: select
   default: []
@@ -35,6 +45,16 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: room
+  type: number
+  label: Room
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: speakers
   type: field_group_list
   fields:
