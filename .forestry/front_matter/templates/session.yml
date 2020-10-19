@@ -22,6 +22,7 @@ fields:
     - Session
     - Workshop
     - World Cafe
+    - Panel
     source:
       type: simple
       section: 
