@@ -1,14 +1,22 @@
 ---
 type: Other Formats
 title: Children - Today's ambassadors for social change.
-date: 2020-10-24 18:30:00 -0500
+date: 2020-10-24T18:30:00.000-05:00
 image: "/images/2020/children-todays-ambassoards-for-social-change.jpg"
 speakers:
 - speaker: Anna Maria Geogy
   speakerTitle: Educator, Human Centered Designer, Founder
   image: "/images/2020/anna-maria-geogy.jpg"
-  bio: ''
-  pronouns: ''
+  bio: "Anna Maria Geogy is an architect turned educator who is currently exploring
+    curriculum design that can enable children to think and build 21st century skills.
+    \n\nGrowing up, The United World Project by the Y4UW International influenced
+    her to engage in social projects to increase youth participation in local communities.\n\nAs
+    a Teach For India fellow, she explored co-creating a holistic education space
+    with her classroom of 10 year olds. This experience strengthened her belief that
+    creating ‘with’ children rather than for them empowers both child and educator.\n\nLateral
+    thinking, human centered design, sustainable living and alternate economy are
+    some of her areas of interest. "
+  pronouns: she/her
   twitter: ''
   instagram: ''
   facebook: ''
