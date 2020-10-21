@@ -1,7 +1,7 @@
 ---
 type: Panel
 title: Shifting the Mindsets in XR & Cybersecurity
-date: 2020-10-24 18:30:00 -0500
+date: 2020-10-24 14:00:00 -0400
 image: "/images/2020/shifting-the-mindsets-in-xr-and-cybersecurity.jpg"
 speakers:
 - speaker: April Boyd-Noronha
@@ -23,8 +23,7 @@ speakers:
   speakerTitle: Global Privacy Advisor, XRSI
   pronouns: ''
   image: ''
-  bio: |-
-    I am an Assistant Professor at the department of Computer Science in the Ritchie School of Engineering and Computer Science at University of Denver. I received Ph.D. from Indiana University Bloomington. My research focuses on social media privacy, privacy policies, the economics of
+  bio: I am an Assistant Professor at the department of Computer Science in the Ritchie School of Engineering and Computer Science at University of Denver. I received Ph.D. from Indiana University Bloomington. My research focuses on social media privacy, privacy policies, the economics of
     security, IoT device security, electronic waste security, the security of AR/VR/MR devices, and others. I am also working as a User Experience Consultant for the secure technologies at Parity Technology . I am also a Global Privacy Adviser at XRSI.org where we work towards building safer and privacy preserving XR tools.
   twitter: ''
   instagram: ''
@@ -70,9 +69,9 @@ speakers:
   twitter: ''
   instagram: ''
   facebook: ''
-length: 
+length: 60
 tags: []
-room: 
+room: 1
 
 ---
 As the world grapples with the unprecedented circumstances surrounding the COVID-19 global pandemic, it also presents an opportune time to actively address the human-side of what’s been brewing beneath the surface of our very existence - the impact and dire consequences of the lack of inclusion, equity, and accessibility in all facets of our lives.  

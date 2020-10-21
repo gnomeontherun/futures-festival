@@ -86,7 +86,7 @@ export default {
 
   computed: {
     getPages() {
-      return this.$site.pages.filter(({regularPath}) => regularPath.substring(0, 9) === '/_sessions');
+      return this.$site.pages.filter(({frontmatter, regularPath}) => regularPath.substring(0, 9) === '/_sessions' && frontmatter.draft !== true);
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site

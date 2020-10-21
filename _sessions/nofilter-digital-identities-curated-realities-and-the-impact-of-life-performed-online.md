@@ -1,11 +1,11 @@
 ---
-length: 0
+length: 45
 type: Other Formats
 tags: []
-room: 0
+room: 2
 title: "#NoFilter: Digital Identities, Curated realities and the Impact of Life Performed
   Online"
-date: 2020-10-24 01:00:00 -0400
+date: 2020-10-24 16:30:00 -0400
 image: "/images/2020/nofilter-digital-identities-curated-realities-and-the-impact-of-life-performed-online.jpg"
 speakers:
 - speaker: Melissa Eshaghbeigi

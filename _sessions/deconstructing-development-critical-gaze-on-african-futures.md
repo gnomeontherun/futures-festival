@@ -1,7 +1,7 @@
 ---
 type: Other Formats
 title: Deconstructing Development - Critical Gaze on African Futures
-date: 2020-10-24 18:30:00 -0500
+date: 2020-10-24 15:00:00 -0400
 image: "/images/2020/deconstructing-development-critical-gaze-on-african-futures.jpg"
 speakers:
 - speaker: Christina Muia
@@ -41,9 +41,9 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: he/him
-length: 
+length: 60
 tags: []
-room: 
+room: 1
 
 ---
 This talk would be led by three International Development Professionals from the African diaspora who are currently based in Toronto: Asia Clarke, Christina Muia and Ikem Opara. We are graduate students of OCAD University’s Strategic Foresight and Innovation program who bring a diversity of professional and lived experiences in social and economic development spanning from non-profits, foundations and the United Nations. This talk will provide a critical look at deconstructing dominant narratives in development, allowing for ‘beneficiary’ narratives to be challenged and for decolonization to begin happening. 

@@ -1,5 +1,5 @@
 ---
-date: 2020-10-24 18:30:00 -0500
+date: 2020-10-24 11:30:00 -0400
 image: "/images/2020/the-step-up-youth-voices-for-a-just-and-sustainable-future-project.jpg"
 speakers:
 - speaker: Vincent Ocen
@@ -21,6 +21,8 @@ speakers:
   facebook: https://www.facebook.com/ocen.vincent
 title: The Step-up Youth Voices for a Just and Sustainable Future Project
 type: Keynote
+room: 1
+length: 30
 
 ---
 The Step Up-Youth Voices for a Just & Sustainable Future project connects and builds of our experience as a convener of diverse youth groups and a partner of key national and global coalitions , we believe that the time is right to raise up the voices of youth groups at the front-lines to support a transformational shift that ensures gender justice and equality, enabling everyone to live their lives in dignity, free from hunger and from the fear of violence, oppression, discrimination or injustice, in a way that protects the planetary systems required to sustain all life on earth.

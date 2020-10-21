@@ -1,7 +1,7 @@
 ---
 type: Other Formats
 title: A Plate Full of Hope
-date: 2020-10-24 10:30:00 -0500
+date: 2020-10-24 10:30:00 -0400
 room: 1
 image: "/images/2020/a-plate-full-of-hope.jpg"
 speakers:
@@ -16,7 +16,7 @@ speakers:
   instagram: https://www.instagram.com/theplatedproject/
   facebook: ''
   pronouns: he/him
-length: 
+length: 30
 tags: []
 
 ---

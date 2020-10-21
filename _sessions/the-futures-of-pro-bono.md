@@ -1,5 +1,5 @@
 ---
-date: 2020-10-24 18:30:00 -0500
+date: 2020-10-24 12:45:00 -0400
 image: /images/2020/the-futures-of-pro-bono.jpg
 speakers: 
   - speaker: Matthew Manos
@@ -8,6 +8,8 @@ speakers:
     bio: Called “crazy or genius” by Forbes, Matthew Manos is an author, educator, and entrepreneur. He is the Founder of verynice, a design strategy practice that gives half of its services away for free to nonprofit organizations. With clients including the American Heart Association, UNICEF, Disney, and Google, verynice’s work has reached millions of people across the globe. Matthew is also Editor-in-Chief of Reginald, a publisher of creative problem solving toolkits that anyone can access. He is an Assistant Dean at the USC Iovine and Young Academy, where he serves as an academic strategist and curriculum designer.
 title: The Futures of Pro-Bono
 type: Workshop
+room: 1
+length: 45
 ---
 
 At its core, pro-bono is about making expertise available to those who might not otherwise be able to access it. But since the late 1800s, despite incredible technological advancement, the ways in which that expertise is delivered has not changed. Face-to-face pro-bono consultation and training severely limits the amount of people that can benefit from the pro-bono work. This is why we are building Reginald, a free library of expertise. Reginald partners with leading agencies, practitioners, and other organizations to turn their expertise into a replicable methodology that can be made available as a pay-what-you-want toolkit. After 15 years of pro-bono service, Matthew Manos launched Reginald to re-frame the way pro-bono is done. Reginald’s toolkits have offset the equivalent of 100,000+ hours of consulting and training.

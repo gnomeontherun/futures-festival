@@ -117,16 +117,16 @@ export default {
 
   computed: {
     keynotes() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote');
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote' && frontmatter.draft !== true);
     },
     workshops() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop');
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop' && frontmatter.draft !== true);
     },
     otherFormats() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Other Formats');
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Other Formats' && frontmatter.draft !== true);
     },
     panels() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Panel');
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Panel' && frontmatter.draft !== true);
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site

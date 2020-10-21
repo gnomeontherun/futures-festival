@@ -13,7 +13,7 @@ module.exports = {
     search: false,
     nav: [
       { text: 'Register', link: 'https://www.apf.org/events/register.aspx?id=1397920' },
-      // { text: 'Schedule', link: '/schedule' },
+      { text: 'Schedule', link: '/schedule' },
       { text: 'Sessions', link: '/sessions/' },
       { text: 'Speakers', link: '/speakers/' },
       { text: 'About', link: '/about' },

@@ -91,7 +91,7 @@ export default {
   name: 'Home',
   computed: {
     sessions() {
-      return this.$site.pages.filter(page => page.regularPath.substring(0, 11) === '/_sessions/').slice(0, 4);
+      return this.$site.pages.filter(page => page.regularPath.substring(0, 11) === '/_sessions/' && page.frontmatter.draft !== true).slice(0, 4);
     }
   }
 }

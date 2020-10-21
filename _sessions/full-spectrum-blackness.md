@@ -1,7 +1,8 @@
 ---
-date: 2020-10-24 07:30:00 -0500
+date: 2020-10-24 07:30:00 -0400
 image: "/images/2020/full-spectrum-blackness.jpg"
 room: 1
+length: 45
 speakers:
 - speaker: Sophia Bazile
   image: "/images/2020/sophia-bazile.jpg"
