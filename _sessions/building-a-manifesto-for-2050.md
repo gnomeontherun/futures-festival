@@ -4,7 +4,7 @@ type: Workshop
 tags: []
 room: 2
 title: Building a Manifesto for 2050
-date: 2020-10-24T13:00:00-0400
+date: 2020-10-24T13:00:00-04:00
 image: ''
 facilitators: Maggie Greyson
 speakers:

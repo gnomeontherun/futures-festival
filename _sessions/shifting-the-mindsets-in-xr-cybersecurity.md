@@ -1,7 +1,7 @@
 ---
 type: Panel
 title: Shifting the Mindsets in XR & Cybersecurity
-date: 2020-10-24T14:00:00-0400
+date: 2020-10-24T14:00:00-04:00
 image: "/images/2020/shifting-the-mindsets-in-xr-and-cybersecurity.jpg"
 speakers:
 - speaker: April Boyd-Noronha

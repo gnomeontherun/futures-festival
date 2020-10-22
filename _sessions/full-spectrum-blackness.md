@@ -1,5 +1,5 @@
 ---
-date: 2020-10-24T07:30:00-0400
+date: 2020-10-24T07:30:00-04:00
 image: "/images/2020/full-spectrum-blackness.jpg"
 room: 1
 length: 45

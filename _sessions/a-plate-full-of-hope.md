@@ -1,7 +1,7 @@
 ---
 type: Other Formats
 title: A Plate Full of Hope
-date: 2020-10-24T10:30:00-0400
+date: 2020-10-24T10:30:00-04:00
 room: 1
 image: "/images/2020/a-plate-full-of-hope.jpg"
 facilitators: Ashish Manwar

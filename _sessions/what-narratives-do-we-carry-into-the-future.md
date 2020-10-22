@@ -1,7 +1,7 @@
 ---
 type: Workshop
 title: What narratives do we carry into the future?
-date: 2020-10-24T17:15:00-0400
+date: 2020-10-24T17:15:00-04:00
 image: "/images/2020/what-narratives-do-we-carry-into-the-future.jpg"
 speakers:
 - speaker: Karli Ferriolo

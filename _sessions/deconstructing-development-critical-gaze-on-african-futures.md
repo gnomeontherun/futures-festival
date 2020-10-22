@@ -1,7 +1,7 @@
 ---
 type: Other Formats
 title: Deconstructing Development - Critical Gaze on African Futures
-date: 2020-10-24T15:00:00-0400
+date: 2020-10-24T15:00:00-04:00
 image: "/images/2020/deconstructing-development-critical-gaze-on-african-futures.jpg"
 facilitators: Raul Valenzuela
 speakers:

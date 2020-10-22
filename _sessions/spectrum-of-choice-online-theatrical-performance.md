@@ -1,7 +1,7 @@
 ---
 type: Other Formats
 title: 'Spectrum of Choice : online theatrical performance'
-date: 2020-10-24T09:30:00-0400
+date: 2020-10-24T09:30:00-04:00
 image: "/images/2020/spectrum-of-choice.jpg"
 speakers:
 - speaker: Chenoa Chowdhury

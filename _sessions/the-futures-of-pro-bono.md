@@ -1,5 +1,5 @@
 ---
-date: 2020-10-24T12:45:00-0400
+date: 2020-10-24T12:45:00-04:00
 image: /images/2020/the-futures-of-pro-bono.jpg
 speakers: 
   - speaker: Matthew Manos
