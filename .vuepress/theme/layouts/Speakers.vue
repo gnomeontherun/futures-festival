@@ -152,6 +152,9 @@ export default {
         || speaker.speaker.toUpperCase() === 'MIKE BATISTA'
         || speaker.speaker.toUpperCase() === 'ALAN CLARK'
         || speaker.speaker.toUpperCase() === 'CALVIN WILLIAMS'
+        || speaker.speaker.toUpperCase() === 'PRITI DAVID'
+        || speaker.speaker.toUpperCase() === 'PRIYADHARSINI PALANISWAMY'
+        || speaker.speaker.toUpperCase() === 'DVL PADMA PRIYA'
         || !speaker.image
         ) {
         return false;

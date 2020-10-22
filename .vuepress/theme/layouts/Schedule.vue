@@ -93,7 +93,6 @@ import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
-// import moment from 'moment-timezone'
 
 const sessionsRoomOne = [
   { title: 'Introduction', frontmatter: { date: '2020-10-24T07:00:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
@@ -135,13 +134,9 @@ export default {
 
   filters: {
     localTime(value) {
-      // return moment(value).format('h:mm a');
-      console.log(value);
       return new Date(value).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'});
     },
     time(value) {
-      console.log(value);
-      // return moment(value).tz('America/New_York').format('h:mm a');
       return new Date(value).toLocaleTimeString([], {timeZone: 'America/New_York', hour: 'numeric', minute:'2-digit'});
     },
   },
