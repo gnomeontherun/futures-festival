@@ -1,11 +1,11 @@
 ---
 draft: true
-length: 0
-type: Panel
+length: 60
+type: Workshop
 tags: []
-room: 0
+room: 2
 title: Building a Manifesto for 2050
-date: 2020-10-24 01:00:00 -0400
+date: 2020-10-24 14:00:00 -0400
 image: ''
 speakers:
 - speaker: Rodrigo Mendes Leal
@@ -25,6 +25,7 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: he/him
+  linkedin: ''
 - speaker: Deepshikha Dash
   speakerTitle: Designer
   image: ''
@@ -41,6 +42,7 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: she/her
+  linkedin: ''
 - speaker: Alanna Markle
   speakerTitle: Policy Analyst - Strategic Foresight
   image: ''
@@ -58,6 +60,7 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: she/her
+  linkedin: ''
 - speaker: Adeiye Oluwaseun-Sobo
   speakerTitle: Founder, The Intentional Teachers Network
   image: ''
@@ -73,6 +76,7 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: she/her
+  linkedin: ''
 - speaker: Maggie Greyson
   speakerTitle: Designer and Futurist
   image: ''
@@ -87,6 +91,7 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: she/her
+  linkedin: ''
 
 ---
-Much has been written about post-COVID-19 scenarios and how the world could look once the crisis is overcome. Many of the analyses take a rather bleak outlook at the future(s) that might unfold. By using foresight techniques such as storytelling, backcasting and immersion our group of young foresighters from the School of International Futures’ Next Generation Foresight Practitioners network (NGFP) take somewhat of a different approach. 
+Much has been written about post-COVID-19 scenarios and how the world could look once the crisis is overcome. Many of the analyses take a rather bleak outlook at the future(s) that might unfold. By using foresight techniques such as storytelling, backcasting and immersion our group of young foresighters from the School of International Futures’ Next Generation Foresight Practitioners network (NGFP) take somewhat of a different approach.
