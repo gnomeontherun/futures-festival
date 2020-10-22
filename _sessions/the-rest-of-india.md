@@ -33,10 +33,10 @@ speakers:
   facebook: https://facebook.com/theblueclub1
   linkedin: ''
   pronouns: she/her
-- speaker: Padma Priya
+- speaker: DVL Padma Priya
   speakerTitle: Co-Founder & Editor, Suno India
   image: ''
-  bio: 'Padma Priya is the co-founder and editor of Suno India, a multilingual-multigenerational
+  bio: 'DVL Padma Priya is the co-founder and editor of Suno India, a multilingual-multigenerational
     podcast platform for issues that matter. She is an experienced journalist and
     advocacy- communication professional with over 12 years of experience working
     in media, digital media and the public health sector. She is keen in media literacy
