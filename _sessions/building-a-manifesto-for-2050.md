@@ -1,5 +1,4 @@
 ---
-draft: true
 length: 60
 type: Workshop
 tags: []
@@ -7,6 +6,7 @@ room: 2
 title: Building a Manifesto for 2050
 date: 2020-10-24 14:00:00 -0400
 image: ''
+facilitators: Maggie Greyson
 speakers:
 - speaker: Rodrigo Mendes Leal
   speakerTitle: Strategic foresight and Risk Analyst

@@ -9,6 +9,7 @@ speakers:
   linkedin: http://linkedin.com/in/karencraggs
 title: Unpacking anti-racism and allyship
 type: Workshop
+facilitators: Wendy De Souza
 ---
 
 Organizations and communities all over the world are being called upon to do the work to actively dismantle racism. 

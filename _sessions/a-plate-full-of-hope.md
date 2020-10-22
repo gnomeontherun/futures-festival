@@ -4,6 +4,7 @@ title: A Plate Full of Hope
 date: 2020-10-24 10:30:00 -0400
 room: 1
 image: "/images/2020/a-plate-full-of-hope.jpg"
+facilitators: Ashish Manwar
 speakers:
 - speaker: Chitresh Sinha
   speakerTitle: Founder and Head of Innovation @ A Plate Full of Hope

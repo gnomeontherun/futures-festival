@@ -3,6 +3,7 @@ type: Other Formats
 title: Children - Today's ambassadors for social change.
 date: 2020-10-24 08:30:00 -0400
 image: "/images/2020/children-todays-ambassoards-for-social-change.jpg"
+facilitators: Umar Sheraz
 speakers:
 - speaker: Anna Maria Geogy
   speakerTitle: Educator, Human Centered Designer, Founder

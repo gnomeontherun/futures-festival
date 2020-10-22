@@ -3,6 +3,7 @@ type: Keynote
 title: 'The Electorate Experience: partisan politics and media influence on British
   democracy in 2019'
 date: 2020-10-24 14:30:00 -0400
+facilitators: Tricia Lustig
 image: "/images/2020/the-electorate-experience-partisan-politics-and-media-influence-on-british-democracy-in-2019.jpg"
 speakers:
 - speaker: Siobhán Curtis

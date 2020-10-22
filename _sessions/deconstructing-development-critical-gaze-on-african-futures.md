@@ -3,6 +3,7 @@ type: Other Formats
 title: Deconstructing Development - Critical Gaze on African Futures
 date: 2020-10-24 15:00:00 -0400
 image: "/images/2020/deconstructing-development-critical-gaze-on-african-futures.jpg"
+facilitators: Raul Valenzuela
 speakers:
 - speaker: Christina Muia
   speakerTitle: Consultant & Futurist

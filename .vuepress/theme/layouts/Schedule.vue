@@ -42,7 +42,7 @@
             <th>Speakers</th>
             <th>Type</th>
             <th style="min-width: 120px">Start Time</th>
-            <th>Facilitator</th>
+            <th>Facilitators</th>
           </tr>
         <template v-for="session in roomOne">
           <tr>
@@ -64,7 +64,7 @@
             <th>Speakers</th>
             <th>Type</th>
             <th style="min-width: 120px">Start Time</th>
-            <th>Facilitator</th>
+            <th>Facilitators</th>
           </tr>
         <template v-for="session in roomTwo">
           <tr>

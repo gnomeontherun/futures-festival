@@ -1,9 +1,11 @@
 ---
-draft: true
 type: Workshop
 title: "#LivetheFutureNOW: Leveraging Social Media to Democratize Futures Thinking"
-date: 2020-10-24 18:30:00 -0400
+date: 2020-10-24 15:15:00 -0400
 image: "/images/2020/livethefuturenow-leveraging-social-media-to-democratize-futures-thinking.jpg"
+room: 2
+length: 60
+facilitators: Fabrice Guerrier
 speakers:
 - speaker: Nour Batyne
   image: "/images/2020/nour-batyne.jpg"

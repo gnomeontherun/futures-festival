@@ -6,6 +6,7 @@ room: 2
 title: 'Amplifying Womxn''s Voices: Confronting Patriarchy and Imposter Syndrome'
 date: 2020-10-24 12:30:00 -0400
 image: "/images/2020/amplifying-womxns-voices.jpg"
+facilitators: Manpreet Juneja
 speakers:
 - speaker: Wendy De Souza
   speakerTitle: Public Educator & Speaker

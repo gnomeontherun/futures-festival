@@ -3,6 +3,7 @@ date: 2020-10-24 07:30:00 -0400
 image: "/images/2020/full-spectrum-blackness.jpg"
 room: 1
 length: 45
+facilitators: Sanne Breimer
 speakers:
 - speaker: Sophia Bazile
   image: "/images/2020/sophia-bazile.jpg"

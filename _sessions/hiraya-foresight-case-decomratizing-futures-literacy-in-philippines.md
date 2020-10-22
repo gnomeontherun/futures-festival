@@ -1,6 +1,7 @@
 ---
 date: 2020-10-24 07:30:00 -0400
 image: "/images/2020/hiraya-foresight-the-case-of-democratizing-futures-literacy-in-the-phillipines.jpg"
+facilitators: CJ Almodal
 speakers:
 - speaker: Dr. Lizan Perante-Calina
   speakerTitle: Doctor

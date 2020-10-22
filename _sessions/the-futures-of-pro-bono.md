@@ -13,6 +13,7 @@ title: The Futures of Pro-Bono
 type: Workshop
 room: 1
 length: 45
+facilitators: Anca Matioc
 ---
 
 At its core, pro-bono is about making expertise available to those who might not otherwise be able to access it. But since the late 1800s, despite incredible technological advancement, the ways in which that expertise is delivered has not changed. Face-to-face pro-bono consultation and training severely limits the amount of people that can benefit from the pro-bono work. This is why we are building Reginald, a free library of expertise. Reginald partners with leading agencies, practitioners, and other organizations to turn their expertise into a replicable methodology that can be made available as a pay-what-you-want toolkit. After 15 years of pro-bono service, Matthew Manos launched Reginald to re-frame the way pro-bono is done. Reginald’s toolkits have offset the equivalent of 100,000+ hours of consulting and training.
