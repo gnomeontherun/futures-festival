@@ -4,7 +4,7 @@ type: Panel
 tags: []
 room: 2
 title: How do young people of today imagine tomorrow. Their voice matters.
-date: 2020-10-24 12:00:00 -0400
+date: 2020-10-24T12:00:00.000-04:00
 image: "/images/2020/how-do-young-people-of-today-imagine-tomorrow-1.jpg"
 speakers:
 - speaker: Lourdes Rodriguez
@@ -87,5 +87,14 @@ speakers:
   facebook: ''
   linkedin: ''
   pronouns: ''
+facilitators: ''
 
 ---
+Nowadays we live in an 'adultocracy' where only adults are the ones who are considered mature enough to think about the future and make decisions about it. We should start including young people and kids in this types of conversations and forums.  
+  
+If we are thinking about Full Spectrum futures, we are talking about diversity, and one of the many sides of the concept of diversity is age. If we really want Full Spectrum Futures, we should include children and young people.  
+For this purpose, Teach the Future joined #NexGenEdu to co-organize a panel of young voices from diverse countries, backgrounds and profiles. It’s a great opportunity to listen to them talking about their visions of the future and about their ideas for including them in the decision making processes  
+  
+Teach the Future is a global movement that promotes futures literacy for students and educators. Our Aspiration is that every student is prepared to navigate an uncertain world and has the agency to imagine and create their preferred future.  
+  
+\#NexGenEdu is a global learning platform for partners to share evidence-driven ideas, policy directives and scaling strategies in education, with an intentional bias towards partners building trust and moving to action. #NextGenEdu exists to ensure one kind world, where every learner has access to quality learning opportunities.
