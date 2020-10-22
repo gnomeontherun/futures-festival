@@ -3,7 +3,7 @@ length: 45
 type: Workshop
 tags: []
 room: 2
-title: Amplifying Womxn's Voices: Confronting Patriarchy and Imposter Syndrome
+title: "Amplifying Womxn's Voices: Confronting Patriarchy and Imposter Syndrome"
 date: 2020-10-24T11:30:00-04:00
 image: "/images/2020/amplifying-womxns-voices.jpg"
 facilitators: Manpreet Juneja
