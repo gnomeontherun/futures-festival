@@ -4,7 +4,7 @@ type: Workshop
 tags: []
 room: 2
 title: 'Amplifying Womxn''s Voices: Confronting Patriarchy and Imposter Syndrome'
-date: 2020-10-24 12:30:00 -0400
+date: 2020-10-24T12:30:00.000-04:00
 image: "/images/2020/amplifying-womxns-voices.jpg"
 facilitators: Manpreet Juneja
 speakers:
@@ -31,3 +31,12 @@ speakers:
   pronouns: she/her
 
 ---
+Amidst a global pandemic, Covid-19 has exacerbated inequities against marginalized groups and perpetuated the oppression and violence against womxn and girls worldwide. Through global social uprisings, we have witnessed how the diverse voices, narratives and resiliency of womxn worldwide are more important than ever to be centered within the process of re-designing and transforming a post Covid world.  
+  
+This session will support you in:
+
+  
+\- Identifying the historical and social constructs embedded within society that continue to condition and socialize diverse girls and young women to shrink themselves and erode their self worth, whether in the classroom, boardroom and world stage.  
+\- Exploring the ways that Covid-19 continues to amplify gender inequities locally and globally  
+\- Understanding the importance of having women share their diverse narratives and its contribution to global transformation  
+\- Confronting patriarchy and imposter syndrome to find your Voice through interactive activities and resource sharing
