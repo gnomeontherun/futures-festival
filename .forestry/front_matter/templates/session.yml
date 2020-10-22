@@ -55,6 +55,11 @@ fields:
     min: 
     max: 
     step: 
+- name: facilitators
+  type: text
+  config:
+    required: false
+  label: Facilitators
 - name: speakers
   type: field_group_list
   fields:
