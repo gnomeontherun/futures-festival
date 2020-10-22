@@ -23,6 +23,7 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: he/him
+  linkedin: ''
 - speaker: Steven Lichty
   speakerTitle: Managing Partner @ REAL Consulting Group
   image: "/images/2020/steven-lichty.jpg"
@@ -39,5 +40,6 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: he/him
+  linkedin: https://www.linkedin.com/in/steven-lichty/
 
 ---
