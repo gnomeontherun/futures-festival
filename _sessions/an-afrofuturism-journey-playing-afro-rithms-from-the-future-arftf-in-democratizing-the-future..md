@@ -2,7 +2,7 @@
 type: Workshop
 title: 'An Afrofuturism Journey playing Afro-Rithms From The Future (ARFTF) in Democratizing
   the Future. '
-date: 2020-10-24 16:15:00 -0400
+date: 2020-10-24T16:15:00.000-04:00
 room: 1
 length: 60
 image: "/images/2020/an-afrofuturism-journey-playing-afro-rithms-from-the-future-in-democratizing-the-future.jpg"
@@ -65,6 +65,58 @@ speakers:
   pronouns: she/her
   twitter: https://twitter.com/MOCHAarts
   instagram: https://instagram.com/Mochaarts
+- speaker: Ahmed Best
+  speakerTitle: Artist, Futurist
+  image: "/images/2020/afrofuturism-panel.jpg"
+  twitter: ''
+  instagram: ''
+  facebook: ''
+  pronouns: he/him
+  bio: Ahmed is an Adjunct Lecturer at USC School Of Dramatic Arts, Senior Fellow
+    at USC Annenberg school for Communication and Journalism, Host of STAR WARS Jedi
+    Temple Challenge, Host of the Afro-futurist podcast.  CEO of BISN Media. Ahmed
+    is a writer, director, producer, actor, musician, host and futurist. He starred
+    in the Broadway musical Stomp. He then he went on to be the first CGI lead character
+    in a motion picture starring as Jar Jar Binks in Star Wars The Phantom Menace,
+    Attack of the Clones and Revenge of the Sith.
+- speaker: Mike Batista
+  speakerTitle: Equitable Games Group
+  pronouns: he/him
+  image: "/images/2020/afrofuturism-panel.jpg"
+  bio: 'Mike is a Baltimore-based healthcare entrepreneur and one half of Equitable
+    Games Group, a board game publisher focused on creating high-quality games based
+    on social and educational themes that have the potential to impact people with
+    a variety of ages, backgrounds, and identities. Equitable Games Group has designed
+    successful titles securing funding through Kickstarter and winning accolades like
+    top three placement in HABA’s international game design competition. '
+  twitter: ''
+  instagram: ''
+  facebook: ''
+- speaker: Alan Clark
+  speakerTitle: Super Villain
+  image: "/images/2020/afrofuturism-panel.jpg"
+  bio: Alan Saint Clark your friendly neighborhood Super Villain and ontological mechanic
+    here to spread mental viruses. Planting and germinating across the multiverse
+    in the form of comics. Phantomelectric.com
+  twitter: ''
+  instagram: ''
+  facebook: ''
+  pronouns: they/them
+- speaker: Calvin Williams
+  speakerTitle: Cultural Strategist
+  image: ''
+  bio: Calvin Williams is a Cultural Strategies Fellow at Movement Strategy Center.
+    He is a founding creator of Wakanda Dream Lab, producing immersive storytelling
+    experiences through mixed reality art platforms. He conspires with fellow afrofuturists
+    to produce immersive spaces for new stories and storytellers of liberation to
+    emerge. He cosplays as an immersive experience curator, a podcast host for The
+    Big We, and impact producer for Offsides Productions. He lives in Oakland with
+    his Beloveds, Leila & Baby Malik.
+  twitter: ''
+  instagram: ''
+  facebook: ''
+  pronouns: he/him
+tags: []
 
 ---
 Afro-Rithms From The Future game values:
