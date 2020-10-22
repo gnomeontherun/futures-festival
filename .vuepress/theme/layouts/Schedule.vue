@@ -136,9 +136,11 @@ export default {
   filters: {
     localTime(value) {
       // return moment(value).format('h:mm a');
+      console.log(value);
       return new Date(value).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'});
     },
     time(value) {
+      console.log(value);
       // return moment(value).tz('America/New_York').format('h:mm a');
       return new Date(value).toLocaleTimeString([], {timeZone: 'America/New_York', hour: 'numeric', minute:'2-digit'});
     },

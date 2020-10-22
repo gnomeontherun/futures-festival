@@ -2,7 +2,7 @@
 type: Workshop
 title: 'An Afrofuturism Journey playing Afro-Rithms From The Future (ARFTF) in Democratizing
   the Future. '
-date: 2020-10-24T16:15:00.000-04:00
+date: 2020-10-24T16:15:00-04:00
 room: 1
 length: 60
 image: "/images/2020/an-afrofuturism-journey-playing-afro-rithms-from-the-future-in-democratizing-the-future.jpg"
