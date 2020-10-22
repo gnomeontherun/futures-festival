@@ -112,6 +112,11 @@ fields:
     config:
       required: false
     label: Facebook
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: LinkedIn
   config:
     min: 1
     max: 
