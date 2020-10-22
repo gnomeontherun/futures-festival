@@ -23,6 +23,7 @@ speakers:
   twitter: ''
   instagram: https://instagram.com/wild_moon
   facebook: ''
+  linkedin: https://www.linkedin.com/in/wm-asia-clarke/
   pronouns: she/her
   bio: 'Asia Clarke is an international development professional, consultant, strategist
     and artist who is passionate about re-envisioning pan-African diaspora futures.

@@ -42,15 +42,16 @@
             <th>Speakers</th>
             <th>Type</th>
             <th style="min-width: 120px">Start Time</th>
-            <th style="min-width: 120px">End Time</th>
+            <th>Facilitator</th>
           </tr>
         <template v-for="session in roomOne">
           <tr>
-            <td><router-link :to="session.path">{{session.title}}</router-link></td>
-            <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">, </template></template></td>
+            <td v-if="session.path"><router-link :to="session.path">{{session.title}}</router-link></td>
+            <td v-else>{{session.title}}</td>
+            <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
             <td>{{session.frontmatter.date | time}}</td>
-            <td>{{endTime(session.frontmatter)}}</td>
+            <td>{{session.frontmatter.facilitators}}</td>
           </tr>
         </template>
         </table>
@@ -63,15 +64,16 @@
             <th>Speakers</th>
             <th>Type</th>
             <th style="min-width: 120px">Start Time</th>
-            <th style="min-width: 120px">End Time</th>
+            <th>Facilitator</th>
           </tr>
         <template v-for="session in roomTwo">
           <tr>
-            <td><router-link :to="session.path">{{session.title}}</router-link></td>
-            <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">, </template></template></td>
+            <td v-if="session.path"><router-link :to="session.path">{{session.title}}</router-link></td>
+            <td v-else>{{session.title}}</td>
+            <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
             <td>{{session.frontmatter.date | time}}</td>
-            <td>{{endTime(session.frontmatter)}}</td>
+            <td>{{session.frontmatter.facilitators}}</td>
           </tr>
         </template>
         </table>
@@ -91,6 +93,16 @@ import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
+
+const sharedSessions = [
+  { title: 'Introduction', frontmatter: { date: '2020-10-24 07:00:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
+  { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24 09:15:00 -0400', type: 'Break', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Reflection: Obiturary to Self', frontmatter: { date: '2020-10-24 11:00:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Queer resilience admist uncertainty', frontmatter: { date: '2020-10-24 11:00:00 -0400', type: 'Conversation', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Breathing & Meditation', frontmatter:{ date: '2020-10-24 16:00:00 -0400', type: 'Break', speakers: [{ speaker: 'Amy Yockus Hartman'}] }},
+  { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24 18:15:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Zainab Kakal'}] }},
+  { title: 'Closing', frontmatter: { date: '2020-10-24 18:30:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
+];
 
 export default {
   name: 'Sessions',
@@ -117,10 +129,11 @@ export default {
 
   computed: {
     roomOne() {
-      return this.$site.pages
+      const pages = this.$site.pages
         .filter(page => page.regularPath.substring(0, 11) === '/_sessions/' && page.frontmatter.draft !== true)
         .filter(page => page.frontmatter.room == 1)
-        .sort((a, b) => {
+      pages.push(...sharedSessions);
+      return pages.sort((a, b) => {
           const aDate = Date.parse(a.frontmatter.date);
           const bDate = Date.parse(b.frontmatter.date);
           let value = 0;

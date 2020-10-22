@@ -21,6 +21,7 @@ speakers:
   pronouns: she/her
   twitter: ''
   instagram: ''
+  linkedin: https://www.linkedin.com/in/siobhancurtis/
   facebook: ''
 room: 2
 length: 45

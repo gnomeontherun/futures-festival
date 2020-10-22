@@ -10,8 +10,8 @@ speakers:
 - speaker: Lonny Avi J Brooks
   speakerTitle: Associate Professor & Research Affiliate, Institute For The Future,
     Creative Director, Afrofuturist Podcast Network & Black Speculative Arts Movement
-  image: "/images/2020/lonny-j-avi-brooks.jpg"
-  bio: 'Lonny J Avi Brooks is Associate Professor in the department of communication,
+  image: "/images/2020/lonny-avi-j-brooks.jpg"
+  bio: 'Lonny Avi J Brooks is Associate Professor in the department of communication,
     California State University, East Bay, where he piloted the integration of futures
     thinking into the communication curriculum beginning in 2003. Emerging in recent
     years as a leading voice of Afrofuturism 2.0, Brooks contributes prolifically
@@ -26,7 +26,7 @@ speakers:
   pronouns: he/him
 - speaker: Kimberly Kay Daniels
   speakerTitle: Foresight Researcher, Analyst, Writer, and Consultant
-  image: ''
+  image: "/images/2020/afrofuturism-panel.jpg"
   bio: Kay Daniel is a change agent at heart. She is passionate about making small
     impacts that have a ripple effect in making lives better, organizations smarter,
     environments greener, and places more resilient. She is a lifelong learner dedicated
@@ -37,7 +37,7 @@ speakers:
   pronouns: she/her
 - speaker: Lacey Wozny
   speakerTitle: Co-Founder and Director of Programs and Experience at Fathomers
-  image: ''
+  image: "/images/2020/afrofuturism-panel.jpg"
   bio: Lacey Wozny is Co-Founder and Director of Programs and Experience at Fathomers,
     a creative research institute dedicated to producing sites and encounters that
     challenge us to live and act differently in the world. For the past two years,
@@ -51,7 +51,7 @@ speakers:
   pronouns: she/her
 - speaker: Nina Woodruff-Walker
   speakerTitle: Walker, Executive Director, Museum of Children's Art (MOCHA)
-  image: ''
+  image: "/images/2020/afrofuturism-panel.jpg"
   bio: Nina is an Oakland native and MOCHA Executive Director, (www.mocha.org) who
     became a “MOCHA kid” in 1989 when she connected through the East Oakland Youth
     Development Center. When Oakland schools removed art programming from the curriculum,

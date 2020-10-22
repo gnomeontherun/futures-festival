@@ -30,7 +30,7 @@ speakers:
     intersections between design practices and futures studies to facilitate futures
     thinking in transitional times and to unfold democratic futures for and through
     fashion towards a more sustainable world.
-  pronouns: ''
+  pronouns: she/her
   twitter: https://twitter.com/claricegarcia
   instagram: ''
   facebook: ''

@@ -16,8 +16,9 @@ speakers:
     and advisor on emerging trends and the future of work on equity, diversity, and
     inclusion. April also is a Professor of HIM and Cybersecurity.
   pronouns: she/her
-  twitter: ''
+  twitter: 'https://twitter.com/cyberxr'
   instagram: ''
+  linkedin: https://www.linkedin.com/company/the-cyber-xr/
   facebook: ''
 - speaker: Sanchari Das
   speakerTitle: Global Privacy Advisor, XRSI

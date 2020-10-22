@@ -60,7 +60,7 @@ speakers:
   pronouns: she/her
   twitter: ''
   instagram: ''
-  facebook: https://www.facebook.com/tasaffy
+  facebook: https://www.facebook.com/unlearngender
 length: 60 
 tags: []
 room: 1

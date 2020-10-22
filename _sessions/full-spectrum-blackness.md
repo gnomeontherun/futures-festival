@@ -6,7 +6,7 @@ length: 45
 speakers:
 - speaker: Sophia Bazile
   image: "/images/2020/sophia-bazile.jpg"
-  speakerTitle: Indpendent Researcher; Coach and Consultant
+  speakerTitle: Independent Researcher; Coach and Consultant
   bio: As a first-generation Haitian-American who has lived in Latin America, the
     UAE, China, and Southeast Asia, Sophia was moved to contribute to Black Futures
     research around experiences and perceptions of “blackness” in a global context.
@@ -16,12 +16,12 @@ speakers:
     systemically under-represented and marginalized groups. With a deep background
     in education, her work as a Purpose and Impact Coach is largely centered around
     advocating for and galvanizing a more conscious and conscientious youth.
-  pronouns: ''
+  pronouns: she/her
   twitter: ''
   instagram: ''
+  linkedin: https://www.linkedin.com/in/sophiabazile/
   facebook: ''
-title: Full Spectrum Blackness - Not a Monolith, Black Futures in a Post COVID Global
-  Context
+title: Full Spectrum Blackness - Not a Monolith, Black Futures in a Post COVID Global Context
 type: Keynote
 tags: []
 
