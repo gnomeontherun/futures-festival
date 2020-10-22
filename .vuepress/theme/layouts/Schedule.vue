@@ -93,27 +93,27 @@ import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
-import moment from 'moment-timezone'
+// import moment from 'moment-timezone'
 
 const sessionsRoomOne = [
-  { title: 'Introduction', frontmatter: { date: '2020-10-24 07:00:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
-  { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24 09:15:00 -0400', type: 'Break', speakers: [{ speaker: 'Krittika Sharma'}] }},
-  { title: 'Reflection: Obituary to Self', frontmatter: { date: '2020-10-24 11:00:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
-  //{ title: 'Break', frontmatter: { date: '2020-10-24 11:45:00 -0400', type: 'Break', speakers: [{ speaker: ''}] }},
-  { title: 'Queer resilience admist uncertainty', frontmatter: { date: '2020-10-24 13:30:00 -0400', type: 'Conversation', speakers: [{ speaker: 'Lydia Timlin-Broussard'}], facilitators: 'Dave Roselle' }},
-  { title: 'Breathing & Meditation', frontmatter:{ date: '2020-10-24 16:00:00 -0400', type: 'Break', speakers: [{ speaker: 'Amy Yockus Hartman'}] }},
-  { title: 'Back to Back Listening', frontmatter: { date: '2020-10-24 18:15:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Zainab Kakal'}] }},
-  { title: 'Closing', frontmatter: { date: '2020-10-24 18:30:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
+  { title: 'Introduction', frontmatter: { date: '2020-10-24T07:00:00-0400', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
+  { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24T09:15:00-0400', type: 'Break', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Reflection: Obituary to Self', frontmatter: { date: '2020-10-24T11:00:00-0400', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  //{ title: 'Break', frontmatter: { date: '2020-10-24T11:45:00-0400', type: 'Break', speakers: [{ speaker: ''}] }},
+  { title: 'Queer resilience admist uncertainty', frontmatter: { date: '2020-10-24T13:30:00-0400', type: 'Conversation', speakers: [{ speaker: 'Lydia Timlin-Broussard'}], facilitators: 'Dave Roselle' }},
+  { title: 'Breathing & Meditation', frontmatter:{ date: '2020-10-24T16:00:00-0400', type: 'Break', speakers: [{ speaker: 'Amy Yockus Hartman'}] }},
+  { title: 'Back to Back Listening', frontmatter: { date: '2020-10-24T18:15:00-0400', type: 'Reflection', speakers: [{ speaker: 'Zainab Kakal'}] }},
+  { title: 'Closing', frontmatter: { date: '2020-10-24T18:30:00-0400', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
 ];
 
 const sessionsRoomTwo = [
-  { title: 'Introduction', frontmatter: { date: '2020-10-24 07:00:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
-  { title: 'Energizer', frontmatter: { date: '2020-10-24 09:00:00 -0400', type: 'Break', speakers: [{ speaker: ''}] }},
-  { title: 'Reflection: Obituary to Self', frontmatter: { date: '2020-10-24 11:00:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
-  { title: 'Mental Health', frontmatter: { date: '2020-10-24 14:00:00 -0400', type: 'Conversation', speakers: [{ speaker: 'Sheila Mutaramuka'}] }},
-  { title: 'Energizer', frontmatter:{ date: '2020-10-24 16:15:00 -0400', type: 'Break', speakers: [{ speaker: 'Amy Yockus Hartman'}] }},
-  { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24 18:15:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Zainab Kakal'}] }},
-  { title: 'Closing', frontmatter: { date: '2020-10-24 18:30:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
+  { title: 'Introduction', frontmatter: { date: '2020-10-24T07:00:00-0400', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
+  { title: 'Energizer', frontmatter: { date: '2020-10-24T09:00:00-0400', type: 'Break', speakers: [{ speaker: ''}] }},
+  { title: 'Reflection: Obituary to Self', frontmatter: { date: '2020-10-24T11:00:00-0400', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Mental Health', frontmatter: { date: '2020-10-24T14:00:00-0400', type: 'Conversation', speakers: [{ speaker: 'Sheila Mutaramuka'}] }},
+  { title: 'Energizer', frontmatter:{ date: '2020-10-24T16:15:00-0400', type: 'Break', speakers: [{ speaker: 'Amy Yockus Hartman'}] }},
+  { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24T18:15:00-0400', type: 'Reflection', speakers: [{ speaker: 'Zainab Kakal'}] }},
+  { title: 'Closing', frontmatter: { date: '2020-10-24T18:30:00-0400', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
 ];
 
 export default {
@@ -135,12 +135,12 @@ export default {
 
   filters: {
     localTime(value) {
-      return moment(value).format('h:mm a');
-      // return new Date(value).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'});
+      // return moment(value).format('h:mm a');
+      return new Date(value).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'});
     },
     time(value) {
-      return moment(value).tz('America/New_York').format('h:mm a');
-      // return new Date(value).toLocaleTimeString([], {timeZone: 'America/New_York', hour: 'numeric', minute:'2-digit'});
+      // return moment(value).tz('America/New_York').format('h:mm a');
+      return new Date(value).toLocaleTimeString([], {timeZone: 'America/New_York', hour: 'numeric', minute:'2-digit'});
     },
   },
 

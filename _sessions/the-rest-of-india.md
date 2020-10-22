@@ -4,7 +4,7 @@ type: Panel
 tags: []
 room: 1
 title: The rest of India
-date: 2020-10-24 08:15:00 -0400
+date: 2020-10-24T08:15:00-0400
 image: ''
 facilitators: Prateeksha Singh
 speakers:
