@@ -38,11 +38,13 @@
           <h2>Keynotes</h2>
 
           <div cds-layout="grid gap:lg">
-            <div v-for="page in keynotes" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
+            <template v-for="page in keynotes">
+              <div v-if="page.frontmatter.image" cds-layout="col:12 col@sm:6 col@md:3">
+                <router-link :to="page.path">
+                  <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+                </router-link>
+              </div>
+            </template>
           </div>
         </template>
 
@@ -50,11 +52,13 @@
           <h2>Workshops</h2>
 
           <div cds-layout="grid gap:lg">
-            <div v-for="page in workshops" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
+            <template v-for="page in workshops">
+              <div v-if="page.frontmatter.image" cds-layout="col:12 col@sm:6 col@md:3">
+                <router-link :to="page.path">
+                  <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+                </router-link>
+              </div>
+            </template>
           </div>
         </template>
 
@@ -62,11 +66,13 @@
           <h2>Panels</h2>
 
           <div cds-layout="grid gap:lg">
-            <div v-for="page in panels" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
+            <template v-for="page in panels">
+              <div v-if="page.frontmatter.image" cds-layout="col:12 col@sm:6 col@md:3">
+                <router-link :to="page.path">
+                  <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+                </router-link>
+              </div>
+            </template>
           </div>
         </template>
 
@@ -74,11 +80,13 @@
           <h2>Other Formats</h2>
 
           <div cds-layout="grid gap:lg">
-            <div v-for="page in otherFormats" cds-layout="col:12 col@sm:6 col@md:3">
-              <router-link :to="page.path">
-                <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
-              </router-link>
-            </div>
+            <template v-for="page in otherFormats">
+              <div v-if="page.frontmatter.image" cds-layout="col:12 col@sm:6 col@md:3">
+                <router-link :to="page.path">
+                  <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+                </router-link>
+              </div>
+            </template>
           </div>
         </template>
 

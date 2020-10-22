@@ -2,7 +2,7 @@
 type: Workshop
 title: 'Co-designing futures through fashion: speculative ideas when science and second-hand
   clothing collide'
-date: 2020-10-24 18:30:00 -0400
+date: 2020-10-24 09:15:00 -0400
 room: 2
 length: 45
 image: "/images/2020/co-designing-futures-through-fashion.jpg"

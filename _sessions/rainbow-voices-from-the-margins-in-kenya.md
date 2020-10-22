@@ -4,7 +4,7 @@ type: Other Formats
 tags: []
 room: 1
 title: Rainbow Voices from the Margins in Kenya
-date: 2020-10-24 13:00:00 -0400
+date: 2020-10-24 12:00:00 -0400
 image: "/images/2020/rainbow-voices-from-the-margins-in-kenya.jpg"
 speakers:
 - speaker: Francis Kamunya

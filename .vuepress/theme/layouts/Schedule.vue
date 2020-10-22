@@ -50,7 +50,7 @@
             <td v-else>{{session.title}}</td>
             <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
-            <td>{{session.frontmatter.date | time}}</td>
+            <td>{{session.frontmatter.date | localTime}}<br /><small>({{session.frontmatter.date | time}} EST)</small></td>
             <td>{{session.frontmatter.facilitators}}</td>
           </tr>
         </template>
@@ -72,7 +72,7 @@
             <td v-else>{{session.title}}</td>
             <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
-            <td>{{session.frontmatter.date | time}}</td>
+            <td>{{session.frontmatter.date | localTime}}<br /><small>({{session.frontmatter.date | time}} EST)</small></td>
             <td>{{session.frontmatter.facilitators}}</td>
           </tr>
         </template>
@@ -94,12 +94,23 @@ import Sidebar from '@theme/components/Sidebar.vue'
 import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
 
-const sharedSessions = [
+const sessionsRoomOne = [
   { title: 'Introduction', frontmatter: { date: '2020-10-24 07:00:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
   { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24 09:15:00 -0400', type: 'Break', speakers: [{ speaker: 'Krittika Sharma'}] }},
-  { title: 'Reflection: Obiturary to Self', frontmatter: { date: '2020-10-24 11:00:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
-  { title: 'Queer resilience admist uncertainty', frontmatter: { date: '2020-10-24 11:00:00 -0400', type: 'Conversation', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Reflection: Obituary to Self', frontmatter: { date: '2020-10-24 11:00:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Ideas about change: a cross-cultural campaign', frontmatter: { date: '2020-10-24 11:45:00 -0400', type: 'Live experiment', speakers: [{ speaker: 'Wendy Schultz'}] }},
+  { title: 'Queer resilience admist uncertainty', frontmatter: { date: '2020-10-24 13:30:00 -0400', type: 'Conversation', speakers: [{ speaker: 'Lydia Timlin-Broussard'}], facilitators: 'Dave Roselle' }},
   { title: 'Breathing & Meditation', frontmatter:{ date: '2020-10-24 16:00:00 -0400', type: 'Break', speakers: [{ speaker: 'Amy Yockus Hartman'}] }},
+  { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24 18:15:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Zainab Kakal'}] }},
+  { title: 'Closing', frontmatter: { date: '2020-10-24 18:30:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
+];
+
+const sessionsRoomTwo = [
+  { title: 'Introduction', frontmatter: { date: '2020-10-24 07:00:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
+  { title: 'Energizer', frontmatter: { date: '2020-10-24 09:00:00 -0400', type: 'Break', speakers: [{ speaker: ''}] }},
+  { title: 'Reflection: Obituary to Self', frontmatter: { date: '2020-10-24 11:00:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Mental Health', frontmatter: { date: '2020-10-24 14:00:00 -0400', type: 'Conversation', speakers: [{ speaker: 'Sheila Mutaramuka'}] }},
+  { title: 'Energizer', frontmatter:{ date: '2020-10-24 16:15:00 -0400', type: 'Break', speakers: [{ speaker: 'Amy Yockus Hartman'}] }},
   { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24 18:15:00 -0400', type: 'Reflection', speakers: [{ speaker: 'Zainab Kakal'}] }},
   { title: 'Closing', frontmatter: { date: '2020-10-24 18:30:00 -0400', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
 ];
@@ -122,9 +133,12 @@ export default {
   },
 
   filters: {
-    time(value) {
+    localTime(value) {
       return new Date(value).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'});
-    }
+    },
+    time(value) {
+      return new Date(value).toLocaleTimeString([], {timeZone: 'America/New_York', hour: 'numeric', minute:'2-digit'});
+    },
   },
 
   computed: {
@@ -132,7 +146,7 @@ export default {
       const pages = this.$site.pages
         .filter(page => page.regularPath.substring(0, 11) === '/_sessions/' && page.frontmatter.draft !== true)
         .filter(page => page.frontmatter.room == 1)
-      pages.push(...sharedSessions);
+      pages.push(...sessionsRoomOne);
       return pages.sort((a, b) => {
           const aDate = Date.parse(a.frontmatter.date);
           const bDate = Date.parse(b.frontmatter.date);
@@ -146,10 +160,11 @@ export default {
         })
     },
     roomTwo() {
-      return this.$site.pages
+      const pages =  this.$site.pages
         .filter(page => page.regularPath.substring(0, 11) === '/_sessions/' && page.frontmatter.draft !== true)
         .filter(page => page.frontmatter.room == 2)
-        .sort((a, b) => {
+      pages.push(...sessionsRoomTwo);
+      return pages.sort((a, b) => {
           const aDate = Date.parse(a.frontmatter.date);
           const bDate = Date.parse(b.frontmatter.date);
           let value = 0;

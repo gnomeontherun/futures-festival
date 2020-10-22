@@ -4,7 +4,7 @@ type: Panel
 tags: []
 room: 2
 title: How do young people of today imagine tomorrow. Their voice matters.
-date: 2020-10-24T12:00:00.000-04:00
+date: 2020-10-24 10:00:00 -04:00
 image: "/images/2020/how-do-young-people-of-today-imagine-tomorrow-1.jpg"
 speakers:
 - speaker: Lourdes Rodriguez

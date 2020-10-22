@@ -37,7 +37,7 @@
         <div cds-layout="grid gap:lg">
           <template v-for="page in $site.pages">
           <template v-for="speaker in page.frontmatter.speakers">
-          <div cds-layout="col:12 col@sm:6 col@md:3" v-if="speaker.image">
+          <div cds-layout="col:12 col@sm:6 col@md:3" v-if="shouldDisplay(page, speaker)">
             <router-link :to="page.path">
               <img :src="speaker.image" v-bind:alt="speaker.speaker" class="max-img" />
             </router-link>
@@ -78,7 +78,6 @@ export default {
   },
 
   data () {
-    console.log(this);
     return {
       isSidebarOpen: false
     }
@@ -143,6 +142,23 @@ export default {
   },
 
   methods: {
+    shouldDisplay(page, speaker) {
+      if (
+        speaker.speaker.toUpperCase() === 'LOURDES RODRIGUEZ'
+        || speaker.speaker.toUpperCase() === 'KIMBERLY KAY DANIELS'
+        || speaker.speaker.toUpperCase() === 'LACEY WOZNY'
+        || speaker.speaker.toUpperCase() === 'NINA WOODRUFF-WALKER'
+        || speaker.speaker.toUpperCase() === 'AHMED BEST'
+        || speaker.speaker.toUpperCase() === 'MIKE BATISTA'
+        || speaker.speaker.toUpperCase() === 'ALAN CLARK'
+        || speaker.speaker.toUpperCase() === 'CALVIN WILLIAMS'
+        || !speaker.image
+        ) {
+        return false;
+      }
+      return true;
+    },
+
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
       this.$emit('toggle-sidebar', this.isSidebarOpen)

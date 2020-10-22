@@ -1,5 +1,5 @@
 ---
-date: 2020-10-24 18:30:00 -0400
+date: 2020-10-24 15:15:00 -0400
 image: /images/2020/unpacking-anti-racism-and-allyship.jpg
 speakers:
 - speaker: Karen Craggs-Milne
@@ -10,6 +10,8 @@ speakers:
 title: Unpacking anti-racism and allyship
 type: Workshop
 facilitators: Wendy De Souza
+room: 2
+length: 60
 ---
 
 Organizations and communities all over the world are being called upon to do the work to actively dismantle racism. 

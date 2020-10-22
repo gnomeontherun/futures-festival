@@ -1,7 +1,7 @@
 ---
 type: Workshop
 title: "#LivetheFutureNOW: Leveraging Social Media to Democratize Futures Thinking"
-date: 2020-10-24 15:15:00 -0400
+date: 2020-10-24 17:15:00 -0400
 image: "/images/2020/livethefuturenow-leveraging-social-media-to-democratize-futures-thinking.jpg"
 room: 2
 length: 60
