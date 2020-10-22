@@ -38,11 +38,11 @@
 
         <table>
           <tr>
-            <th style="max-width: 40%">Session</th>
+            <th style="width: 400px">Session</th>
             <th>Speakers</th>
-            <th>Type</th>
-            <th style="min-width: 120px">Start Time</th>
-            <th>Facilitators</th>
+            <th style="width: 150px">Type</th>
+            <th style="width: 120px">Start Time</th>
+            <th style="width: 200px">Facilitators</th>
           </tr>
         <template v-for="session in roomOne">
           <tr>
@@ -60,11 +60,11 @@
 
         <table>
           <tr>
-            <th style="max-width: 40%">Session</th>
+            <th style="width: 400px">Session</th>
             <th>Speakers</th>
-            <th>Type</th>
-            <th style="min-width: 120px">Start Time</th>
-            <th>Facilitators</th>
+            <th style="width: 150px">Type</th>
+            <th style="width: 120px">Start Time</th>
+            <th style="width: 200px">Facilitators</th>
           </tr>
         <template v-for="session in roomTwo">
           <tr>
