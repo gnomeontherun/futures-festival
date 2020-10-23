@@ -4,8 +4,8 @@ type: Workshop
 tags: []
 room: 2
 title: Building a Manifesto for 2050
-date: 2020-10-24T13:00:00-04:00
-image: ''
+date: 2020-10-24T13:00:00.000-04:00
+image: "/images/2020/building-a-manifesto-for-2050.png"
 facilitators: Maggie Greyson
 speakers:
 - speaker: Rodrigo Mendes Leal
