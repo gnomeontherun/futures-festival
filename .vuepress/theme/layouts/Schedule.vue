@@ -34,16 +34,18 @@
 
         <h1>2020 Futures Festival Schedule</h1>
 
-        <p><i>All Schedule times shown are already converted to your local time for convenience! Just show up at that time. No conversion required.</i></p>
+        <p><b><a href="/2020-schedule.pdf">Download the schedule as PDF</a>.</b></p>
 
         <h2>Room 1</h2>
+        
+        <p><b>*All Schedule times shown are already converted to your local time for convenience! Just show up at that time. No conversion required.</b></p>
 
         <table>
           <tr>
             <th>Session</th>
             <th style="width: 300px">Speakers</th>
             <th style="width: 150px">Type</th>
-            <th style="width: 150px">Local Time</th>
+            <th style="width: 150px">Local Time*</th>
             <th style="width: 200px">Facilitators</th>
           </tr>
         <template v-for="session in roomOne">
@@ -60,12 +62,14 @@
 
         <h2>Room 2</h2>
 
+        <p><b>*All Schedule times shown are already converted to your local time for convenience! Just show up at that time. No conversion required.</b></p>
+
         <table>
           <tr>
             <th>Session</th>
             <th style="width: 300px">Speakers</th>
             <th style="width: 150px">Type</th>
-            <th style="width: 150px">Local Time</th>
+            <th style="width: 150px">Local Time*</th>
             <th style="width: 200px">Facilitators</th>
           </tr>
         <template v-for="session in roomTwo">
