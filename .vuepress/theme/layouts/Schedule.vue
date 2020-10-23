@@ -34,6 +34,8 @@
 
         <h1>2020 Futures Festival Schedule</h1>
 
+        <p><i>All Schedule times shown are already converted to your local time for convenience! Just show up at that time. No conversion required.</i></p>
+
         <h2>Room 1</h2>
 
         <table>
@@ -41,7 +43,7 @@
             <th>Session</th>
             <th style="width: 300px">Speakers</th>
             <th style="width: 150px">Type</th>
-            <th style="width: 150px">Start Time</th>
+            <th style="width: 150px">Local Time</th>
             <th style="width: 200px">Facilitators</th>
           </tr>
         <template v-for="session in roomOne">
@@ -50,7 +52,7 @@
             <td v-else>{{session.title}}<template v-if="session.frontmatter.summary"><p><i>{{session.frontmatter.summary}}</i></p></template></td>
             <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
-            <td>{{session.frontmatter.date | localTime}}<br /><small>({{session.frontmatter.date | time}})</small></td>
+            <td>{{session.frontmatter.date | localTime}}</td>
             <td>{{session.frontmatter.facilitators}}</td>
           </tr>
         </template>
@@ -63,7 +65,7 @@
             <th>Session</th>
             <th style="width: 300px">Speakers</th>
             <th style="width: 150px">Type</th>
-            <th style="width: 150px">Start Time</th>
+            <th style="width: 150px">Local Time</th>
             <th style="width: 200px">Facilitators</th>
           </tr>
         <template v-for="session in roomTwo">
@@ -72,7 +74,7 @@
             <td v-else>{{session.title}}<template v-if="session.frontmatter.summary"><p><i>{{session.frontmatter.summary}}</i></p></template></td>
             <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
-            <td>{{session.frontmatter.date | localTime}}<br /><small>({{session.frontmatter.date | time}})</small></td>
+            <td>{{session.frontmatter.date | localTime}}</td>
             <td>{{session.frontmatter.facilitators}}</td>
           </tr>
         </template>
