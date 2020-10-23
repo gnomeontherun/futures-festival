@@ -38,10 +38,10 @@
 
         <table>
           <tr>
-            <th style="width: 400px">Session</th>
-            <th>Speakers</th>
+            <th>Session</th>
+            <th style="width: 300px">Speakers</th>
             <th style="width: 150px">Type</th>
-            <th style="width: 120px">Start Time</th>
+            <th style="width: 150px">Start Time</th>
             <th style="width: 200px">Facilitators</th>
           </tr>
         <template v-for="session in roomOne">
@@ -50,7 +50,7 @@
             <td v-else>{{session.title}}<template v-if="session.frontmatter.summary"><p><i>{{session.frontmatter.summary}}</i></p></template></td>
             <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
-            <td>{{session.frontmatter.date | localTime}}<br /><small>({{session.frontmatter.date | time}} EST)</small></td>
+            <td>{{session.frontmatter.date | localTime}}<br /><small>({{session.frontmatter.date | time}})</small></td>
             <td>{{session.frontmatter.facilitators}}</td>
           </tr>
         </template>
@@ -60,10 +60,10 @@
 
         <table>
           <tr>
-            <th style="width: 400px">Session</th>
-            <th>Speakers</th>
+            <th>Session</th>
+            <th style="width: 300px">Speakers</th>
             <th style="width: 150px">Type</th>
-            <th style="width: 120px">Start Time</th>
+            <th style="width: 150px">Start Time</th>
             <th style="width: 200px">Facilitators</th>
           </tr>
         <template v-for="session in roomTwo">
@@ -72,7 +72,7 @@
             <td v-else>{{session.title}}<template v-if="session.frontmatter.summary"><p><i>{{session.frontmatter.summary}}</i></p></template></td>
             <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
-            <td>{{session.frontmatter.date | localTime}}<br /><small>({{session.frontmatter.date | time}} EST)</small></td>
+            <td>{{session.frontmatter.date | localTime}}<br /><small>({{session.frontmatter.date | time}})</small></td>
             <td>{{session.frontmatter.facilitators}}</td>
           </tr>
         </template>
@@ -134,10 +134,12 @@ export default {
 
   filters: {
     localTime(value) {
-      return new Date(value).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'});
+      // return new Date(value).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'});
+      return new Intl.DateTimeFormat([], {hour: 'numeric', minute: '2-digit', timeZoneName: 'short'}).format(new Date(value));
     },
     time(value) {
-      return new Date(value).toLocaleTimeString([], {timeZone: 'America/New_York', hour: 'numeric', minute:'2-digit'});
+      // return new Date(value).toLocaleTimeString([], {timeZone: 'America/New_York', hour: 'numeric', minute:'2-digit'});
+      return new Intl.DateTimeFormat([], {hour: 'numeric', minute: '2-digit', timeZoneName: 'short', timeZone: 'America/New_York'}).format(new Date(value));
     },
   },
 
