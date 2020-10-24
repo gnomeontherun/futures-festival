@@ -90,6 +90,20 @@
           </div>
         </template>
 
+        <template v-if="otherFormats.length">
+          <h2>Break Sessions</h2>
+
+          <div cds-layout="grid gap:lg">
+            <template v-for="page in breakSessions">
+              <div v-if="page.frontmatter.image" cds-layout="col:12 col@sm:6 col@md:3">
+                <router-link :to="page.path">
+                  <img :src="page.frontmatter.image" v-bind:alt="page.frontmatter.title" class="max-img" />
+                </router-link>
+              </div>
+            </template>
+          </div>
+        </template>
+
       </div>
       
     </div>
@@ -135,6 +149,9 @@ export default {
     },
     panels() {
       return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Panel' && frontmatter.draft !== true);
+    },
+    breakSessions() {
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Break Session' && frontmatter.draft !== true);
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site
