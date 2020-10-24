@@ -34,6 +34,8 @@
 
         <h1>2020 Futures Festival Schedule</h1>
 
+        <h2>October 24, 2020 (local times below might may cross over to October 25 depending on your timezone)</h2>
+
         <p><b><a href="/2020-schedule.pdf">Download the schedule as PDF</a>.</b></p>
 
         <h2>Room 1</h2>
@@ -117,7 +119,7 @@ const sessionsRoomTwo = [
   { title: 'Reflection: Obituary to Self', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T11:00:00-04:00', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
   // { title: 'How to keep your mental health in check', frontmatter: { summary: ' In this conversation session, Sheila Mutaramuka, Creative Director of Maqoba, will talk with about: A practical 5 minute activity of how to calm yourself down in stressful situations at work and in daily life. Open Dialogue on why mental health is more important now than ever. Tips and tricks to help maintain your mental health', date: '2020-10-24T14:00:00-04:00', type: 'Conversation', speakers: [{ speaker: 'Sheila Mutaramuka'}] }},
   { title: 'Energizer', frontmatter:{ date: '2020-10-24T16:15:00-04:00', type: 'Break', speakers: [{ speaker: ''}] }},
-  { title: 'Breathing & Meditation', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T18:15:00-04:00', type: 'Break Session', speakers: [{ speaker: 'Zainab Kakal'}] }},
+  { title: 'This room ends, join Zainab in Room 1', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T18:15:00-04:00', type: 'Break Session', speakers: [{ speaker: 'Zainab Kakal'}] }},
   { title: 'Closing', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T18:30:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
 ];
 
