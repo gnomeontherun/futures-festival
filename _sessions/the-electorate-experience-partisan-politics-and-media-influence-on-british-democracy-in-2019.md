@@ -26,6 +26,7 @@ speakers:
   facebook: ''
 room: 2
 length: 45
+video: 479862152
 
 ---
 With political communication becoming increasingly mediated and the UK free and independent press in rapid decline, we wanted to understand what the UK’s experience of political events means for democracy and the future of our democratic institutions.
