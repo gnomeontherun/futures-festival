@@ -12,6 +12,7 @@ type: Workshop
 facilitators: Wendy De Souza
 room: 2
 length: 60
+video: 479834801
 ---
 
 Organizations and communities all over the world are being called upon to do the work to actively dismantle racism. 

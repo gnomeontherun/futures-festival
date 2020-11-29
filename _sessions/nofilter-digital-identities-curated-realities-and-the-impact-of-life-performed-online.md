@@ -35,7 +35,7 @@ speakers:
   instagram: ''
   facebook: ''
   pronouns: she/her
-
+video: 479858650
 ---
 Life in lockdown has made our digital identities our only encounters with one another. In the digital age, filtered or edited photos are more common than not. Life isn’t lived, it’s curated. This has come to influence, not only how we depict ourselves online, but also the extent to which we emulate said digital identities offline. One has immediate access to tools to cover their insecurities or fine-tune with Facetune. These behaviours have given rise to new health conditions like Snapchat dysmorphia, a condition coined by surgeons continuously asked by patients to “look like their selfie”. In a world where we see each other less and less in person, what kind of impact might this behaviour have on identity, beauty and confidence? What happens when your self doesn’t look like your selfie or when we all aim for a single version of beauty?? In a post-covid world, does that even matter anymore? 
 

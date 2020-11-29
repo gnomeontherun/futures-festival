@@ -64,7 +64,7 @@ speakers:
 length: 60 
 tags: []
 room: 1
-
+video: 479831551
 ---
 ‘Spectrum of Choice’ - a theater production focused on gender and sexuality, the constraints around these issues in Bangladeshi society, and how we all navigate and bypass these barriers to discover our own selves. The production is based on a collection of real stories and experiences faced by women, men, and other identities of Bangladeshis. The online show seeks to acknowledge all the lives lived around us, to learn to give and claim space for the diversity of choices, and to love and accept without prejudice.
 

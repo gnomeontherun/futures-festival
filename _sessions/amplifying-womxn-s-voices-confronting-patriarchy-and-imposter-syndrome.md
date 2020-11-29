@@ -29,6 +29,7 @@ speakers:
   facebook: ''
   linkedin: ''
   pronouns: she/her
+video: 477109431
 
 ---
 Amidst a global pandemic, Covid-19 has exacerbated inequities against marginalized groups and perpetuated the oppression and violence against womxn and girls worldwide. Through global social uprisings, we have witnessed how the diverse voices, narratives and resiliency of womxn worldwide are more important than ever to be centered within the process of re-designing and transforming a post Covid world.  

@@ -92,6 +92,6 @@ speakers:
   facebook: ''
   pronouns: she/her
   linkedin: ''
-
+video: 479991115
 ---
 Much has been written about post-COVID-19 scenarios and how the world could look once the crisis is overcome. Many of the analyses take a rather bleak outlook at the future(s) that might unfold. By using foresight techniques such as storytelling, backcasting and immersion our group of young foresighters from the School of International Futures’ Next Generation Foresight Practitioners network (NGFP) take somewhat of a different approach.

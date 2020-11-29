@@ -41,7 +41,7 @@ speakers:
   facebook: ''
   pronouns: he/him
   linkedin: https://www.linkedin.com/in/steven-lichty/
-
+video: 479816563
 ---
 
 Break Margins Africa (BMA) is a unique non-profit organisation based in Kenya which is committed to alleviating poverty and restoring dignity to marginalised young gay men in Nairobi, Kenya. BMA’s theory of change relies on economic empowerment and psychosocial support to support these young men in developing potential and building purposeful and meaningful lives. However, many of these guys have encountered numerous adverse childhood experiences and wrestle with various forms of trauma. This presentation discusses two participatory experiences. The first relates to BMA’s staff as they look at where they envision BMA in 2030 and how the LGBTI community might be living. The second experience captures the journey of these young men as they engage with imagining their preferred future, including how traumatic experiences shape their views of the past and hope for the future. Futures thinking is in fact a luxury that many take for granted. When an individual has little agency and a past haunted with trauma, depression, doubt, and self-hatred, thinking about the future can seem futile. The audacity of hope can leave many with only the dream of one day having a dream. Participants will learn critical empathy and the power of the human soul to soar.

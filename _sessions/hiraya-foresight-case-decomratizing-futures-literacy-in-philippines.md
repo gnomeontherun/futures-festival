@@ -36,6 +36,7 @@ title: Hiraya Foresight - The Case of Democratizing Futures Literacy in the Phil
 type: Keynote
 room: 2
 length: 60
+video: 477094564
 
 ---
 How might Filipino futurists and practitioners decolonize and democratize futures literacy knowledge and access in the Philippines? What does a socio-aspirational approach to futures literacy look like?  What is the Hiraya Foresight approach? What makes it socio-aspirational? How might we make futures literacy and praxis culturally engaging, authentic, empowering, accessible, radical, meaningful, and impactful?  This presentation aims to share the Philippine Futures Thinking Society's full-spectrum case and story of igniting the Filipino Hiraya (the fruit of one's aspirations, hopes, and dreams) through the power of foresight.

@@ -19,6 +19,7 @@ speakers:
   pronouns: he/him
 length: 30
 tags: []
+video: 479810468
 
 ---
 The presentation will be about how I used the covid-19 crisis to create a movement called ‘A Plate Full of Hope’ that used art to provide meals and hope to millions across India. It brought together artists, charities, good samaritans and art-loves from all over the world. In total 150,000 meals were provided to the needy in just the span of one month [https://www.theplatedproject.com/](https://www.theplatedproject.com/ "https://www.theplatedproject.com/"). When covid-19 struck India, 140 million people lost their jobs, out of these over 100 million were migrant workers and daily wage earners. 

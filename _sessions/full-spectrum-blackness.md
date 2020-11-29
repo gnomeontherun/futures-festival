@@ -25,6 +25,7 @@ speakers:
 title: Full Spectrum Blackness - Not a Monolith, Black Futures in a Post COVID Global Context
 type: Keynote
 tags: []
+video: 477117179
 
 ---
 The presentation will be about various workshops I've facilitated across different demographics of Black-identifying individuals across the globe (remotely).

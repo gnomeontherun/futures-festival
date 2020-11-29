@@ -44,6 +44,15 @@
         </div>
       </div>
 
+      <template v-if="$page.frontmatter.video">
+      <h2>Video</h2>
+
+      <div style="position: relative; overflow: hidden; padding-top: 56.25%;">
+        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" :src="'https://player.vimeo.com/video/'+$page.frontmatter.video" xwidth="100%" xheight="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      <p><a :href="'https://vimeo.com/'+$page.frontmatter.video">See the video on Vimeo</a> from <a href="https://vimeo.com/profuturists">APF</a>.</p>
+      </template>
+
       <h2>Presenters</h2>
 
       <div cds-layout="grid gap:lg" v-for="speaker in $page.frontmatter.speakers">

@@ -14,6 +14,7 @@ speakers:
 room: 2
 length: 45
 facilitators: Tomas Rehacek
+video: 477044667
 
 ---
 I aim to highlight general misconceptions of human behaviour, particularly in relation to altruism and cooperative effort; how our current methodology cannot lead us to where we all unanimously want to go; how some of our most basic behaviours are exacerbating the problems we want to solve and how adopting sharing more into our daily lives can free us (and planet) in ways we can scarcely imagine now.

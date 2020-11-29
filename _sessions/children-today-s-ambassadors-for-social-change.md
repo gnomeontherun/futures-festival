@@ -39,6 +39,7 @@ speakers:
 length: 30 
 tags: []
 room: 2
+video: 477104982
 
 ---
 The presentation will focus on what happens when children lead us with courage and compassion towards a just and equitable world. What can we as adults learn from children (and we believe there are many, curiosity and kindness for example).

@@ -88,6 +88,7 @@ speakers:
   linkedin: ''
   pronouns: ''
 facilitators: ''
+video: 477132856
 
 ---
 Nowadays we live in an 'adultocracy' where only adults are the ones who are considered mature enough to think about the future and make decisions about it. We should start including young people and kids in this types of conversations and forums.  

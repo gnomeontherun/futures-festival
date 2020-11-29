@@ -46,7 +46,7 @@ speakers:
   facebook: https://www.facebook.com/sunoindia.in
   linkedin: https://www.linkedin.com/in/sunoindia.in
   pronouns: she/her
-
+video: 477054095
 ---
 This panel is a conversation with three Indian journalists and storytellers, Priyadharsini- Founder of ‘The Blue Club’, a grassroots media organization that brings marginalized voices to the forefront and works across caste and gender, Priti David who the Education Editor with People’s Archive of Rural India, a journalism website reporting stories of rural Indians, and DVL Padma Priya the Editor and Co-founder of Suno India (In English “Listen India”), a multi-lingual and multi-generational podcast platform.  
   

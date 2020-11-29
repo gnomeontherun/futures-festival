@@ -6,8 +6,8 @@
     <p class="showcase center">Showcasing our collective stories</p>
     <img class="showcase-img" src="/images/futures.svg" alt="Full Spectrum Futures">
     <div cds-layout="align:center" class="center"><h2 class="header-3">Saturday <b>October 24, 2020</b><br /> <time id="start" datetime="2020-10-24 14:00UTC">07:00</time> to <time id="end">19:00 UTC-5</time></h2></div>
-    <p class="center">Online Event - Free to all!</p>
-    <p class="center"><a href="https://www.apf.org/events/register.aspx?id=1397920" class="register-link">Register Now!</a></p>
+    <p class="center">Thank you to our 40+ speakers, all 700+ registered participants, and the team that worked tirelessly to organize FuturesFest20, we wrap up the festival with the release all session videos!</p>
+    <p class="center"><a href="https://vimeo.com/showcase/7773726" class="register-link">See 2020 Videos</a></p>
     <p class="center">Join the conversation using #FuturesFest20  #FullSpectrumFutures </p>
   </div>
 
@@ -29,7 +29,7 @@
   </div>
 
   <!-- Registration -->
-  <h2 class="header-1 center" cds-layout="align:center">Registrations <span class="header-1-alt">Open</span></h2>
+  <!-- <h2 class="header-1 center" cds-layout="align:center">Registrations <span class="header-1-alt">Open</span></h2>
   <div cds-layout="grid gap:lg" >
     <div cds-layout="col@sm:12 col@md:3">
       <div cds-layout="grid gap:lg">
@@ -48,7 +48,7 @@
       <p>&nbsp;</p>
       <p class="right"><a href="https://www.apf.org/events/register.aspx?id=1397920" class="register-link-alt">Register Now!</a></p>
     </div>
-  </div>
+  </div> -->
 
   <!-- Sessions -->
   <h2 class="header-1 center" cds-layout="align:center">Sessions</h2>
@@ -80,6 +80,7 @@
   <div cds-layout="vertical gap:md align:horizontal-stretch" id="archives">
     <h2 class="header-1 center">Archives</h2>
     <p class="center">You can view all videos from previous festivals on Vimeo!</p>
+    <p class="center"><a href="https://vimeo.com/showcase/7773726">2020 - Full Spectrum Futures</a></p>
     <p class="center"><a href="https://vimeo.com/channels/radicaltransformations">2019 - Radical Transformations</a></p>
     <p class="center"><a href="https://vimeo.com/channels/diversefutures">2018 - Diverse Futures</a></p>
   </div>

@@ -37,7 +37,7 @@ speakers:
   twitter: https://twitter.com/itschristycasey
   instagram: https://instagramcom/itschristycasey
   facebook: ''
-
+video: 479841317
 ---
 This experiential workshop will immerse you in a fictional future set in the year 2032 when an Indigenous Latinx Woman is running for President of the United States. As a global citizen in the year 2032, you'll be attending a Wide Awakes community meeting. We’ll start by acknowledging the events of the past that brought us to this point, reflecting on the present (i.e. 2032), and casting a vision for the future. Then you & fellow community members will co-create ideas for the next play in the infinite game. 
 

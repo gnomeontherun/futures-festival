@@ -73,6 +73,7 @@ speakers:
 length: 60
 tags: []
 room: 1
+video: 477081547
 
 ---
 As the world grapples with the unprecedented circumstances surrounding the COVID-19 global pandemic, it also presents an opportune time to actively address the human-side of what’s been brewing beneath the surface of our very existence - the impact and dire consequences of the lack of inclusion, equity, and accessibility in all facets of our lives.  
