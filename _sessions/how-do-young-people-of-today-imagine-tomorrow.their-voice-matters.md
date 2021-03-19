@@ -4,7 +4,7 @@ type: Panel
 tags: []
 room: 2
 title: How do young people of today imagine tomorrow. Their voice matters.
-date: 2020-10-24 10:00:00 -04:00
+date: 2020-10-24T10:00:00.000-04:00
 image: "/images/2020/how-do-young-people-of-today-imagine-tomorrow-1.jpg"
 speakers:
 - speaker: Lourdes Rodriguez
@@ -54,17 +54,6 @@ speakers:
   image: "/images/2020/arlynn-veldink.jpg"
   bio: 'Desired future: A world in which there is a good balance between nature and
     human. And everybody is treated equally. '
-  twitter: ''
-  instagram: ''
-  facebook: ''
-  linkedin: ''
-  pronouns: ''
-- speaker: 'Anushka Quadir '
-  speakerTitle: 'Age: 15, Location: Dhaka, Bangladesh.'
-  image: "/images/2020/anushka-quadir.jpg"
-  bio: |-
-    I'm really interested in economics and anything related to social injustice or political science!
-    I think my biggest fear of the future is the mentality that people carry.
   twitter: ''
   instagram: ''
   facebook: ''
