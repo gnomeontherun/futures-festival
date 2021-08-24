@@ -130,7 +130,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .showcase {
   color: var(--ff-blue);
   letter-spacing: 3px;

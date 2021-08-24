@@ -12,12 +12,13 @@ module.exports = {
     logo: '/images/logo.svg',
     search: false,
     nav: [
+      { text: 'Registration coming soon', link: '/#' },
       // { text: 'Register', link: 'https://www.apf.org/events/register.aspx?id=1397920' },
-      // { text: 'Schedule', link: '/schedule' },
-      { text: 'Videos', link: 'https://vimeo.com/showcase/7773726' },
-      { text: 'Sessions', link: '/sessions/' },
-      { text: 'Speakers', link: '/speakers/' },
-      { text: 'About', link: '/about' },
+      // { text: 'Sessions', link: '/sessions/' },
+      // { text: 'Speakers', link: '/speakers/' },
+      // { text: 'About', link: '/about' },
+      { text: 'Archives', link: '/#archives' },
+
     ]
   },
   plugins: [

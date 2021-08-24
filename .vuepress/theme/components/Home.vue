@@ -3,16 +3,20 @@
 
   <!-- Banner -->
   <div cds-layout="vertical gap:md align:horizontal-stretch">
-    <p class="showcase center">Showcasing our collective stories</p>
-    <img class="showcase-img" src="/images/futures.svg" alt="Full Spectrum Futures">
-    <div cds-layout="align:center" class="center"><h2 class="header-3">Saturday <b>October 24, 2020</b><br /> <time id="start" datetime="2020-10-24 14:00UTC">07:00</time> to <time id="end">19:00 UTC-5</time></h2></div>
-    <p class="center">Thank you to our 40+ speakers, all 700+ registered participants, and the team that worked tirelessly to organize FuturesFest20, we wrap up the festival with the release all session videos!</p>
-    <p class="center"><a href="https://vimeo.com/showcase/7773726" class="register-link">See 2020 Videos</a></p>
-    <p class="center">Join the conversation using #FuturesFest20  #FullSpectrumFutures </p>
+    <div><img class="showcase-img" src="/images/header-banner.png" alt="Shifting from Me to We"></div>
+    <h2 class="showcase center">• Achieving positive impact<br/> through collective journeys •</h2>
+    <div cds-layout="align:center" class="center">
+      <h2 class="date">October 24, 2021</h2>
+      <h3 class="time"><time id="start" datetime="2020-10-24 14:00UTC">07:00</time> to <time id="end">19:00 UTC-5</time></h3>
+      </div>
+    <!-- <p class="center">Online Event - Free to all!</p> -->
+    <p class="center">Join the conversation using #ShiftingFromMeToWe and #FuturesFest21 </p>
+    <p class="center">Registration coming soon!</p>
+    <!-- <p class="center"><a href="/invite.ics">Save it on your calendar!</a></p> -->
   </div>
 
   <!-- Intro -->
-  <div cds-layout="grid gap:lg">
+  <!-- <div cds-layout="grid gap:lg">
     <div cds-layout="display:none display@sm:block col@sm:3">
       <img src="/images/stacks.png" alt="Stacks of shapes" class="max-img" style="padding-top: 40px;">
     </div>
@@ -26,7 +30,7 @@
       <p>Because after Collapse comes Transformation, this year we open space for dissent; we put emphasis on the spectrum of views, and voices needed to collectively create our alternative futures. Our festival focus this year, Full Spectrum Futures, is about radical unity.</p>
       <a id="call-for-speakers"></a>
     </div>
-  </div>
+  </div> -->
 
   <!-- Registration -->
   <!-- <h2 class="header-1 center" cds-layout="align:center">Registrations <span class="header-1-alt">Open</span></h2>
@@ -51,7 +55,7 @@
   </div> -->
 
   <!-- Sessions -->
-  <h2 class="header-1 center" cds-layout="align:center">Sessions</h2>
+  <!-- <h2 class="header-1 center" cds-layout="align:center">Sessions</h2>
   <div cds-layout="grid gap:lg" class="clear-margin-bottom">
     <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
       <router-link :to="session.path">
@@ -61,10 +65,10 @@
   </div>
   <div>
     <p class="right"><a href="/sessions/" class="register-link">See All Sessions &raquo;</a></p>
-  </div>
+  </div> -->
 
   <!-- Speakers -->
-  <h2 class="header-1 center" cds-layout="align:center">Speakers</h2>
+  <!-- <h2 class="header-1 center" cds-layout="align:center">Speakers</h2>
   <div cds-layout="grid gap:lg" class="clear-margin-bottom">
     <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
       <router-link :to="session.path">
@@ -74,7 +78,7 @@
   </div>
   <div>
     <p class="right"><a href="/speakers/" class="register-link">See All Speakers &raquo;</a></p>
-  </div>
+  </div> -->
 
   <!-- Archives -->
   <div cds-layout="vertical gap:md align:horizontal-stretch" id="archives">
@@ -100,9 +104,11 @@ export default {
 
 <style lang="css">
 .showcase {
-  color: var(--ff-blue);
-  letter-spacing: 3px;
-  font-weight: bolder;
+  color: var(--ff-color-secondary-1);
+  font-style: italic;
+}
+.showcase-img {
+  max-width: 100%;
 }
 .max-img {
   max-width: 100%;
@@ -114,6 +120,14 @@ export default {
   .padding-left-xl {
     padding-left: 0;
   }
+}
+.date {
+  text-transform: uppercase;
+  color: var(--ff-color-secondary-6);
+}
+.time {
+  text-transform: uppercase;
+  color: var(--ff-color-secondary-8);
 }
 .register-link {
   color: white;

@@ -7,6 +7,18 @@
 
 /* Variables */
 :root {
+  --ff-color-primary-1: #3C3C3B;
+  --ff-color-primary-2: #83780A;
+  --ff-color-primary-3: #5F9CD0;
+  --ff-color-secondary-1: #3CAEA3;
+  --ff-color-secondary-2: #941B80;
+  --ff-color-secondary-3: #EDE89A;
+  --ff-color-secondary-4: #4C6CA5;
+  --ff-color-secondary-5: #F8B133;
+  --ff-color-secondary-6: #FF7965;
+  --ff-color-secondary-7: #E20613;
+  --ff-color-secondary-8: #868686;
+
   --ff-black: #252525;
   --ff-blue: #173c9e;
   --ff-red: #c54042;
@@ -17,17 +29,19 @@
   --ff-border-color: #c8c8c8;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Urbanist&display=swap');
+
 html, body
   padding 0
   margin 0
   background-color #fff
 
 body
-  font-family 'Open Sans', 'Helvetica Neue', Helvetica, Gotham, Montserrat, Arial
+  font-family 'Urbanist', 'Helvetica Neue', Helvetica, Gotham, Montserrat, Arial
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   font-size 16px
-  color var(--ff-black)
+  color var(--ff-color-primary-1)
   margin-top: 5rem;
 
 .page
@@ -120,7 +134,7 @@ strong, b
 h1, h2, h3, h4, h5, h6
   // font-weight 600
   // line-height 1.25
-  font-family 'Montserrat', 'Helvetica Neue', Helvetica, Gotham, Arial
+  font-family 'Fira Sans Condensed', 'Helvetica Neue', Helvetica, Gotham, Arial
 
   {$contentClass}:not(.custom) > &
     margin-top (0.5rem - $navbarHeight)
@@ -206,6 +220,10 @@ h1
 
 a
   color var(--ff-red)
+
+p
+  line-height 1.3rem
+  font-size: 1.2rem;
 
 .logo
   width 200px
