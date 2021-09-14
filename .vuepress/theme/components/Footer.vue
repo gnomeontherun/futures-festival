@@ -51,7 +51,7 @@ export default {
 
 /* Share */
 .share {
-  background: #b8343e;
+  background: #941B80;
   position: fixed;
   right: 0;
   top: 50%;

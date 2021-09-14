@@ -16,20 +16,41 @@
   </div>
 
   <!-- Intro -->
-  <!-- <div cds-layout="grid gap:lg">
+  <div cds-layout="grid gap:lg">
     <div cds-layout="display:none display@sm:block col@sm:3">
-      <img src="/images/stacks.png" alt="Stacks of shapes" class="max-img" style="padding-top: 40px;">
+      <img src="/images/2021/instagram-me.png" alt="From Me" class="max-img" style="padding-top: 40px;">
+      <img src="/images/2021/instagram-we.png" alt="To We" class="max-img" style="padding-top: 40px;">
     </div>
     <div cds-layout="col@sm:9 col@xs:12" class="padding-left-xl">
-      <h2 class="header-2">2020 continues to change our lives in dramatic ways. Globally.</h2>
-      
-      <p>Over the course of the last two years, we are proud that Futures Festival has become a free public knowledge sharing event centered on Futures Thinking. In our efforts to finalize the 2020 theme, it dawned on us, that we don’t want to jump themes every year. In fact, we want to stay committed to the same one that has been at the core of our event from its inception: that of Inclusivity and Plurality, and have each year, instead, look at different aspects and angles. This remains a feeling of critical importance with each passing year.</p>
+      <h3 class="showcase center">&ldquo;When a system fails, it reveals underneath it a different, perhaps older social order.&rdquo;</h3>
+      <p>The world over we have seen how the pandemic has made acts of (localized) solidarity more common and more prominent. In what had increasingly been recognized as being an individualistic world, many of us have chosen in the past year and half to challenge that perception by showing up for each other - and not just our families and those we know, but oftentimes, strangers. Strangers we don’t necessarily share anything in common with, other than our shared humanity.</p>
 
-      <p>We all know that 2020 is continuing to change our lives in dramatic ways. Globally. To use our theme last year - ‘radical transformations’ are unfolding in front of us. There is an aftermath of confusion, pain, and loss, but also that of new opportunities and possibilities.</p>
+      <p>We have witnessed community gardens and kitchens, meals for migrants, free personal protective equipment (PPE), and mental health support efforts for our healthcare workers, and much more take hold in communities around the world.</p>
 
-      <p>Because after Collapse comes Transformation, this year we open space for dissent; we put emphasis on the spectrum of views, and voices needed to collectively create our alternative futures. Our festival focus this year, Full Spectrum Futures, is about radical unity.</p>
+      <p>Some of these acts of compassion and solidarity have also gone beyond individual action to becoming acts of collective advocacy pushing for change at a systemic level. </p>
+
+      <p>In this year’s call for Speakers at Futures Festival we want to amplify the voices of individuals and organizations who have found themselves pivot towards this collective direction. We are also looking for examples where groups have used the pandemic to spur advocacy movements that have led to change in policies, their communities, and/or their institutions. </p>
+
+      <p>Examples could include ways in which you began to use your platform to draw attention to the needs of others, or how you’ve creatively used your resources to help meet the needs of fellow citizens.</p>
+
+      <p>We want to hear not just about the acts, but also how this has fundamentally changed you forever in what you do or how you do what you do. How permanent does this change feel for you? Was it something specific that triggered it, or was there a tipping point during the pandemic that pushed  you to take this leap? What lessons have you learnt along the way that you would want to share with other listeners who are at the cusp of doing similarly? </p>
+
+      <p>We attract an audience of over 700 participants from over 45 countries. We might all come from different parts of the world, but our curiosity and interest in making this a more inclusive world unite us. Futures Festival looks forward to sharing and amplifying your work with this mission in mind!</p>
       <a id="call-for-speakers"></a>
     </div>
+  </div>
+
+  <!-- Call for speakers -->
+  <!-- <h2 class="header-1 center" cds-layout="align:center">Sessions</h2>
+  <div cds-layout="grid gap:lg" class="clear-margin-bottom">
+    <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
+      <router-link :to="session.path">
+        <img :src="session.frontmatter.image" alt="session.title" class="max-img" />
+      </router-link>
+    </div>
+  </div>
+  <div>
+    <p class="right"><a href="/sessions/" class="register-link">See All Sessions &raquo;</a></p>
   </div> -->
 
   <!-- Registration -->
