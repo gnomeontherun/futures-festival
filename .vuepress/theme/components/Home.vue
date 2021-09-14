@@ -6,8 +6,8 @@
     <div><img class="showcase-img" src="/images/header-banner.png" alt="Shifting from Me to We"></div>
     <h2 class="showcase center">• Achieving positive impact<br/> through collective journeys •</h2>
     <div cds-layout="align:center" class="center">
-      <h2 class="date">October 24, 2021</h2>
-      <h3 class="time"><time id="start" datetime="2020-10-24 14:00UTC">07:00</time> to <time id="end">19:00 UTC-5</time></h3>
+      <h2 class="date">October 30, 2021</h2>
+      <h3 class="time"><time id="start" datetime="2020-10-30 14:00UTC">07:00</time> to <time id="end">19:00 UTC-5</time></h3>
       </div>
     <!-- <p class="center">Online Event - Free to all!</p> -->
     <p class="center">Join the conversation using #ShiftingFromMeToWe and #FuturesFest21 </p>
