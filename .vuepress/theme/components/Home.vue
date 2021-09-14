@@ -17,17 +17,18 @@
 
   <!-- Intro -->
   <div cds-layout="grid gap:lg">
-    <div cds-layout="display:none display@sm:block col@sm:3">
-      <img src="/images/2021/instagram-me.png" alt="From Me" class="max-img" style="padding-top: 40px;">
-      <img src="/images/2021/instagram-we.png" alt="To We" class="max-img" style="padding-top: 40px;">
-    </div>
-    <div cds-layout="col@sm:9 col@xs:12" class="padding-left-xl">
+    <div cds-layout="col:12" class="padding-left-xl">
       <h3 class="showcase center">&ldquo;When a system fails, it reveals underneath it a different, perhaps older social order.&rdquo;</h3>
+      
+      <img src="/images/2021/instagram-me.png" alt="From Me" class="center" style="max-width: 300px; margin: 0 auto; display: block; padding-top: 40px;">
+
       <p>The world over we have seen how the pandemic has made acts of (localized) solidarity more common and more prominent. In what had increasingly been recognized as being an individualistic world, many of us have chosen in the past year and half to challenge that perception by showing up for each other - and not just our families and those we know, but oftentimes, strangers. Strangers we don’t necessarily share anything in common with, other than our shared humanity.</p>
 
       <p>We have witnessed community gardens and kitchens, meals for migrants, free personal protective equipment (PPE), and mental health support efforts for our healthcare workers, and much more take hold in communities around the world.</p>
 
       <p>Some of these acts of compassion and solidarity have also gone beyond individual action to becoming acts of collective advocacy pushing for change at a systemic level. </p>
+
+      <img src="/images/2021/instagram-we.png" alt="To We" class="center" style="max-width: 300px; margin: 0 auto; display: block; padding-top: 40px;">
 
       <p>In this year’s call for Speakers at Futures Festival we want to amplify the voices of individuals and organizations who have found themselves pivot towards this collective direction. We are also looking for examples where groups have used the pandemic to spur advocacy movements that have led to change in policies, their communities, and/or their institutions. </p>
 
