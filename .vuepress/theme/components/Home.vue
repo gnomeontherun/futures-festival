@@ -12,7 +12,12 @@
     <!-- <p class="center">Online Event - Free to all!</p> -->
     <p class="center">Join the conversation using #ShiftingFromMeToWe and #FuturesFest21 </p>
     <p class="center">Registration coming soon!</p>
+    <p class="center"><a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">Call for speakers for Futures Festival</a></p>
     <!-- <p class="center"><a href="/invite.ics">Save it on your calendar!</a></p> -->
+  </div>
+
+  <div cds-layout="horizontal align:center">
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/606834513?h=b5f98f2482" width="640" height="360" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <!-- Intro -->
@@ -30,13 +35,15 @@
 
       <img src="/images/2021/instagram-we.png" alt="To We" class="center" style="max-width: 300px; margin: 0 auto; display: block; padding-top: 40px;">
 
-      <p>In this year’s call for Speakers at Futures Festival we want to amplify the voices of individuals and organizations who have found themselves pivot towards this collective direction. We are also looking for examples where groups have used the pandemic to spur advocacy movements that have led to change in policies, their communities, and/or their institutions. </p>
+      <p>In this year’s <a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">call for Speakers at Futures Festival</a> we want to amplify the voices of individuals and organizations who have found themselves pivot towards this collective direction. We are also looking for examples where groups have used the pandemic to spur advocacy movements that have led to change in policies, their communities, and/or their institutions. </p>
 
       <p>Examples could include ways in which you began to use your platform to draw attention to the needs of others, or how you’ve creatively used your resources to help meet the needs of fellow citizens.</p>
 
       <p>We want to hear not just about the acts, but also how this has fundamentally changed you forever in what you do or how you do what you do. How permanent does this change feel for you? Was it something specific that triggered it, or was there a tipping point during the pandemic that pushed  you to take this leap? What lessons have you learnt along the way that you would want to share with other listeners who are at the cusp of doing similarly? </p>
 
       <p>We attract an audience of over 700 participants from over 45 countries. We might all come from different parts of the world, but our curiosity and interest in making this a more inclusive world unite us. Futures Festival looks forward to sharing and amplifying your work with this mission in mind!</p>
+
+      <p><a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">Submit your speaking propsal for Futures Festival</a></p>
       <a id="call-for-speakers"></a>
     </div>
   </div>

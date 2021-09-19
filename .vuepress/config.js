@@ -13,6 +13,7 @@ module.exports = {
     search: false,
     nav: [
       { text: 'Registration coming soon', link: '/#' },
+      { text: 'Call for Speakers', link: 'https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit' },
       // { text: 'Register', link: 'https://www.apf.org/events/register.aspx?id=1397920' },
       // { text: 'Sessions', link: '/sessions/' },
       // { text: 'Speakers', link: '/speakers/' },
