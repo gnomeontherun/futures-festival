@@ -23,7 +23,7 @@
   <!-- Intro -->
   <div cds-layout="grid gap:lg">
     <div cds-layout="col:12" class="padding-left-xl">
-      <h3 class="showcase center">&ldquo;When a system fails, it reveals underneath it a different, perhaps older social order.&rdquo;</h3>
+      <h3 class="showcase center">&ldquo;At moments of immense change, we see with new clarity the systems – political, economic, social, ecological – in which we are immersed as they change around us. We see what’s strong, what’s weak, what’s corrupt, what matters and what doesn’t.&rdquo; - Rebecca Solnit</h3>
       
       <img src="/images/2021/instagram-me.png" alt="From Me" class="center" style="max-width: 300px; margin: 0 auto; display: block; padding-top: 40px;">
 
