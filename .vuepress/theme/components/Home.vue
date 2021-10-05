@@ -12,7 +12,7 @@
     <!-- <p class="center">Online Event - Free to all!</p> -->
     <p class="center">Join the conversation using #ShiftingFromMeToWe and #FuturesFest21 </p>
     <p class="center">Registration coming soon!</p>
-    <p class="center"><a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">Call for speakers for Futures Festival</a></p>
+    <p class="center"><a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">Call for speakers for Futures Festival, deadline extended to October 11!</a></p>
     <!-- <p class="center"><a href="/invite.ics">Save it on your calendar!</a></p> -->
   </div>
 
