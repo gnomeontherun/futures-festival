@@ -1,5 +1,5 @@
 <template>
-<main cds-layout="vertical gap:lg align:horizontal-stretch" class="add-spacing">
+<main cds-layout="vertical gap:lg align:center" class="add-spacing">
 
   <!-- Banner -->
   <div cds-layout="vertical gap:md align:horizontal-stretch">
@@ -11,8 +11,8 @@
       </div>
     <!-- <p class="center">Online Event - Free to all!</p> -->
     <p class="center">Join the conversation using #ShiftingFromMeToWe and #FuturesFest21 </p>
-    <p class="center">Registration coming soon!</p>
-    <p class="center"><a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">Call for speakers for Futures Festival, deadline extended to October 11!</a></p>
+    <p class="center"><a class="register-link" href="https://www.eventbrite.com/e/futures-festival-2021-tickets-182908001757">Register now!</a></p>
+    <!-- <p class="center"><a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">Call for speakers for Futures Festival, deadline extended to October 11!</a></p> -->
     <!-- <p class="center"><a href="/invite.ics">Save it on your calendar!</a></p> -->
   </div>
 
@@ -21,7 +21,7 @@
   </div>
 
   <!-- Intro -->
-  <div cds-layout="grid gap:lg">
+  <div cds-layout="grid gap:lg container:sm">
     <div cds-layout="col:12" class="padding-left-xl">
       <h3 class="showcase center">&ldquo;At moments of immense change, we see with new clarity the systems – political, economic, social, ecological – in which we are immersed as they change around us. We see what’s strong, what’s weak, what’s corrupt, what matters and what doesn’t.&rdquo; - Rebecca Solnit</h3>
       
@@ -35,7 +35,7 @@
 
       <img src="/images/2021/instagram-we.png" alt="To We" class="center" style="max-width: 300px; margin: 0 auto; display: block; padding-top: 40px;">
 
-      <p>In this year’s <a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">call for Speakers at Futures Festival</a> we want to amplify the voices of individuals and organizations who have found themselves pivot towards this collective direction. We are also looking for examples where groups have used the pandemic to spur advocacy movements that have led to change in policies, their communities, and/or their institutions. </p>
+      <!-- <p>In this year’s <a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">call for Speakers at Futures Festival</a> we want to amplify the voices of individuals and organizations who have found themselves pivot towards this collective direction. We are also looking for examples where groups have used the pandemic to spur advocacy movements that have led to change in policies, their communities, and/or their institutions. </p>
 
       <p>Examples could include ways in which you began to use your platform to draw attention to the needs of others, or how you’ve creatively used your resources to help meet the needs of fellow citizens.</p>
 
@@ -44,7 +44,7 @@
       <p>We attract an audience of over 700 participants from over 45 countries. We might all come from different parts of the world, but our curiosity and interest in making this a more inclusive world unite us. Futures Festival looks forward to sharing and amplifying your work with this mission in mind!</p>
 
       <p><a href="https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit">Submit your speaking propsal for Futures Festival</a></p>
-      <a id="call-for-speakers"></a>
+      <a id="call-for-speakers"></a> -->
     </div>
   </div>
 
@@ -133,8 +133,8 @@ export default {
 
 <style lang="css">
 .showcase {
-  color: var(--ff-color-secondary-1);
-  font-style: italic;
+  /* color: var(--ff-color-secondary-1); */
+  /* font-style: italic; */
 }
 .showcase-img {
   max-width: 100%;
@@ -160,7 +160,7 @@ export default {
 }
 .register-link {
   color: white;
-  background: var(--ff-blue);
+  background: var(--ff-color-primary-3);
   padding: 6px 100px;
   text-decoration: none;
   text-transform: uppercase;

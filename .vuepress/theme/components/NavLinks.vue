@@ -153,5 +153,5 @@ export default {
   .nav-item > a:not(.external)
     &:hover, &.router-link-active
       margin-bottom -2px
-      border-bottom 2px solid var(--ff-green)
+      border-bottom 2px solid var(--ff-color-primary-3)
 </style>

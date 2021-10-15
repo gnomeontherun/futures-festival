@@ -12,12 +12,12 @@ module.exports = {
     logo: '/images/logo.svg',
     search: false,
     nav: [
-      { text: 'Registration coming soon', link: '/#' },
-      { text: 'Call for Speakers', link: 'https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit' },
-      // { text: 'Register', link: 'https://www.apf.org/events/register.aspx?id=1397920' },
+      // { text: 'Call for Speakers', link: 'https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit' },
+      { text: 'Home', link: '/' },
+      { text: 'Register', link: 'https://www.eventbrite.com/e/futures-festival-2021-tickets-182908001757' },
       // { text: 'Sessions', link: '/sessions/' },
       // { text: 'Speakers', link: '/speakers/' },
-      // { text: 'About', link: '/about' },
+      { text: 'About', link: '/about' },
       { text: 'Archives', link: '/#archives' },
 
     ]
