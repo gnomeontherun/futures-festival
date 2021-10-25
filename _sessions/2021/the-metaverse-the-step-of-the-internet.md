@@ -4,7 +4,7 @@ title: The metaverse, the next step of the internet
 date: 2020-10-24T10:30:00-04:00
 year: 2021
 room: 1
-image: "/images/2021/rafael-martinez-cortiña-mesa-de-trabajo-2.jpg"
+image: "/images/2021/rafael-martinez-cortina-mesa-de-trabajo-2.jpg"
 # facilitators: Ashish Manwar
 speakers:
 - speaker: Rafael Martínez-Cortiña
