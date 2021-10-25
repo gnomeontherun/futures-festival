@@ -32,7 +32,7 @@
 
       <div>
 
-        <h1>2020 Futures Festival Sessions</h1>
+        <h1>2021 Futures Festival Sessions</h1>
 
         <template v-if="keynotes.length">
           <h2>Keynotes</h2>
@@ -90,7 +90,7 @@
           </div>
         </template>
 
-        <template v-if="otherFormats.length">
+        <template v-if="breakSessions.length">
           <h2>Break Sessions</h2>
 
           <div cds-layout="grid gap:lg">
@@ -139,19 +139,19 @@ export default {
 
   computed: {
     keynotes() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote' && frontmatter.draft !== true);
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Keynote' && frontmatter.draft !== true && frontmatter.year == 2021);
     },
     workshops() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop' && frontmatter.draft !== true);
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Workshop' && frontmatter.draft !== true && frontmatter.year == 2021);
     },
     otherFormats() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Other Formats' && frontmatter.draft !== true);
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Other Formats' && frontmatter.draft !== true && frontmatter.year == 2021);
     },
     panels() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Panel' && frontmatter.draft !== true);
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Panel' && frontmatter.draft !== true && frontmatter.year == 2021);
     },
     breakSessions() {
-      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Break Session' && frontmatter.draft !== true);
+      return this.$site.pages.filter(({ frontmatter }) => frontmatter.type === 'Break Session' && frontmatter.draft !== true && frontmatter.year == 2021);
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site

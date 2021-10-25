@@ -32,10 +32,10 @@
 
       <div>
 
-        <h1>2020 Futures Festival Speakers</h1>
+        <h1>2021 Futures Festival Speakers</h1>
 
         <div cds-layout="grid gap:lg">
-          <template v-for="page in $site.pages">
+          <template v-for="page in getPages">
           <template v-for="speaker in page.frontmatter.speakers">
           <div cds-layout="col:12 col@sm:6 col@md:3" v-if="shouldDisplay(page, speaker)">
             <router-link :to="page.path">
@@ -85,7 +85,7 @@ export default {
 
   computed: {
     getPages() {
-      return this.$site.pages.filter(({frontmatter, regularPath}) => regularPath.substring(0, 9) === '/_sessions' && frontmatter.draft !== true);
+      return this.$site.pages.filter(({frontmatter, regularPath}) => regularPath.search(/session/) > -1 && frontmatter.draft !== true && frontmatter.year == 2021) || [];
     },
     shouldShowNavbar () {
       const { themeConfig } = this.$site

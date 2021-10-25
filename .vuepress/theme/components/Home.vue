@@ -84,7 +84,7 @@
   </div> -->
 
   <!-- Sessions -->
-  <!-- <h2 class="header-1 center" cds-layout="align:center">Sessions</h2>
+  <h2 class="header-1 center" cds-layout="align:center">Sessions</h2>
   <div cds-layout="grid gap:lg" class="clear-margin-bottom">
     <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
       <router-link :to="session.path">
@@ -94,10 +94,10 @@
   </div>
   <div>
     <p class="right"><a href="/sessions/" class="register-link">See All Sessions &raquo;</a></p>
-  </div> -->
+  </div>
 
   <!-- Speakers -->
-  <!-- <h2 class="header-1 center" cds-layout="align:center">Speakers</h2>
+  <h2 class="header-1 center" cds-layout="align:center">Speakers</h2>
   <div cds-layout="grid gap:lg" class="clear-margin-bottom">
     <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
       <router-link :to="session.path">
@@ -107,7 +107,7 @@
   </div>
   <div>
     <p class="right"><a href="/speakers/" class="register-link">See All Speakers &raquo;</a></p>
-  </div> -->
+  </div>
 
   <!-- Archives -->
   <div cds-layout="vertical gap:md align:horizontal-stretch" id="archives">
@@ -125,7 +125,7 @@ export default {
   name: 'Home',
   computed: {
     sessions() {
-      return this.$site.pages.filter(page => page.regularPath.substring(0, 11) === '/_sessions/' && page.frontmatter.draft !== true).slice(0, 4);
+      return this.$site.pages.filter(page => page.regularPath.substring(0, 11) === '/_sessions/' && page.frontmatter.draft !== true && page.frontmatter.year == 2021).slice(0, 4);
     }
   }
 }
