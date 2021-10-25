@@ -4,12 +4,12 @@ title: How Latin America is shaping the future? A World Cafe
 date: 2020-10-24T10:30:00-04:00
 year: 2021
 room: 1
-image: "/images/2021/martín-pérez-comisso-mesa-de-trabajo-2.jpg"
+image: "/images/2021/martin-perez-comisso-mesa-de-trabajo-2.jpg"
 # facilitators: Ashish Manwar
 speakers:
 - speaker: Martin Perez Comisso
   speakerTitle: Researcher in Science and Technology Studies
-  image: "/images/2021/martín-pérez-comisso.jpg"
+  image: "/images/2021/martiin-peerez-comisso.jpg"
   bio: 'Ph.D student in Human and Social Dimensions of Science and Technology'
   twitter: https://twitter.com/mapc
   instagram: https://www.instagram.com/see.martin.saw/
