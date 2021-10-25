@@ -1,4 +1,5 @@
 ---
+draft: true
 type: Panel
 title: 'Exploradores del futuros: de la exploración individual a la colectiva.'
 date: 2020-10-24T10:30:00-04:00

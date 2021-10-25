@@ -9,7 +9,7 @@ image: "/images/2021/martin-perez-comisso-mesa-de-trabajo-2.jpg"
 speakers:
 - speaker: Martin Perez Comisso
   speakerTitle: Researcher in Science and Technology Studies
-  image: "/images/2021/martiin-peerez-comisso.jpg"
+  image: "/images/2021/martin-perez-comisso.jpg"
   bio: 'Ph.D student in Human and Social Dimensions of Science and Technology'
   twitter: https://twitter.com/mapc
   instagram: https://www.instagram.com/see.martin.saw/
