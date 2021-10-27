@@ -1,11 +1,10 @@
 ---
-draft: true
 type: Panel
 title: 'Exploradores del futuros: de la exploración individual a la colectiva.'
 date: 2020-10-24T10:30:00-04:00
 year: 2021
 room: 1
-image: "/images/2021/barbara-ferrer-mesa-de-trabajo-2.jpg"
+image: "/images/2021/baners-speakers-pannel-barbara-2.jpg"
 # facilitators: Ashish Manwar
 speakers:
 - speaker: Bárbara Inge Ferrer Lanz
@@ -23,7 +22,7 @@ tags: []
 
 ---
 
-The initiative ""Exploradores de Futuros"" has the  purpose to democratize the conversations of possible futures. It´s a free online program where  Spanish-speaking people who are developing foresight projects in the region, present their experiences, learnings, reflections and recommendations. There are more than 40 guests from different countries, fields of study and contexts, who have openly shared their experiences. It is  disseminated on YouTube, Spotify and Soundcloud. 
+The initiative "Exploradores de Futuros" has the  purpose to democratize the conversations of possible futures. It´s a free online program where  Spanish-speaking people who are developing foresight projects in the region, present their experiences, learnings, reflections and recommendations. There are more than 40 guests from different countries, fields of study and contexts, who have openly shared their experiences. It is  disseminated on YouTube, Spotify and Soundcloud. 
 
 The presentation will focus on sharing what took me from individual learning and exploration to creating this space of shared knowledge and exploration. Share What is the future? in the words of the more than 40 guests who have participated. How has it been a contribution for the guests? What learnings and reflections has the audience received from the program? How can each of us be an explorer of futures and be part of this community?
 
