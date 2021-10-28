@@ -4,7 +4,7 @@
     <div class="footer-logo">
       <img src="/images/apf-logo.png" width="120" alt="Association of Professional Futurists Logo">
     </div>
-    <p class="footer-text">&copy; 2020 Futures Festival - Organized by the <a href="https://apf.org">Association of Professional Futurists</a></p>
+    <p class="footer-text">&copy; 2021 Futures Festival - Organized by the <a href="https://apf.org">Association of Professional Futurists</a></p>
 
     <nav cds-layout="display@sm:none" class="center">
       <a href="/#call-for-speakers">Call For Speakers</a>

@@ -1,4 +1,4 @@
 ---
-title: 2020 Futures Festival Speakers
+title: 2021 Futures Festival Speakers
 layout: Speakers
 ---

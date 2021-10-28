@@ -1,9 +1,9 @@
 ---
-type: Panel
+type: Other Formats
 title: 'Museum of Futures: Pandemic Pivots'
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T17:00:00-04:00
 year: 2021
-room: 1
+room: 2
 image: "/images/2021/baners-speakers-pannel-mel.jpg"
 # facilitators: Ashish Manwar
 speakers:

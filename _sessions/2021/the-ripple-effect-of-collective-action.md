@@ -1,7 +1,7 @@
 ---
 type: Keynote
 title: The ripple effect of collective action
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T15:00:00-04:00
 year: 2021
 room: 1
 image: "/images/2021/sarah-gough-mesa-de-trabajo-2.jpg"

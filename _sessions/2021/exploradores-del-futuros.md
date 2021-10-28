@@ -1,7 +1,7 @@
 ---
 type: Panel
 title: 'Exploradores del futuros: de la exploración individual a la colectiva.'
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T17:30:00-04:00
 year: 2021
 room: 1
 image: "/images/2021/baners-speakers-pannel-barbara-2.jpg"

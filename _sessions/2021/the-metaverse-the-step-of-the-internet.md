@@ -1,7 +1,7 @@
 ---
 type: Keynote
 title: The metaverse, the next step of the internet
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T11:30:00-04:00
 year: 2021
 room: 1
 image: "/images/2021/rafael-martinez-cortina-mesa-de-trabajo-2.jpg"
@@ -16,7 +16,7 @@ speakers:
   linkedin: https://www.linkedin.com/in/rafaelmcortina/
   facebook: 
   pronouns: he/him
-length: 45
+length: 30
 tags: []
 # video: 479810468
 

@@ -1,7 +1,7 @@
 ---
-type: Keynote
+type: Panel
 title: 'Journeying from an ego-system to an ecosystem: Lessons from educational communities in Bangladesh'
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T10:00:00-04:00
 year: 2021
 room: 1
 image: "/images/2021/baners-speakers-pannel-shakil.jpg"

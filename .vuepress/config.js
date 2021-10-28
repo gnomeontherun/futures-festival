@@ -15,6 +15,7 @@ module.exports = {
       // { text: 'Call for Speakers', link: 'https://docs.google.com/forms/d/18_FIJitIgYklewM3zIe4ewEwP2Esq7kcyRUQu-6J6F4/edit' },
       { text: 'Home', link: '/' },
       { text: 'Register', link: 'https://www.eventbrite.com/e/futures-festival-2021-tickets-182908001757' },
+      { text: 'Schedule', link: '/schedule/' },
       { text: 'Sessions', link: '/sessions/' },
       { text: 'Speakers', link: '/speakers/' },
       { text: 'About', link: '/about' },

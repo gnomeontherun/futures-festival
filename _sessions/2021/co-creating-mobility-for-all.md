@@ -1,7 +1,7 @@
 ---
 type: Keynote
 title: Co-creating Mobility for all
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T07:15:00-04:00
 year: 2021
 room: 1
 image: "/images/2021/baners-speakers-keynote-yasir.jpg"

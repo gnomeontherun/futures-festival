@@ -1,9 +1,10 @@
 ---
+draft: true
 type: Other Formats
 title: La lucha por las poblaciones en situación de vulnerabilidad durante la pandemia
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T14:30:00-04:00
 year: 2021
-room: 1
+room: 2
 image: "/images/2021/kenya-cytlaly-mesa-de-trabajo-2.jpg"
 # facilitators: Ashish Manwar
 speakers:
@@ -16,7 +17,7 @@ speakers:
   linkedin: 
   facebook: https://www.facebook.com/CasaDeLasMunecasTiresias/
   pronouns: Ella
-length: 45
+length: 60
 tags: []
 # video: 479810468
 

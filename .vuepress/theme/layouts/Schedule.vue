@@ -32,11 +32,11 @@
 
       <div>
 
-        <h1>2020 Futures Festival Schedule</h1>
+        <h1>2021 Futures Festival Schedule</h1>
 
-        <h2>October 24, 2020 (local times below might may cross over to October 25 depending on your timezone)</h2>
+        <h2>October 30, 2021 (local times below might may cross over to October 31 depending on your timezone)</h2>
 
-        <p><b><a href="/2020-schedule.pdf">Download the schedule as PDF</a>.</b></p>
+        <!-- <p><b><a href="/2020-schedule.pdf">Download the schedule as PDF</a>.</b></p> -->
 
         <h2>Room 1</h2>
         
@@ -48,7 +48,7 @@
             <th style="width: 300px">Speakers</th>
             <th style="width: 150px">Type</th>
             <th style="width: 150px">Local Time*</th>
-            <th style="width: 200px">Facilitators</th>
+            <!-- <th style="width: 200px">Facilitators</th> -->
           </tr>
         <template v-for="session in roomOne">
           <tr>
@@ -57,7 +57,7 @@
             <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
             <td>{{session.frontmatter.date | localTime}}</td>
-            <td>{{session.frontmatter.facilitators}}</td>
+            <!-- <td>{{session.frontmatter.facilitators}}</td> -->
           </tr>
         </template>
         </table>
@@ -72,7 +72,7 @@
             <th style="width: 300px">Speakers</th>
             <th style="width: 150px">Type</th>
             <th style="width: 150px">Local Time*</th>
-            <th style="width: 200px">Facilitators</th>
+            <!-- <th style="width: 200px">Facilitators</th> -->
           </tr>
         <template v-for="session in roomTwo">
           <tr>
@@ -81,7 +81,7 @@
             <td><template v-for="(speaker, index) in session.frontmatter.speakers">{{speaker.speaker}}<template v-if="session.frontmatter.speakers.length > index + 1">,<br /></template></template></td>
             <td>{{session.frontmatter.type}}</td>
             <td>{{session.frontmatter.date | localTime}}</td>
-            <td>{{session.frontmatter.facilitators}}</td>
+            <!-- <td>{{session.frontmatter.facilitators}}</td> -->
           </tr>
         </template>
         </table>
@@ -103,24 +103,27 @@ import Footer from '@theme/components/Footer.vue'
 import { resolveSidebarItems } from '../util'
 
 const sessionsRoomOne = [
-  { title: 'Introduction', frontmatter: { date: '2020-10-24T07:00:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
-  { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24T09:15:00-04:00', type: 'Break Session', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  { title: 'Introduction', frontmatter: { date: '2021-10-30T07:00:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
+  { title: 'Break', frontmatter: { date: '2021-10-30T09:45:00-04:00', type: 'Break Session' }},
+  { title: 'Break', frontmatter: { date: '2021-10-30T14:30:00-04:00', type: 'Break Session' }},
+  // { title: 'Breathing & Meditation', frontmatter: { date: '2020-10-24T09:15:00-04:00', type: 'Break Session', speakers: [{ speaker: 'Krittika Sharma'}] }},
   // { title: 'Reflection: Obituary to Self', frontmatter: { summary: ' In this guided reflection session, Krittika Sharma will take you through an inward reflection on how -  Trying times stretch and test the human spirit. Trying times also bring us gifts. The gift of the pause. The gift to go inward. The gift to distinguish what is truly important. The gift to create meaning. In times like these, we must remember that we are not alone in this human experience. This gift is an invitation to explore our beautifully designed mortal spirit and unearth meaning.', date: '2020-10-24T11:00:00-04:00', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
   //{ title: 'Break', frontmatter: { date: '2020-10-24T11:45:00-04:00', type: 'Break', speakers: [{ speaker: ''}] }},
   // { title: 'Queer resilience admist uncertainty', frontmatter: { summary: 'Lydia will have an open conversation on queer resilience and what it means in a future with increasing uncertainty.', date: '2020-10-24T13:30:00-04:00', type: 'Conversation', speakers: [{ speaker: 'Lydia Timlin-Broussard'}], facilitators: 'Dave Roselle' }},
   // { title: 'Breathing & Meditation', frontmatter:{ date: '2020-10-24T16:00:00-04:00', type: 'Break Session', speakers: [{ speaker: 'Amy Yockus Hartman'}] }},
   // { title: 'Back to Back Listening', frontmatter: { date: '2020-10-24T18:15:00-04:00', type: 'Reflection', speakers: [{ speaker: 'Zainab Kakal'}] }},
-  { title: 'Closing', frontmatter: { date: '2020-10-24T18:30:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
+  { title: 'Closing', frontmatter: { date: '2021-10-30T18:30:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Graciela Guadarrama'}] }},
 ];
 
 const sessionsRoomTwo = [
-  { title: 'Introduction', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T07:00:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
-  { title: 'Energizer', frontmatter: { date: '2020-10-24T09:00:00-04:00', type: 'Break', speakers: [{ speaker: ''}] }},
-  { title: 'Reflection: Obituary to Self', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T11:00:00-04:00', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
+  // { title: 'Break', frontmatter: { date: '2021-10-30T14:30:00-04:00', type: 'Break Session' }},
+  // { title: 'Introduction', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T07:00:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Prateeksha Singh'}, { speaker: 'Graciela Guadarrama'}] }},
+  // { title: 'Energizer', frontmatter: { date: '2020-10-24T09:00:00-04:00', type: 'Break', speakers: [{ speaker: ''}] }},
+  // { title: 'Reflection: Obituary to Self', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T11:00:00-04:00', type: 'Reflection', speakers: [{ speaker: 'Krittika Sharma'}] }},
   // { title: 'How to keep your mental health in check', frontmatter: { summary: ' In this conversation session, Sheila Mutaramuka, Creative Director of Maqoba, will talk with about: A practical 5 minute activity of how to calm yourself down in stressful situations at work and in daily life. Open Dialogue on why mental health is more important now than ever. Tips and tricks to help maintain your mental health', date: '2020-10-24T14:00:00-04:00', type: 'Conversation', speakers: [{ speaker: 'Sheila Mutaramuka'}] }},
-  { title: 'Energizer', frontmatter:{ date: '2020-10-24T16:15:00-04:00', type: 'Break', speakers: [{ speaker: ''}] }},
-  { title: 'This room ends, join Zainab in Room 1', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T18:15:00-04:00', type: 'Break Session', speakers: [{ speaker: 'Zainab Kakal'}] }},
-  { title: 'Closing', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T18:30:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
+  // { title: 'Energizer', frontmatter:{ date: '2020-10-24T16:15:00-04:00', type: 'Break', speakers: [{ speaker: ''}] }},
+  // { title: 'This room ends, join Zainab in Room 1', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T18:15:00-04:00', type: 'Break Session', speakers: [{ speaker: 'Zainab Kakal'}] }},
+  // { title: 'Closing', frontmatter: { summary: 'Use Room 1 live stream', date: '2020-10-24T18:30:00-04:00', type: 'Plenary', speakers: [{ speaker: 'Amy Hosotsuji'}] }},
 ];
 
 export default {
@@ -143,7 +146,7 @@ export default {
   filters: {
     localTime(value) {
       // return new Date(value).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'});
-      return new Intl.DateTimeFormat([], {hour: 'numeric', minute: '2-digit'}).format(new Date(value));
+      return `${new Intl.DateTimeFormat([], {hour: 'numeric', minute: '2-digit', timeZoneName: 'short'}).format(new Date(value))} `;
     },
     time(value) {
       // return new Date(value).toLocaleTimeString([], {timeZone: 'America/New_York', hour: 'numeric', minute:'2-digit'});
@@ -155,6 +158,7 @@ export default {
     roomOne() {
       const pages = this.$site.pages
         .filter(page => page.regularPath.substring(0, 11) === '/_sessions/' && page.frontmatter.draft !== true)
+        .filter(page => page.frontmatter.year == 2021)
         .filter(page => page.frontmatter.room == 1)
       pages.push(...sessionsRoomOne);
       return pages.sort((a, b) => {
@@ -172,6 +176,7 @@ export default {
     roomTwo() {
       const pages =  this.$site.pages
         .filter(page => page.regularPath.substring(0, 11) === '/_sessions/' && page.frontmatter.draft !== true)
+        .filter(page => page.frontmatter.year == 2021)
         .filter(page => page.frontmatter.room == 2)
       pages.push(...sessionsRoomTwo);
       return pages.sort((a, b) => {

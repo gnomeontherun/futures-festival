@@ -1,7 +1,7 @@
 ---
 type: Keynote
 title: M19 Initiative - The Power of A Collective
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T10:45:00-04:00
 year: 2021
 room: 1
 image: "/images/2021/vaibhav-chhabra-mesa-de-trabajo-2.jpg"

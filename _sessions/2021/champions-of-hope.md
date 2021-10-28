@@ -1,7 +1,7 @@
 ---
 type: Keynote
 title: Champions of Hope - Empowering girls in Rural Bihar as community leaders
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T09:00:00-04:00
 year: 2021
 room: 1
 image: "/images/2021/kshitiz-anand-mesa-de-trabajo-2.jpg"

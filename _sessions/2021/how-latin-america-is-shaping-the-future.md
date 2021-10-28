@@ -1,7 +1,7 @@
 ---
 type: Other Formats
 title: How Latin America is shaping the future? A World Cafe
-date: 2020-10-24T10:30:00-04:00
+date: 2021-10-30T16:00:00-04:00
 year: 2021
 room: 1
 image: "/images/2021/martin-perez-comisso-mesa-de-trabajo-2.jpg"
