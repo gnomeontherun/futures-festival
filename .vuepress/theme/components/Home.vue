@@ -86,7 +86,7 @@
   <!-- Sessions -->
   <h2 class="header-1 center" cds-layout="align:center">Sessions</h2>
   <div cds-layout="grid gap:lg" class="clear-margin-bottom">
-    <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
+    <div cds-layout="col@sm:6 col@md:3" v-for="session in sessions">
       <router-link :to="session.path">
         <img :src="session.frontmatter.image" alt="session.title" class="max-img" />
       </router-link>
@@ -99,7 +99,7 @@
   <!-- Speakers -->
   <h2 class="header-1 center" cds-layout="align:center">Speakers</h2>
   <div cds-layout="grid gap:lg" class="clear-margin-bottom">
-    <div cds-layout="col@sm:12 col@md:3" v-for="session in sessions">
+    <div cds-layout="col@sm:6 col@md:3" v-for="session in sessions">
       <router-link :to="session.path">
         <img :src="session.frontmatter.speakers[0].image" alt="session.frontmatter.speakers[0].title" class="max-img" />
       </router-link>
