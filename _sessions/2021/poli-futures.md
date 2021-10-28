@@ -1,7 +1,7 @@
 ---
 type: Panel
 title: International Launch of Poli.Futuros, collective (re)building futures in vulnerable communities after the pandemic
-date: 2021-10-30T15:30:00-04:00
+date: 2021-10-30T14:30:00-04:00
 year: 2021
 room: 2
 image: "/images/2021/youth-panelists.jpg"
