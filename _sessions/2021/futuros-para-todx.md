@@ -10,11 +10,11 @@ speakers:
 - speaker: Milena Pafundi
   speakerTitle: Comunicadora y Coordinadora General de Agencia Presentes en México
   image: "/images/2021/baners_speakers_pannel_trans_lgbt.jpg"
-  bio: 'Hi I am Lisa Giuliani one of the Directors of Global Projects with Teach the Future. Beginning in April of 2021 my team and I were selected to partner with the School of International Futures to create an award for youth titled Next Generation of Foresight Practitioners - Young Voices (NGFP - YV).  We found that there was a need to recognize and celebrate the next generation of changemakers who are taking action and leading the way to create a more sustainable world.'
-  twitter: https://twitter.com/teachfutures
-  instagram: https://www.instagram.com/teachfutures/
-  linkedin: https://www.linkedin.com/company/teach-the-future/
-  facebook: https://www.facebook.com/teachfutures
+  # bio: 'Hi I am Lisa Giuliani one of the Directors of Global Projects with Teach the Future. Beginning in April of 2021 my team and I were selected to partner with the School of International Futures to create an award for youth titled Next Generation of Foresight Practitioners - Young Voices (NGFP - YV).  We found that there was a need to recognize and celebrate the next generation of changemakers who are taking action and leading the way to create a more sustainable world.'
+  # twitter: https://twitter.com/teachfutures
+  # instagram: https://www.instagram.com/teachfutures/
+  # linkedin: https://www.linkedin.com/company/teach-the-future/
+  # facebook: https://www.facebook.com/teachfutures
   # pronouns: he/him
 - speaker: Dayanna Gallegos Castillejos
   speakerTitle: Activista por derechos de la población LGBTTTIQ+

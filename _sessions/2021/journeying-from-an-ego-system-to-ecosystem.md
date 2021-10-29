@@ -19,7 +19,7 @@ speakers:
 - speaker: Mehdi Hassan
   speakerTitle: 'National Consultant: e-Learning'   
   # image: "/images/2021/kshitiz-anand.jpg"
-  bio: 'Shakil Ahmed is an educator, storyteller and futurist at Ridiculous Futures and network coordinator for #NextGenEdu. As a futurist, he has facilitated foresight with diverse organizations, including the futures of health in 2030 with BRAC, the futures of education in 2041 with the Prime Minister’s Office, Bangladesh and the future of work in 2040 with trade unions. His bachelor’s was in Theoretical Physics at the National University of Singapore and his Masters’ was in Educational Leadership and School Improvement at BRAC University. In 2019, he was recognized as a Next Generation Foresight Practitioner by the School of International Futures. '
+  bio: 'Mehdi Hassan is the National Consultant for e-Learning at a2i (Aspire to Innovate), the flagship project of the government’s Digital Bangladesh agenda. Right now he is managing the national e-learning platform- Muktopaath, which aims to make skills and professional development available, accessible, and affordable for all. Besides, he works for policy reform, learning experience design & instructional content development. Mehdi holds Master’s in Special Education from the University of Dhaka. '
   twitter: 
   instagram: 
   linkedin: 
