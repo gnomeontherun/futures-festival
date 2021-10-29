@@ -16,7 +16,7 @@ speakers:
   linkedin: https://www.linkedin.com/company/play-for-peace/
   facebook: https://www.facebook.com/PlayforPeace/
   pronouns: she/her
-length: 45
+length: 60
 tags: []
 # video: 479810468
 

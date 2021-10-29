@@ -16,6 +16,24 @@ speakers:
   linkedin: https://nz.linkedin.com/in/cheryldoig
   facebook: https://www.facebook.com/thinkbeyondnz/
   pronouns: she/her
+- speaker: Ben Reed
+  speakerTitle: Managing Director - HamiltonJet
+  # image: "/images/2021/sarah-gough.jpg"
+  bio: 'Bern is an accomplished leader with 28 years in manufacturing and technology businesses. He has extensive experience developing diesel engines, mobile machinery, marine propulsion systems, electronic control and software products. Now Managing Director at Hamilton Jet, an iconic kiwi company with a globally respected brand in marine waterjet propulsion technology. Ben is a Chartered Mechanical Engineer and Fellow of the IMechE and a company director for a local recycling business called Eco Central.'
+  twitter: 
+  instagram: 
+  linkedin: 
+  facebook: 
+  pronouns: he/him
+- speaker: Tom Beaumont
+  speakerTitle: Managing Director - HamiltonJet
+  # image: "/images/2021/sarah-gough.jpg"
+  bio: 'Tom is a Christchurch, NZ based thinker with extensive experience delivering real world solutions in the quarrying and construction sector. He has run startups, lectures risk and innovation at Masters level at the University of Canterbury, and spends as much time as possible climbing big mountains to ski back down them.'
+  twitter: 
+  instagram: 
+  linkedin: https://www.linkedin.com/in/tom-beaumont-nz
+  facebook: 
+  pronouns: he/him
 length: 45
 tags: []
 # video: 479810468

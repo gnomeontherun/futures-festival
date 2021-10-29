@@ -7,7 +7,7 @@ room: 1
 image: "/images/2021/syed-mesa-de-trabajo-2.jpg"
 # facilitators: Ashish Manwar
 speakers:
-- speaker: Syed
+- speaker: Syed Karim
   speakerTitle: Entrepreneur, Futurist, Consultant
   image: "/images/2021/syed.jpg"
   bio: 'An immigrant who lost his home and country. A futurist planning his new life and career for the next ten years in a new country. An MBA holder, foresight practitioner with a background in IT & Research, works on his idea on HR-Tech. '

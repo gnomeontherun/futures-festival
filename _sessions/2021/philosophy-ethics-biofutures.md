@@ -4,7 +4,7 @@ title: Philosophy, Ethics and BioFutures
 date: 2021-10-30T12:45:00-04:00
 year: 2021
 room: 1
-image: "/images/2021/youth-panelists.jpg"
+image: "/images/2021/baners-speakers-pannel-bibiana-elizabeth.jpg"
 # facilitators: Ashish Manwar
 speakers:
 - speaker: Bibiana Xausa Bosak

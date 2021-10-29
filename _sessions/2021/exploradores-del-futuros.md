@@ -16,7 +16,7 @@ speakers:
   linkedin: https://www.linkedin.com/in/barbaraferrerlanz/
   facebook: 
   pronouns: she/her
-length: 45
+length: 60
 tags: []
 # video: 479810468
 
