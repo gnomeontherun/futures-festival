@@ -7,15 +7,15 @@ room: 1
 image: "/images/2021/youth-panelists.jpg"
 # facilitators: Ashish Manwar
 speakers:
-- speaker: Lisa Giuliani
-  speakerTitle: Global Projects Consultant
+- speaker: Deona Julary
+  speakerTitle: Youth Intern at TTF
   image: "/images/2021/youth-panel.jpg"
-  bio: 'Hi I am Lisa Giuliani one of the Directors of Global Projects with Teach the Future. Beginning in April of 2021 my team and I were selected to partner with the School of International Futures to create an award for youth titled Next Generation of Foresight Practitioners - Young Voices (NGFP - YV).  We found that there was a need to recognize and celebrate the next generation of changemakers who are taking action and leading the way to create a more sustainable world.'
+  bio: 'I am Deona Julary, a Youth Intern at TTF in charge of expanding the youth network and its impact on futures literacy. I applied to the NGFP-YV awards and placed in the top 10 award winners. With this project, TTF found that the future holds many problems that need to be solved and the input and solutions of young voices need to be addressed, not just adults, policy makers, and older demographics.'
   twitter: https://twitter.com/teachfutures
   instagram: https://www.instagram.com/teachfutures/
   linkedin: https://www.linkedin.com/company/teach-the-future/
   facebook: https://www.facebook.com/teachfutures
-  pronouns: he/him
+  pronouns: she/her
 length: 60
 tags: []
 # video: 479810468
