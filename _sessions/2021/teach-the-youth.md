@@ -19,7 +19,7 @@ speakers:
 - speaker: Amna (Pakistan)
   speakerTitle: Founder, Global Creative Hub
   # image: "/images/2021/youth-panel.jpg"
-  bio: 'Amna is a 15-year-old Pakistani, founder of Global Creative Hub, international speaker with more than 50K views, STEM enthusiast, and an advocate for girls' education and digital literacy. Recipient of Young Achiever Award & runnerup for Young Voices Award, featured by UN & Malala Fund, spoken at World Bank, UNESCO, IFC, and more; she is passionate about using digital for social good and the UN SDGs.'
+  bio: 'Amna is a 15-year-old Pakistani, founder of Global Creative Hub, international speaker with more than 50K views, STEM enthusiast, and an advocate for girls education and digital literacy. Recipient of Young Achiever Award & runnerup for Young Voices Award, featured by UN & Malala Fund, spoken at World Bank, UNESCO, IFC, and more; she is passionate about using digital for social good and the UN SDGs.'
   twitter: https://twitter.com/amnajourneys
   instagram: 
   linkedin: https://www.linkedin.com/in/amnahabiba/
