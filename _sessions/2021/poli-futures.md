@@ -4,7 +4,7 @@ title: International Launch of Poli.Futuros, collective (re)building futures in 
 date: 2021-10-30T14:30:00-04:00
 year: 2021
 room: 2
-image: "/images/2021/baners-speakers-pannel-bibiana-anapaula.jpg"
+image: "/images/2021/panel-international-launch-poli-futuros.jpg"
 # facilitators: Ashish Manwar
 speakers:
 - speaker: Bibiana Xausa-Bosak
