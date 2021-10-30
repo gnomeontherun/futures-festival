@@ -4,7 +4,7 @@ title: Teach the Future Young Voices Network
 date: 2021-10-30T08:00:00-04:00
 year: 2021
 room: 1
-image: "/images/2021/youth-panelists.jpg"
+image: "/images/2021/panel-international-launch-poli-futuros.jpg"
 # facilitators: Ashish Manwar
 speakers:
 - speaker: Deona Julary
