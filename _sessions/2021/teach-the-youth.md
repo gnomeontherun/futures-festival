@@ -20,16 +20,16 @@ speakers:
   speakerTitle: Founder, Global Creative Hub
   # image: "/images/2021/youth-panel.jpg"
   bio: 'Amna is a 15-year-old Pakistani, founder of Global Creative Hub, international speaker with more than 50K views, STEM enthusiast, and an advocate for girls education and digital literacy. Recipient of Young Achiever Award & runnerup for Young Voices Award, featured by UN & Malala Fund, spoken at World Bank, UNESCO, IFC, and more; she is passionate about using digital for social good and the UN SDGs.'
-  twitter: https://twitter.com/amnajourneys
+  # twitter: https://twitter.com/amnajourneys
   instagram: 
-  linkedin: https://www.linkedin.com/in/amnahabiba/
+  # linkedin: https://www.linkedin.com/in/amnahabiba/
   facebook: 
   pronouns: she/her
 - speaker: Ruhan (Finland)
   # speakerTitle: Inter at Teach The Future
   # image: "/images/2021/youth-panel.jpg"
   bio: 'I am an exitable passionate 17-year old youth, with much interest in debate, politics, and multicultural communication. Being one of the only international students in a small town in Finland, I have understood what it means to represent both myself and my community. With a strong base in debate and communication, I have worked to represent immigrant and low-icome youth in my city, and facilitate debates with youth all across the world to discuss global challenges through the UN SDGs. I am grateful for all the opportunties I have recieved in my pursuit of lifelong education, intercultural dialoge and study of the international world.'
-  twitter: https://twitter.com/mundo_debates
+  # twitter: https://twitter.com/mundo_debates
   # instagram: 
   # linkedin: https://www.linkedin.com/in/amnahabiba/
   # facebook: 
@@ -40,7 +40,7 @@ speakers:
   bio: 'Andrés Is a 7th grade high school student in Medellín - Colombia, and a Junior member of the World Futures Studies Federation. He is passionate about future and prospective studies, the exact sciences, the care of the environment, the planting of trees, unconventional energies, water care and sustainable economic systems. Andrés has obtained school awards for his academic excellence and for his leadership as a mediator, student delegate, and as elementary class president of school. He has participated in conferences, including the Zero Emissions Research Initiative Congress.'
   # twitter: https://twitter.com/mundo_debates
   # instagram: 
-  linkedin: https://www.linkedin.com/in/andres-felipe-castellanos-montoya-250358197/
+  # linkedin: https://www.linkedin.com/in/andres-felipe-castellanos-montoya-250358197/
   # facebook: 
   pronouns: he/him
 - speaker: Laila (Egypt, USA)
@@ -57,7 +57,7 @@ speakers:
   # image: "/images/2021/youth-panel.jpg"
   bio: '"We are a small group of students living and studying in Singapore, who are particularly passionate about making the earth a better place for all. However, being only teenagers, we found that it is very difficult to directly impact our communities, especially during the ongoing pandemic. Therefore, we created EcoºHeroes - the project that is focused on educating the younger generations about the environment, climate change, and sustainability. '
   # twitter: https://twitter.com/mundo_debates
-  instagram: https://instagram.com/EcoOHeroes
+  # instagram: https://instagram.com/EcoOHeroes
   # linkedin: https://www.linkedin.com/in/andres-felipe-castellanos-montoya-250358197/
   # facebook: 
   pronouns: she/her
@@ -66,7 +66,7 @@ speakers:
   # image: "/images/2021/youth-panel.jpg"
   bio: '"We are a small group of students living and studying in Singapore, who are particularly passionate about making the earth a better place for all. However, being only teenagers, we found that it is very difficult to directly impact our communities, especially during the ongoing pandemic. Therefore, we created EcoºHeroes - the project that is focused on educating the younger generations about the environment, climate change, and sustainability. '
   # twitter: https://twitter.com/mundo_debates
-  instagram: https://instagram.com/EcoOHeroes
+  # instagram: https://instagram.com/EcoOHeroes
   # linkedin: https://www.linkedin.com/in/andres-felipe-castellanos-montoya-250358197/
   # facebook: 
   pronouns: he/him
