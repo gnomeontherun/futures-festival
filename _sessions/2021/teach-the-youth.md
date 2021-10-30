@@ -7,9 +7,9 @@ room: 1
 image: "/images/2021/baners_speakers_pannel_future_young_2.jpg"
 # facilitators: Ashish Manwar
 speakers:
-- speaker: Deona )USA)
+- speaker: Deona (USA)
   speakerTitle: Youth Intern at TTF
-  image: "/images/2021/baners_speakers_pannel_future_young_2.jpg"
+  image: "/images/2021/baners-speakers-pannel-future-young-2-1.jpg"
   bio: 'I am Deona, a Youth Intern at TTF in charge of expanding the youth network and its impact on futures literacy. I applied to the NGFP-YV awards and placed in the top 10 award winners. With this project, TTF found that the future holds many problems that need to be solved and the input and solutions of young voices need to be addressed, not just adults, policy makers, and older demographics.'
   twitter: https://twitter.com/teachfutures
   instagram: https://www.instagram.com/teachfutures/
